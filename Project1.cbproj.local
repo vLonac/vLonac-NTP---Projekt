@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899/12/30 00:00:00.000.670,D:\Projekti C++ Builder\Project1PCH1.h=D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Project1PCH1.h</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.882,D:\Projekti C++ Builder\Unit1.dfm=D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.dfm</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.240,D:\Projekti C++ Builder\Project1.cbproj=D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Project1.cbproj</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.344,=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.595,=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.882,D:\Projekti C++ Builder\Unit1.cpp=D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.cpp</Transaction>
-    <Transaction>1899/12/30 00:00:00.000.882,D:\Projekti C++ Builder\Unit1.h=D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.h</Transaction>
-    <Transaction>2021/04/26 17:25:04.102,=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.cpp</Transaction>
-    <Transaction>2021/04/26 17:27:50.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.cpp</Transaction>
-    <Transaction>2021/04/26 17:27:50.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.h</Transaction>
-    <Transaction>2021/04/26 17:27:50.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.dfm</Transaction>
-    <Transaction>2021/04/26 17:28:01.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.cpp</Transaction>
-    <Transaction>2021/04/26 17:28:01.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.dfm</Transaction>
-    <Transaction>2021/04/26 17:28:01.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.h</Transaction>
-    <Transaction>2021/04/26 17:28:05.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.h</Transaction>
-    <Transaction>2021/04/26 17:28:05.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.dfm</Transaction>
-    <Transaction>2021/04/26 17:28:05.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.670,D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Project1PCH1.h=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.882,D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.cpp=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Project1.cbproj=D:\Projekti C++ Builder\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.882,D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.h=D:\Projekti C++ Builder\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.595,=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.882,D:\Projekti C++ Builder\NTP Projekt pokušaj 2\Unit1.dfm=D:\Projekti C++ Builder\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>2021.04.26 17:25:04.000.102,=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.cpp</Transaction>
+    <Transaction>2021.04.26 17:27:50.000.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.h</Transaction>
+    <Transaction>2021.04.26 17:27:50.000.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.cpp</Transaction>
+    <Transaction>2021.04.26 17:27:50.000.225,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit2.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.dfm</Transaction>
+    <Transaction>2021.04.26 17:28:01.000.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.cpp</Transaction>
+    <Transaction>2021.04.26 17:28:01.000.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.h</Transaction>
+    <Transaction>2021.04.26 17:28:01.000.869,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\Unit1.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\login.dfm</Transaction>
+    <Transaction>2021.04.26 17:28:05.000.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.h=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.h</Transaction>
+    <Transaction>2021.04.26 17:28:05.000.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.dfm=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.dfm</Transaction>
+    <Transaction>2021.04.26 17:28:05.000.929,C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\registracija.cpp=C:\Users\renat\Downloads\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\register.cpp</Transaction>
   </Transactions>
 </BorlandProject>

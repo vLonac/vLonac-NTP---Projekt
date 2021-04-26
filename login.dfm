@@ -24,9 +24,9 @@ object Form1: TForm1
       'e u Zagrebu '
   end
   object GroupBox1: TGroupBox
-    Left = 56
+    Left = 48
     Top = 8
-    Width = 273
+    Width = 281
     Height = 345
     Caption = '-'
     TabOrder = 0
@@ -45,7 +45,7 @@ object Form1: TForm1
       Caption = 'Lozinka:'
     end
     object Label4: TLabel
-      Left = 96
+      Left = 99
       Top = 264
       Width = 67
       Height = 13

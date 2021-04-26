@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #include <vcl.h>
 #pragma hdrstop
@@ -25,6 +25,14 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
+	if(username->Text == "")
+	{
+		Application->MessageBox(L"Molimo upisite vaše korisničko ime", L"Greška, nije upisano korisničko ime!", MB_ICONSTOP);
+	}
+	else if(password->Text == "")
+	{
+		Application->MessageBox(L"Molimo upisite vašu lozinku", L"Greška, nije upisana lozinka!", MB_ICONSTOP);
+	}
 	Form1->Caption = "Dobrodosli: " + username->Text;
 }
 //---------------------------------------------------------------------------
