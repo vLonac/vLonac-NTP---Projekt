@@ -9,29 +9,30 @@
 #include <Vcl.Forms.hpp>
 #include <Vcl.ComCtrls.hpp>
 //---------------------------------------------------------------------------
-class TForm2 : public TForm
+class TregisterWindow : public TForm
 {
 __published:	// IDE-managed Components
-	TGroupBox *GroupBox1;
-	TLabel *Label2;
-	TLabel *Label3;
+	TGroupBox *registerGroup;
+	TLabel *newUsernameLabel;
+	TLabel *newPasswordLabel;
 	TEdit *newUsername;
-	TButton *Button1;
+	TButton *registerUser;
 	TEdit *newPassword;
-	TEdit *newEmail;
-	TLabel *Label1;
+	TEdit *newEMail;
+	TLabel *newEMailLabel;
 	TEdit *newSurname;
-	TLabel *Label4;
+	TLabel *newSurnameLabel;
 	TEdit *newName;
-	TLabel *Label5;
+	TLabel *newNameLabel;
 	TDateTimePicker *newBirthdate;
-	TLabel *Label7;
-	void __fastcall Button1Click(TObject *Sender);
+	TLabel *newBirthdateLabel;
+	TCheckBox *CheckBox1;
+	void __fastcall registerUserClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TForm2(TComponent* Owner);
+	__fastcall TregisterWindow(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm2 *Form2;
+extern PACKAGE TregisterWindow *registerWindow;
 //---------------------------------------------------------------------------
 #endif

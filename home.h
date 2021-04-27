@@ -1,32 +1,22 @@
 //---------------------------------------------------------------------------
 
-#ifndef loginH
-#define loginH
+#ifndef homeH
+#define homeH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 //---------------------------------------------------------------------------
-class TloginWindow : public TForm
+class ThomeWindow : public TForm
 {
 __published:	// IDE-managed Components
-	TLabel *credits;
-	TGroupBox *loginGroup;
-	TEdit *username;
-	TLabel *loginUsernameLabel;
-	TButton *loginButton;
-	TLabel *loginPasswordLabel;
-	TEdit *password;
-	TLabel *newUserLabel;
-	TButton *newUserButton;
-	void __fastcall newUserButtonClick(TObject *Sender);
-	void __fastcall loginButtonClick(TObject *Sender);
+	TGroupBox *rentalGroup;
 private:	// User declarations
 public:		// User declarations
-	__fastcall TloginWindow(TComponent* Owner);
+	__fastcall ThomeWindow(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TloginWindow *loginWindow;
+extern PACKAGE ThomeWindow *homeWindow;
 //---------------------------------------------------------------------------
 #endif

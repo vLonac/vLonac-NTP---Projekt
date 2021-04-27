@@ -1,9 +1,9 @@
-object Form1: TForm1
+object loginWindow: TloginWindow
   Left = 49
   Top = 0
-  Caption = 'Rent-a-car helper'
+  Caption = 'PLACEHOLDER[Rent-a-car helper]'
   ClientHeight = 407
-  ClientWidth = 377
+  ClientWidth = 376
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,75 +14,84 @@ object Form1: TForm1
   Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 8
-    Top = 386
-    Width = 363
+  object credits: TLabel
+    Left = 0
+    Top = 394
+    Width = 376
     Height = 13
+    Align = alBottom
+    Alignment = taCenter
     Caption = 
       'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
       'e u Zagrebu '
+    ExplicitLeft = 8
+    ExplicitTop = 386
+    ExplicitWidth = 363
   end
-  object GroupBox1: TGroupBox
-    Left = 48
-    Top = 8
-    Width = 281
-    Height = 345
+  object loginGroup: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 376
+    Height = 394
+    Align = alClient
     Caption = '-'
     TabOrder = 0
-    object Label2: TLabel
-      Left = 96
-      Top = 48
-      Width = 70
+    ExplicitTop = -6
+    object loginUsernameLabel: TLabel
+      Left = 128
+      Top = 64
+      Width = 121
       Height = 13
+      Alignment = taCenter
       Caption = 'Korisni'#269'ko ime:'
     end
-    object Label3: TLabel
-      Left = 112
-      Top = 128
-      Width = 39
-      Height = 13
+    object loginPasswordLabel: TLabel
+      Left = 128
+      Top = 144
+      Width = 121
+      Height = 25
+      Alignment = taCenter
       Caption = 'Lozinka:'
     end
-    object Label4: TLabel
-      Left = 99
-      Top = 264
+    object newUserLabel: TLabel
+      Left = 155
+      Top = 292
       Width = 67
       Height = 13
       AutoSize = False
       Caption = 'Nema'#353' ra'#269'un?'
     end
     object username: TEdit
-      Left = 72
-      Top = 80
+      Left = 128
+      Top = 101
       Width = 121
       Height = 21
       TabOrder = 0
     end
-    object Button1: TButton
-      Left = 96
-      Top = 216
+    object loginButton: TButton
+      Left = 155
+      Top = 232
       Width = 75
       Height = 25
       Caption = 'Prijava'
       TabOrder = 1
-      OnClick = Button1Click
+      OnClick = loginButtonClick
     end
     object password: TEdit
-      Left = 72
-      Top = 160
+      Left = 128
+      Top = 184
       Width = 121
       Height = 21
       TabOrder = 2
     end
-    object Button2: TButton
-      Left = 96
-      Top = 291
-      Width = 75
+    object newUserButton: TButton
+      Left = 128
+      Top = 311
+      Width = 121
       Height = 25
       Caption = 'Novi korisnik'
       TabOrder = 3
-      OnClick = Button2Click
+      OnClick = newUserButtonClick
     end
   end
 end

@@ -5,25 +5,26 @@
 
 #include "login.h"
 #include "register.h"
+#include "home.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TForm1 *Form1;
+TloginWindow *loginWindow;
 //---------------------------------------------------------------------------
-__fastcall TForm1::TForm1(TComponent* Owner)
+__fastcall TloginWindow::TloginWindow(TComponent* Owner)
 	: TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::Button2Click(TObject *Sender)
+void __fastcall TloginWindow::newUserButtonClick(TObject *Sender)
 {
-	Form2->ShowModal();
+	registerWindow->ShowModal();
 }
 //---------------------------------------------------------------------------
 
 
-void __fastcall TForm1::Button1Click(TObject *Sender)
+void __fastcall TloginWindow::loginButtonClick(TObject *Sender)
 {
 	if(username->Text == "")
 	{
@@ -33,7 +34,11 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 	{
 		Application->MessageBox(L"Molimo upisite vašu lozinku", L"Greška, nije upisana lozinka!", MB_ICONSTOP);
 	}
-	Form1->Caption = "Dobrodosli: " + username->Text;
+	else
+	{
+		homeWindow->Caption = "Dobrodošli: " + username->Text;
+		homeWindow->ShowModal();
+    }
 }
 //---------------------------------------------------------------------------
 
