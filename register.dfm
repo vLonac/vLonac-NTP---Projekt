@@ -1,9 +1,9 @@
-object Form2: TForm2
+object registerWindow: TregisterWindow
   Left = 0
   Top = 0
   Caption = 'Registracija'
-  ClientHeight = 423
-  ClientWidth = 485
+  ClientHeight = 385
+  ClientWidth = 356
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,49 +13,51 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object GroupBox1: TGroupBox
-    Left = 72
-    Top = 17
-    Width = 345
-    Height = 384
+  object registerGroup: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 356
+    Height = 385
+    Align = alClient
     Caption = '-'
     TabOrder = 0
-    object Label2: TLabel
+    ExplicitWidth = 377
+    object newUsernameLabel: TLabel
       Left = 16
       Top = 195
       Width = 70
       Height = 13
       Caption = 'Korisni'#269'ko ime:'
     end
-    object Label3: TLabel
+    object newPasswordLabel: TLabel
       Left = 47
       Top = 235
       Width = 39
       Height = 13
       Caption = 'Lozinka:'
     end
-    object Label1: TLabel
+    object newEMailLabel: TLabel
       Left = 58
       Top = 274
       Width = 28
       Height = 13
       Caption = 'Email:'
     end
-    object Label4: TLabel
+    object newSurnameLabel: TLabel
       Left = 45
       Top = 91
       Width = 41
       Height = 13
       Caption = 'Prezime:'
     end
-    object Label5: TLabel
+    object newNameLabel: TLabel
       Left = 64
       Top = 51
       Width = 22
       Height = 13
       Caption = 'Ime:'
     end
-    object Label7: TLabel
+    object newBirthdateLabel: TLabel
       Left = 16
       Top = 147
       Width = 75
@@ -69,14 +71,14 @@ object Form2: TForm2
       Height = 21
       TabOrder = 0
     end
-    object Button1: TButton
+    object registerUser: TButton
       Left = 144
-      Top = 336
+      Top = 344
       Width = 75
       Height = 25
       Caption = 'Registriraj me'
       TabOrder = 1
-      OnClick = Button1Click
+      OnClick = registerUserClick
     end
     object newPassword: TEdit
       Left = 112
@@ -110,12 +112,20 @@ object Form2: TForm2
       MaxDate = 38139.999988425920000000
       TabOrder = 5
     end
-    object newEmail: TEdit
+    object newEMail: TEdit
       Left = 112
       Top = 271
       Width = 121
       Height = 21
       TabOrder = 6
+    end
+    object CheckBox1: TCheckBox
+      Left = 64
+      Top = 313
+      Width = 169
+      Height = 17
+      Caption = 'Prihva'#263'am uvjete poslovanja'
+      TabOrder = 7
     end
   end
 end

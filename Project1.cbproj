@@ -129,8 +129,14 @@
         <BCC_PCHName_Clang>Project1PCH1.h</BCC_PCHName_Clang>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="home.cpp">
+            <Form>homeWindow</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>home.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
         <CppCompile Include="login.cpp">
-            <Form>Form1</Form>
+            <Form>loginWindow</Form>
             <FormType>dfm</FormType>
             <DependentOn>login.h</DependentOn>
             <BuildOrder>2</BuildOrder>
@@ -143,13 +149,14 @@
             <PCH>true</PCH>
         </PCHCompile>
         <CppCompile Include="register.cpp">
-            <Form>Form2</Form>
+            <Form>registerWindow</Form>
             <FormType>dfm</FormType>
             <DependentOn>register.h</DependentOn>
             <BuildOrder>3</BuildOrder>
         </CppCompile>
-        <FormResources Include="login.dfm"/>
         <FormResources Include="register.dfm"/>
+        <FormResources Include="login.dfm"/>
+        <FormResources Include="home.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
