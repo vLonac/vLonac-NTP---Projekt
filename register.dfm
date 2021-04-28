@@ -21,7 +21,6 @@ object registerWindow: TregisterWindow
     Align = alClient
     Caption = '-'
     TabOrder = 0
-    ExplicitWidth = 377
     object newUsernameLabel: TLabel
       Left = 16
       Top = 195
@@ -119,7 +118,7 @@ object registerWindow: TregisterWindow
       Height = 21
       TabOrder = 6
     end
-    object CheckBox1: TCheckBox
+    object TOSBox: TCheckBox
       Left = 64
       Top = 313
       Width = 169

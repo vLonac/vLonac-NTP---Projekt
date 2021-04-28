@@ -26,7 +26,7 @@ __published:	// IDE-managed Components
 	TLabel *newNameLabel;
 	TDateTimePicker *newBirthdate;
 	TLabel *newBirthdateLabel;
-	TCheckBox *CheckBox1;
+	TCheckBox *TOSBox;
 	void __fastcall registerUserClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
