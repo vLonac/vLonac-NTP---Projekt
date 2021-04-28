@@ -42,3 +42,6 @@ void __fastcall TloginWindow::loginButtonClick(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+
+
+

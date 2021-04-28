@@ -7,6 +7,9 @@
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+#include <Vcl.Imaging.jpeg.hpp>
 //---------------------------------------------------------------------------
 class TloginWindow : public TForm
 {
@@ -20,6 +23,7 @@ __published:	// IDE-managed Components
 	TEdit *password;
 	TLabel *newUserLabel;
 	TButton *newUserButton;
+	TImage *Image1;
 	void __fastcall newUserButtonClick(TObject *Sender);
 	void __fastcall loginButtonClick(TObject *Sender);
 private:	// User declarations
