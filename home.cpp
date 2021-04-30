@@ -14,5 +14,6 @@ ThomeWindow *homeWindow;
 __fastcall ThomeWindow::ThomeWindow(TComponent* Owner)
 	: TForm(Owner)
 {
+
 }
 //---------------------------------------------------------------------------
