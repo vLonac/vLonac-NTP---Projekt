@@ -1,13 +1,13 @@
 
-// ************************************************************************************************************** //
-//                                                                                                              
-//                                               XML Data Binding                                               
-//                                                                                                              
-//         Generated on: 30.4.2021. 17:29:08                                                                    
-//       Generated from: D:\Projekti C++ Builder\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\data.xml   
-//   Settings stored in: D:\Projekti C++ Builder\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\data.xdb   
-//                                                                                                              
-// ************************************************************************************************************** //
+// ***************************************************************************************** //
+//                                                                                         
+//                                    XML Data Binding                                     
+//                                                                                         
+//         Generated on: 1.5.2021. 17:18:31                                                
+//       Generated from: D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xml   
+//   Settings stored in: D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xdb   
+//                                                                                         
+// ***************************************************************************************** //
 
 #ifndef   dataH
 #define   dataH
@@ -29,7 +29,7 @@ typedef System::DelphiInterface<IXMLuserType> _di_IXMLuserType;
 
 // IXMLusersType 
 
-__interface INTERFACE_UUID("{034B6E78-216A-4C04-A159-BBDC5B3FF3FD}") IXMLusersType : public Xml::Xmlintf::IXMLNodeCollection
+__interface INTERFACE_UUID("{FED5BAEC-428D-4F96-A9FE-27B8596E2FFB}") IXMLusersType : public Xml::Xmlintf::IXMLNodeCollection
 {
 public:
 public:
@@ -43,7 +43,7 @@ public:
 
 // IXMLuserType 
 
-__interface INTERFACE_UUID("{394D6A57-6DEE-4F39-A543-181DA28DEE83}") IXMLuserType : public Xml::Xmlintf::IXMLNode
+__interface INTERFACE_UUID("{529BF55D-7156-4A17-BCC1-31E55A744E72}") IXMLuserType : public Xml::Xmlintf::IXMLNode
 {
 public:
   // Property Accessors 
@@ -53,12 +53,14 @@ public:
   virtual System::UnicodeString __fastcall Get_surname() = 0;
   virtual System::UnicodeString __fastcall Get_email() = 0;
   virtual System::UnicodeString __fastcall Get_birthDate() = 0;
+  virtual bool __fastcall Get_administrator() = 0;
   virtual void __fastcall Set_username(System::UnicodeString Value) = 0;
   virtual void __fastcall Set_password(System::UnicodeString Value) = 0;
   virtual void __fastcall Set_name(System::UnicodeString Value) = 0;
   virtual void __fastcall Set_surname(System::UnicodeString Value) = 0;
   virtual void __fastcall Set_email(System::UnicodeString Value) = 0;
   virtual void __fastcall Set_birthDate(System::UnicodeString Value) = 0;
+  virtual void __fastcall Set_administrator(bool Value) = 0;
   // Methods & Properties 
   __property System::UnicodeString username = { read=Get_username, write=Set_username };
   __property System::UnicodeString password = { read=Get_password, write=Set_password };
@@ -66,6 +68,7 @@ public:
   __property System::UnicodeString surname = { read=Get_surname, write=Set_surname };
   __property System::UnicodeString email = { read=Get_email, write=Set_email };
   __property System::UnicodeString birthDate = { read=Get_birthDate, write=Set_birthDate };
+  __property bool administrator = { read=Get_administrator, write=Set_administrator };
 };
 
 // Forward Decls 
@@ -100,12 +103,14 @@ protected:
   virtual System::UnicodeString __fastcall Get_surname();
   virtual System::UnicodeString __fastcall Get_email();
   virtual System::UnicodeString __fastcall Get_birthDate();
+  virtual bool __fastcall Get_administrator();
   virtual void __fastcall Set_username(System::UnicodeString Value);
   virtual void __fastcall Set_password(System::UnicodeString Value);
   virtual void __fastcall Set_name(System::UnicodeString Value);
   virtual void __fastcall Set_surname(System::UnicodeString Value);
   virtual void __fastcall Set_email(System::UnicodeString Value);
   virtual void __fastcall Set_birthDate(System::UnicodeString Value);
+  virtual void __fastcall Set_administrator(bool Value);
 };
 
 // Global Functions 

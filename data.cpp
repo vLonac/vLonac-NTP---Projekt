@@ -1,13 +1,13 @@
 
-// ************************************************************************************************************** //
-//                                                                                                              
-//                                               XML Data Binding                                               
-//                                                                                                              
-//         Generated on: 30.4.2021. 17:29:08                                                                    
-//       Generated from: D:\Projekti C++ Builder\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\data.xml   
-//   Settings stored in: D:\Projekti C++ Builder\vLonac-NTP---Projekt-main\vLonac-NTP---Projekt-main\data.xdb   
-//                                                                                                              
-// ************************************************************************************************************** //
+// ***************************************************************************************** //
+//                                                                                         
+//                                    XML Data Binding                                     
+//                                                                                         
+//         Generated on: 1.5.2021. 17:18:31                                                
+//       Generated from: D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xml   
+//   Settings stored in: D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xdb   
+//                                                                                         
+// ***************************************************************************************** //
 
 #include <System.hpp>
 #pragma hdrstop
@@ -124,4 +124,14 @@ System::UnicodeString __fastcall TXMLuserType::Get_birthDate()
 void __fastcall TXMLuserType::Set_birthDate(System::UnicodeString Value)
 {
   GetChildNodes()->Nodes[System::UnicodeString("birthDate")]->NodeValue = Value;
+};
+
+bool __fastcall TXMLuserType::Get_administrator()
+{
+  return GetChildNodes()->Nodes[System::UnicodeString("administrator")]->NodeValue.operator bool();
+};
+
+void __fastcall TXMLuserType::Set_administrator(bool Value)
+{
+  GetChildNodes()->Nodes[System::UnicodeString("administrator")]->NodeValue = Value;
 };

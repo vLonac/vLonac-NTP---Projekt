@@ -17,21 +17,22 @@ object loginWindow: TloginWindow
   TextHeight = 13
   object credits: TLabel
     Left = 0
-    Top = 541
+    Top = 544
     Width = 989
-    Height = 16
+    Height = 13
     Align = alBottom
     Alignment = taCenter
     Caption = 
       'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
       'e u Zagrebu '
-    ExplicitTop = 540
+    ExplicitTop = 541
+    ExplicitWidth = 363
   end
   object loginGroup: TGroupBox
     Left = 0
     Top = 0
     Width = 989
-    Height = 541
+    Height = 544
     Align = alClient
     Anchors = []
     Caption = '-'
@@ -39,11 +40,9 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
-    ExplicitWidth = 376
-    ExplicitHeight = 544
     DesignSize = (
       989
-      541)
+      544)
     object loginUsernameLabel: TLabel
       Left = 152
       Top = 226
@@ -758,6 +757,7 @@ object loginWindow: TloginWindow
       Top = 299
       Width = 121
       Height = 21
+      PasswordChar = '*'
       TabOrder = 2
     end
     object newUserButton: TButton
@@ -799,7 +799,6 @@ object loginWindow: TloginWindow
         end>
       TabOrder = 4
       ViewStyle = vsReport
-      ExplicitWidth = 365
     end
     object xmlLoad: TButton
       Left = 284
@@ -812,11 +811,8 @@ object loginWindow: TloginWindow
     end
   end
   object XMLDocument1: TXMLDocument
-    Active = True
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-main\vLonac-NTP---P' +
-      'rojekt-main\data.xml'
+    FileName = 'D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xml'
     Left = 312
-    Top = 376
+    Top = 368
   end
 end
