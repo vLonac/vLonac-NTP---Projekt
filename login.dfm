@@ -25,7 +25,6 @@ object loginWindow: TloginWindow
     Caption = 
       'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
       'e u Zagrebu '
-    ExplicitTop = 541
     ExplicitWidth = 363
   end
   object loginGroup: TGroupBox
@@ -811,7 +810,7 @@ object loginWindow: TloginWindow
     end
   end
   object XMLDocument1: TXMLDocument
-    FileName = 'D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xml'
+    FileName = 'D:\Projekti C++ Builder\sa githuba\data.xml'
     Left = 312
     Top = 368
   end

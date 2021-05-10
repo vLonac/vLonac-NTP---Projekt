@@ -6,12 +6,8 @@
 #include "login.h"
 #include "register.h"
 #include "home.h"
-#include "data.cpp"
-/*
-//Include za JSON
-#include <System.JSON.hpp>
-#include <memory>
-*/
+#include "data.h"
+
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -19,39 +15,7 @@ TloginWindow *loginWindow;
 //---------------------------------------------------------------------------
 __fastcall TloginWindow::TloginWindow(TComponent* Owner)
 	: TForm(Owner)
-{ /*
-	//Učitavanje JSON datoteke
-	std::unique_ptr<TStringStream> jsonStream(new TStringStream);
-	jsonStream->LoadFromFile("data.json");
-
-	//Stvaranje objekta koji predstavlja cijeli JSON
-	TJSONObject* jsonFile = (TJSONObject*)TJSONObject::ParseJSONValue(jsonStream->DataString);
-
-	//Stvaranje JSON objekta koji predstavlja polje unutar carRental objekta u JSON-u
-	TJSONArray* usersArray = (TJSONArray*)TJSONObject::ParseJSONValue(jsonFile->GetValue("users")->ToString());
-
-	//Čitanje i spremanje podataka svakog korisnika
-	ListView1->Items->Clear();
-	for(int i = 0; i < usersArray->Count; i++) {
-		//Čitanje korisnika
-		String username = usersArray->Items[i]->GetValue<UnicodeString>("username");
-		String password = usersArray->Items[i]->GetValue<UnicodeString>("password");
-		String ime = usersArray->Items[i]->GetValue<UnicodeString>("ime");
-		String prezime = usersArray->Items[i]->GetValue<UnicodeString>("prezime");
-		String email = usersArray->Items[i]->GetValue<UnicodeString>("email");
-		String birthDate = usersArray->Items[i]->GetValue<UnicodeString>("birthDate");
-
-		//Učitavanje krosnika u listu
-		ListView1->Items->Add();
-		ListView1->Items->Item[i]->Caption = username;
-		ListView1->Items->Item[i]->SubItems->Add(password);
-		ListView1->Items->Item[i]->SubItems->Add(ime);
-		ListView1->Items->Item[i]->SubItems->Add(prezime);
-		ListView1->Items->Item[i]->SubItems->Add(email);
-		ListView1->Items->Item[i]->SubItems->Add(birthDate);
-	}
- */
-}
+{}
 //---------------------------------------------------------------------------
 
 void __fastcall TloginWindow::newUserButtonClick(TObject *Sender)

@@ -8,6 +8,9 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.ComCtrls.hpp>
+#include <Xml.XMLDoc.hpp>
+#include <Xml.xmldom.hpp>
+#include <Xml.XMLIntf.hpp>
 //---------------------------------------------------------------------------
 class TregisterWindow : public TForm
 {
@@ -27,6 +30,7 @@ __published:	// IDE-managed Components
 	TDateTimePicker *newBirthdate;
 	TLabel *newBirthdateLabel;
 	TCheckBox *TOSBox;
+	TXMLDocument *XMLDocument1;
 	void __fastcall registerUserClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
