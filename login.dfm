@@ -4,7 +4,7 @@ object loginWindow: TloginWindow
   Anchors = [akLeft, akTop, akRight, akBottom]
   Caption = 'PLACEHOLDER[Rent-a-car helper]'
   ClientHeight = 557
-  ClientWidth = 376
+  ClientWidth = 989
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,20 +18,20 @@ object loginWindow: TloginWindow
   object credits: TLabel
     Left = 0
     Top = 544
-    Width = 376
+    Width = 989
     Height = 13
     Align = alBottom
     Alignment = taCenter
     Caption = 
       'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
       'e u Zagrebu '
-    ExplicitTop = 394
+    ExplicitTop = 541
     ExplicitWidth = 363
   end
   object loginGroup: TGroupBox
     Left = 0
     Top = 0
-    Width = 376
+    Width = 989
     Height = 544
     Align = alClient
     Anchors = []
@@ -40,9 +40,8 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
-    ExplicitHeight = 394
     DesignSize = (
-      376
+      989
       544)
     object loginUsernameLabel: TLabel
       Left = 152
@@ -742,7 +741,6 @@ object loginWindow: TloginWindow
       Top = 245
       Width = 121
       Height = 21
-      Anchors = [akLeft, akTop, akRight]
       TabOrder = 0
     end
     object loginButton: TButton
@@ -759,6 +757,7 @@ object loginWindow: TloginWindow
       Top = 299
       Width = 121
       Height = 21
+      PasswordChar = '*'
       TabOrder = 2
     end
     object newUserButton: TButton
@@ -770,5 +769,50 @@ object loginWindow: TloginWindow
       TabOrder = 3
       OnClick = newUserButtonClick
     end
+    object ListView1: TListView
+      Left = 284
+      Top = 26
+      Width = 688
+      Height = 415
+      Anchors = [akLeft, akTop, akRight]
+      Columns = <
+        item
+          Caption = 'Username'
+        end
+        item
+          Caption = 'Password'
+        end
+        item
+          Caption = 'Name'
+        end
+        item
+          Caption = 'Surname'
+        end
+        item
+          Caption = 'E-Mail'
+        end
+        item
+          Caption = 'Date of birth'
+        end
+        item
+          Caption = 'User privileges'
+        end>
+      TabOrder = 4
+      ViewStyle = vsReport
+    end
+    object xmlLoad: TButton
+      Left = 284
+      Top = 455
+      Width = 75
+      Height = 25
+      Caption = 'Load XML'
+      TabOrder = 5
+      OnClick = xmlLoadClick
+    end
+  end
+  object XMLDocument1: TXMLDocument
+    FileName = 'D:\Projekti C++ Builder\vLonac-NTP---Projekt-Sa-XML-om\data.xml'
+    Left = 312
+    Top = 368
   end
 end

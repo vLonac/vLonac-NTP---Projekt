@@ -20,7 +20,5 @@ object homeWindow: ThomeWindow
     Height = 339
     Align = alClient
     TabOrder = 0
-    ExplicitWidth = 449
-    ExplicitHeight = 329
   end
 end

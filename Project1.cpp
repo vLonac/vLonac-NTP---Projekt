@@ -5,8 +5,8 @@
 #include <tchar.h>
 //---------------------------------------------------------------------------
 USEFORM("register.cpp", registerWindow);
-USEFORM("login.cpp", loginWindow);
 USEFORM("home.cpp", homeWindow);
+USEFORM("login.cpp", loginWindow);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

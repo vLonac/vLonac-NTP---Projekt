@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>vanjal</username>
+        <password>chelsea</password>
+        <name>Vanja</name>
+        <surname>Lončarić</surname>
+        <email>vanja.loncaric@tvz.hr</email>
+        <birthDate>18.07.2000.</birthDate>
+        <administrator>true</administrator>
+    </user>
+    <user>
+        <username>renatom</username>
+        <password>timelord</password>
+        <name>Renato</name>
+        <surname>Macesan</surname>
+        <email></email>
+        <birthDate></birthDate>
+        <administrator>true</administrator>
+    </user>
+</users>
