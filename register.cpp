@@ -5,6 +5,7 @@
 
 #include "login.h"
 #include "register.h"
+#include "data.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -30,6 +31,26 @@ void __fastcall TregisterWindow::registerUserClick(TObject *Sender)
 				registerWindow->Close();
 			}
 		}
+	}
+
+	else {
+		_di_IXMLusersType users = Getusers(XMLDocument1);
+		_di_IXMLuserType user = users->Add();
+
+		user->name = newName->Text;
+		user->surname = newSurname->Text;
+		user->username = newUsername->Text;
+		user->password = newPassword->Text;
+		user->email = newEMail->Text;
+		user->birthDate = newBirthdate->Date;
+		user->administrator = false;
+		XMLDocument1->SaveToFile(XMLDocument1->FileName);
+		Application->MessageBox(L"Registracija uspešno obavljena", L"Uspješno je dodan novi korisnik!", MB_ICONINFORMATION);
+		registerWindow->Close();
+
+
+
+
 	}
 }
 //---------------------------------------------------------------------------

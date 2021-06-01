@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+  <xs:element name="vehicles" type="vehiclesType"/>
+  <xs:complexType name="vehiclesType"><xs:annotation>
+      <xs:appinfo xdb:docElement="vehicles"/>
+    </xs:annotation>
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="vehicle" type="vehicleType" maxOccurs="unbounded"/>
+    </sequence>
+  </xs:complexType>
+  <xs:complexType name="vehicleType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="manufacturer" type="xs:string"/>
+      <xs:element name="model" type="xs:string"/>
+      <xs:element name="fuel" type="xs:string"/>
+      <xs:element name="doors" type="xs:integer"/>
+      <xs:element name="shift" type="xs:string"/>
+      <xs:element name="drive" type="xs:string"/>
+      <xs:element name="AC" type="xs:string"><xs:annotation>
+          <xs:appinfo xdb:dataType="bool"/>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="bluetooth" type="xs:string"><xs:annotation>
+          <xs:appinfo xdb:dataType="bool"/>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ENC" type="xs:string"><xs:annotation>
+          <xs:appinfo xdb:dataType="bool"/>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="cruiseControl" type="xs:string"><xs:annotation>
+          <xs:appinfo xdb:dataType="bool"/>
+        </xs:annotation>
+      </xs:element>
+    </sequence>
+  </xs:complexType>
+</xs:schema>

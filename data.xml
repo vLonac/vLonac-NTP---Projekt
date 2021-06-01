@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <users>
-    <user>
-        <username>vanjal</username>
-        <password>chelsea</password>
-        <name>Vanja</name>
-        <surname>Lončarić</surname>
-        <email>vanja.loncaric@tvz.hr</email>
-        <birthDate>18.07.2000.</birthDate>
-        <administrator>true</administrator>
-    </user>
-    <user>
-        <username>renatom</username>
-        <password>timelord</password>
-        <name>Renato</name>
-        <surname>Macesan</surname>
-        <email></email>
-        <birthDate></birthDate>
-        <administrator>true</administrator>
-    </user>
-</users>
+	<user>
+		<username>vanjal</username>
+		<password>chelsea</password>
+		<name>Vanja</name>
+		<surname>Lončarić</surname>
+		<email>vanja.loncaric@tvz.hr</email>
+		<birthDate>18.07.2000.</birthDate>
+		<administrator>true</administrator>
+	</user>
+	<user>
+		<username>renatom</username>
+		<password>timelord</password>
+		<name>Renato</name>
+		<surname>Macesan</surname>
+		<email></email>
+		<birthDate></birthDate>
+		<administrator>true</administrator>
+	</user>
+	<user><name>Ivan</name><surname>Ivanić</surname><username>ivani</username><password>lozinka</password><email>ivani@gmail.com</email><birthDate>1.1.2000.</birthDate><administrator>false</administrator></user><user><name>Štef</name><surname>Štefanović</surname><username>stefs</username><password>password</password><email>stefstef@tvz.hr</email><birthDate>23.3.1990.</birthDate><administrator>false</administrator></user></users>
