@@ -127,4 +127,9 @@ object registerWindow: TregisterWindow
       TabOrder = 7
     end
   end
+  object XMLDocument1: TXMLDocument
+    FileName = 'D:\Projekti C++ Builder\sa githuba\data.xml'
+    Left = 288
+    Top = 253
+  end
 end

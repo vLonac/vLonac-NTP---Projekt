@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+	<vehicle>
+		<manufacturer>Volkswagen</manufacturer>
+		<model>Golf 6</model>
+		<fuel>Dizel</fuel>
+		<doors>5</doors>
+		<shift>Mehanički</shift>
+		<drive>Prednji</drive>
+		<AC>true</AC>
+		<bluetooth>false</bluetooth>
+		<ENC>false</ENC>
+		<cruiseControl>false</cruiseControl>
+	</vehicle>
+	<vehicle><manufacturer>neki glupi bosanci</manufacturer><model>Mechka neka iz 93.</model><fuel>Benzin</fuel><doors>5</doors><shift>Automatski</shift><drive>Sva 4</drive><AC>false</AC><bluetooth>true</bluetooth><ENC>true</ENC><cruiseControl>true</cruiseControl></vehicle></vehicles>
