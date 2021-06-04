@@ -90,7 +90,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 97
       Height = 17
       Caption = 'Klima'
-      TabOrder = 2
+      TabOrder = 6
     end
     object checkBluetooth: TCheckBox
       Left = 144
@@ -98,7 +98,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 97
       Height = 17
       Caption = 'Bluetooth'
-      TabOrder = 3
+      TabOrder = 7
     end
     object checkENC: TCheckBox
       Left = 24
@@ -106,7 +106,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 97
       Height = 17
       Caption = 'ENC'
-      TabOrder = 4
+      TabOrder = 8
     end
     object checkCruiseControl: TCheckBox
       Left = 144
@@ -114,7 +114,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 97
       Height = 17
       Caption = 'Tempomat'
-      TabOrder = 5
+      TabOrder = 9
     end
     object Button1: TButton
       Left = 88
@@ -122,7 +122,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 75
       Height = 25
       Caption = 'Dodaj'
-      TabOrder = 6
+      TabOrder = 10
       OnClick = Button1Click
     end
     object noviFuel: TComboBox
@@ -131,7 +131,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 121
       Height = 21
       ItemIndex = 0
-      TabOrder = 7
+      TabOrder = 2
       Text = 'Dizel'
       Items.Strings = (
         'Dizel'
@@ -144,7 +144,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 121
       Height = 21
       ItemIndex = 0
-      TabOrder = 8
+      TabOrder = 3
       Text = '3'
       Items.Strings = (
         '3'
@@ -157,7 +157,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 121
       Height = 21
       ItemIndex = 0
-      TabOrder = 9
+      TabOrder = 4
       Text = 'Mehani'#269'ki'
       Items.Strings = (
         'Mehani'#269'ki'
@@ -169,7 +169,7 @@ object addVehicleWindow: TaddVehicleWindow
       Width = 121
       Height = 21
       ItemIndex = 0
-      TabOrder = 10
+      TabOrder = 5
       Text = 'Prednji'
       Items.Strings = (
         'Prednji'
@@ -178,7 +178,9 @@ object addVehicleWindow: TaddVehicleWindow
     end
   end
   object XMLDocument2: TXMLDocument
-    FileName = 'D:\Projekti C++ Builder\sa githuba\vehicles.xml'
+    FileName = 
+      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
+      'lijed\vehicles.xml'
     Left = 224
     Top = 424
   end

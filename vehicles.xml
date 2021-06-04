@@ -12,4 +12,4 @@
 		<ENC>false</ENC>
 		<cruiseControl>false</cruiseControl>
 	</vehicle>
-	<vehicle><manufacturer>neki glupi bosanci</manufacturer><model>Mechka neka iz 93.</model><fuel>Benzin</fuel><doors>5</doors><shift>Automatski</shift><drive>Sva 4</drive><AC>false</AC><bluetooth>true</bluetooth><ENC>true</ENC><cruiseControl>true</cruiseControl></vehicle></vehicles>
+	<vehicle><manufacturer>Rimac</manufacturer><model>Nevera</model><fuel>Električna energija</fuel><doors>3</doors><shift>Automatski</shift><drive>Sva 4</drive><AC>true</AC><bluetooth>true</bluetooth><ENC>true</ENC><cruiseControl>true</cruiseControl></vehicle></vehicles>
