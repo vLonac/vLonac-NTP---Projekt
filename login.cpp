@@ -8,6 +8,7 @@
 #include "home.h"
 #include "adminHome.h"
 #include "data.h"
+#include <registry.hpp>
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -83,4 +84,28 @@ void __fastcall TloginWindow::xmlLoadClick(TObject *Sender)
 		}
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TloginWindow::FormClose(TObject *Sender, TCloseAction &Action)
+{
+	if(rememberUsername->Checked){
+		TIniFile *ini = new TIniFile(GetCurrentDir() + "sUsername.ini");
+		ini->WriteString("LoginWindow", "Username", username->Text);
+		delete ini;
+	}
+	else{
+		TIniFile *ini = new TIniFile(GetCurrentDir() + "sUsername.ini");
+		ini->WriteString("LoginWindow", "Username", "");
+		delete ini;
+    }
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TloginWindow::FormCreate(TObject *Sender)
+{
+	TIniFile *ini = new TIniFile(GetCurrentDir() + "sUsername.ini");
+	username->Text=ini->ReadString("LoginWindow", "Username", username->Text);
+	delete ini;
+}
+//---------------------------------------------------------------------------
+
 

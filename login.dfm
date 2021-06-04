@@ -4,7 +4,7 @@ object loginWindow: TloginWindow
   Anchors = [akLeft, akTop, akRight, akBottom]
   Caption = 'PLACEHOLDER[Rent-a-car helper]'
   ClientHeight = 557
-  ClientWidth = 989
+  ClientWidth = 873
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,12 +13,14 @@ object loginWindow: TloginWindow
   Font.Style = []
   OldCreateOrder = False
   Position = poDesigned
+  OnClose = FormClose
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object credits: TLabel
     Left = 0
     Top = 544
-    Width = 989
+    Width = 873
     Height = 13
     Align = alBottom
     Alignment = taCenter
@@ -30,7 +32,7 @@ object loginWindow: TloginWindow
   object loginGroup: TGroupBox
     Left = 0
     Top = 0
-    Width = 989
+    Width = 873
     Height = 544
     Align = alClient
     Anchors = []
@@ -39,8 +41,9 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
+    ExplicitWidth = 989
     DesignSize = (
-      989
+      873
       544)
     object loginUsernameLabel: TLabel
       Left = 152
@@ -744,11 +747,11 @@ object loginWindow: TloginWindow
     end
     object loginButton: TButton
       Left = 152
-      Top = 336
+      Top = 351
       Width = 75
       Height = 25
       Caption = 'Prijava'
-      TabOrder = 1
+      TabOrder = 3
       OnClick = loginButtonClick
     end
     object password: TEdit
@@ -757,7 +760,7 @@ object loginWindow: TloginWindow
       Width = 121
       Height = 21
       PasswordChar = '*'
-      TabOrder = 2
+      TabOrder = 1
     end
     object newUserButton: TButton
       Left = 128
@@ -765,39 +768,46 @@ object loginWindow: TloginWindow
       Width = 121
       Height = 25
       Caption = 'Novi korisnik'
-      TabOrder = 3
+      TabOrder = 4
       OnClick = newUserButtonClick
     end
     object ListView1: TListView
       Left = 284
       Top = 26
-      Width = 688
+      Width = 577
       Height = 415
       Anchors = [akLeft, akTop, akRight]
       Columns = <
         item
           Caption = 'Username'
+          Width = 70
         end
         item
           Caption = 'Password'
+          Width = 70
         end
         item
           Caption = 'Name'
         end
         item
           Caption = 'Surname'
+          Width = 70
         end
         item
           Caption = 'E-Mail'
+          Width = 110
         end
         item
           Caption = 'Date of birth'
+          Width = 80
         end
         item
           Caption = 'User privileges'
+          Width = 120
         end>
-      TabOrder = 4
+      TabOrder = 5
       ViewStyle = vsReport
+      ExplicitWidth = 693
     end
     object xmlLoad: TButton
       Left = 284
@@ -805,12 +815,22 @@ object loginWindow: TloginWindow
       Width = 75
       Height = 25
       Caption = 'Load XML'
-      TabOrder = 5
+      TabOrder = 6
       OnClick = xmlLoadClick
+    end
+    object rememberUsername: TCheckBox
+      Left = 128
+      Top = 328
+      Width = 113
+      Height = 17
+      Caption = 'Zapamti korisnika'
+      TabOrder = 2
     end
   end
   object XMLDocument1: TXMLDocument
-    FileName = 'D:\Projekti C++ Builder\sa githuba\data.xml'
+    FileName = 
+      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
+      'lijed\data.xml'
     Left = 312
     Top = 368
   end

@@ -68,7 +68,7 @@ object registerWindow: TregisterWindow
       Top = 192
       Width = 121
       Height = 21
-      TabOrder = 0
+      TabOrder = 3
     end
     object registerUser: TButton
       Left = 144
@@ -76,7 +76,7 @@ object registerWindow: TregisterWindow
       Width = 75
       Height = 25
       Caption = 'Registriraj me'
-      TabOrder = 1
+      TabOrder = 7
       OnClick = registerUserClick
     end
     object newPassword: TEdit
@@ -84,21 +84,21 @@ object registerWindow: TregisterWindow
       Top = 232
       Width = 121
       Height = 21
-      TabOrder = 2
+      TabOrder = 4
     end
     object newSurname: TEdit
       Left = 112
       Top = 88
       Width = 121
       Height = 21
-      TabOrder = 3
+      TabOrder = 1
     end
     object newName: TEdit
       Left = 112
       Top = 48
       Width = 121
       Height = 21
-      TabOrder = 4
+      TabOrder = 0
     end
     object newBirthdate: TDateTimePicker
       Left = 112
@@ -109,14 +109,14 @@ object registerWindow: TregisterWindow
       Time = 36526.000000000000000000
       DateMode = dmUpDown
       MaxDate = 38139.999988425920000000
-      TabOrder = 5
+      TabOrder = 2
     end
     object newEMail: TEdit
       Left = 112
       Top = 271
       Width = 121
       Height = 21
-      TabOrder = 6
+      TabOrder = 5
     end
     object TOSBox: TCheckBox
       Left = 64
@@ -124,11 +124,13 @@ object registerWindow: TregisterWindow
       Width = 169
       Height = 17
       Caption = 'Prihva'#263'am uvjete poslovanja'
-      TabOrder = 7
+      TabOrder = 6
     end
   end
   object XMLDocument1: TXMLDocument
-    FileName = 'D:\Projekti C++ Builder\sa githuba\data.xml'
+    FileName = 
+      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
+      'lijed\data.xml'
     Left = 288
     Top = 253
   end
