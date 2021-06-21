@@ -14,6 +14,11 @@
 #include <Xml.XMLDoc.hpp>
 #include <Xml.xmldom.hpp>
 #include <Xml.XMLIntf.hpp>
+#include <Vcl.WinXCtrls.hpp>
+#include <IdBaseComponent.hpp>
+#include <IdComponent.hpp>
+#include <IdTCPClient.hpp>
+#include <IdTCPConnection.hpp>
 //---------------------------------------------------------------------------
 class TloginWindow : public TForm
 {
@@ -32,6 +37,10 @@ __published:	// IDE-managed Components
 	TXMLDocument *XMLDocument1;
 	TButton *xmlLoad;
 	TCheckBox *rememberUsername;
+	TToggleSwitch *switchInstance;
+	TLabel *Label1;
+	TIdTCPClient *loginClient;
+	TCheckBox *offlineCheck;
 	void __fastcall newUserButtonClick(TObject *Sender);
 	void __fastcall loginButtonClick(TObject *Sender);
 	void __fastcall xmlLoadClick(TObject *Sender);

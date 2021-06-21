@@ -11,6 +11,7 @@
 #include <Xml.XMLDoc.hpp>
 #include <Xml.xmldom.hpp>
 #include <Xml.XMLIntf.hpp>
+#include <Vcl.WinXPickers.hpp>
 //---------------------------------------------------------------------------
 class ThomeWindow : public TForm
 {
@@ -20,8 +21,14 @@ __published:	// IDE-managed Components
 	TXMLDocument *XMLDocument2;
 	TButton *newReservationButton;
 	TXMLDocument *XMLDocument1;
+	TDatePicker *newReservationStart;
+	TDatePicker *newReservationEnd;
+	TButton *showReservations;
+	TLabel *Label1;
+	TLabel *Label2;
 	void __fastcall FormShow(TObject *Sender);
 	void __fastcall newReservationButtonClick(TObject *Sender);
+	void __fastcall showReservationsClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall ThomeWindow(TComponent* Owner);

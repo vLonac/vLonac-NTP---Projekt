@@ -129,8 +129,8 @@ object registerWindow: TregisterWindow
   end
   object XMLDocument1: TXMLDocument
     FileName = 
-      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
-      'lijed\data.xml'
+      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\data.' +
+      'xml'
     Left = 288
     Top = 253
   end

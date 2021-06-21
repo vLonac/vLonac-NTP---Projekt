@@ -6,6 +6,10 @@
 #include "adminHome.h"
 #include "addNewVehicle.h"
 #include "vehicles.h"
+#include "database.h"
+#include "home.cpp"
+#include "HTTP.h"
+#include <memory>
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -29,7 +33,7 @@ void __fastcall TadminHomeWindow::loadVehiclesButtonClick(TObject *Sender)
 	_di_IXMLvehiclesType vozila = Getvehicles(XMLDocument2);
 	listCars->Items->Clear();
 	for(int i = 0; i < vozila->Count; i++) {
-        listCars->Items->Add();
+		listCars->Items->Add();
 		listCars->Items->Item[i]->Caption = vozila->vehicle[i]->Get_manufacturer();
 		listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_model());
 		listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_fuel());
@@ -48,7 +52,7 @@ void __fastcall TadminHomeWindow::loadVehiclesButtonClick(TObject *Sender)
 			listCars->Items->Item[i]->SubItems->Add("Ima");
 		else
 			listCars->Items->Item[i]->SubItems->Add("Nema");
-        if(vozila->vehicle[i]->Get_cruiseControl())
+		if(vozila->vehicle[i]->Get_cruiseControl())
 			listCars->Items->Item[i]->SubItems->Add("Ima");
 		else
 			listCars->Items->Item[i]->SubItems->Add("Nema");
@@ -68,6 +72,20 @@ void __fastcall TadminHomeWindow::deleteVehicleButtonClick(TObject *Sender)
 	else {
 		Application->MessageBox(L"Molimo odaberite vozilo koje želite obrisati", L"Greška, nije odabrano niti jedno vozilo!", MB_ICONSTOP);
 	}
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TadminHomeWindow::showDatabaseClick(TObject *Sender)
+{
+	databaseWindow->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TadminHomeWindow::Button1Click(TObject *Sender)
+{
+		HTTPWindow->ShowModal();
 }
 //---------------------------------------------------------------------------
 

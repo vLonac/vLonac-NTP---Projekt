@@ -24,9 +24,20 @@ object homeWindow: ThomeWindow
     Height = 339
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitTop = 8
-    ExplicitWidth = 877
+    object Label1: TLabel
+      Left = 8
+      Top = 275
+      Width = 98
+      Height = 13
+      Caption = 'Po'#269'etak rezervacije:'
+    end
+    object Label2: TLabel
+      Left = 143
+      Top = 275
+      Width = 108
+      Height = 13
+      Caption = 'Zavr'#353'etak rezervacije:'
+    end
     object newReservationButton: TButton
       Left = 304
       Top = 272
@@ -35,6 +46,43 @@ object homeWindow: ThomeWindow
       Caption = 'Izradi rezervaciju'
       TabOrder = 0
       OnClick = newReservationButtonClick
+    end
+    object newReservationStart: TDatePicker
+      Left = 8
+      Top = 294
+      Width = 129
+      Height = 25
+      Date = 44354.000000000000000000
+      DateFormat = 'dd/MM/yyyy'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      TabOrder = 1
+    end
+    object newReservationEnd: TDatePicker
+      Left = 143
+      Top = 294
+      Width = 129
+      Height = 25
+      Date = 44354.000000000000000000
+      DateFormat = 'dd/MM/yyyy'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      TabOrder = 2
+    end
+    object showReservations: TButton
+      Left = 423
+      Top = 272
+      Width = 125
+      Height = 49
+      Caption = 'Pregledaj rezervacije'
+      TabOrder = 3
+      OnClick = showReservationsClick
     end
   end
   object listCars: TListView
@@ -83,19 +131,18 @@ object homeWindow: ThomeWindow
       end>
     TabOrder = 1
     ViewStyle = vsReport
-    ExplicitWidth = 862
   end
   object XMLDocument2: TXMLDocument
     FileName = 
-      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
-      'lijed\vehicles.xml'
+      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\vehic' +
+      'les.xml'
     Left = 672
     Top = 275
   end
   object XMLDocument1: TXMLDocument
     FileName = 
-      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
-      'lijed\data.xml'
+      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\data.' +
+      'xml'
     Left = 584
     Top = 279
   end

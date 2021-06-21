@@ -3,8 +3,8 @@ object loginWindow: TloginWindow
   Top = 0
   Anchors = [akLeft, akTop, akRight, akBottom]
   Caption = 'PLACEHOLDER[Rent-a-car helper]'
-  ClientHeight = 557
-  ClientWidth = 873
+  ClientHeight = 560
+  ClientWidth = 890
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,21 +19,28 @@ object loginWindow: TloginWindow
   TextHeight = 13
   object credits: TLabel
     Left = 0
-    Top = 544
-    Width = 873
+    Top = 547
+    Width = 890
     Height = 13
     Align = alBottom
     Alignment = taCenter
     Caption = 
       'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
       'e u Zagrebu '
-    ExplicitWidth = 363
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ExplicitTop = 544
+    ExplicitWidth = 427
   end
   object loginGroup: TGroupBox
     Left = 0
     Top = 0
-    Width = 873
-    Height = 544
+    Width = 890
+    Height = 547
     Align = alClient
     Anchors = []
     Caption = '-'
@@ -41,10 +48,9 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
-    ExplicitWidth = 989
-    DesignSize = (
-      873
-      544)
+    ExplicitLeft = 8
+    ExplicitTop = 5
+    ExplicitWidth = 1000
     object loginUsernameLabel: TLabel
       Left = 152
       Top = 226
@@ -738,6 +744,14 @@ object loginWindow: TloginWindow
         1087108710871087108710871087108710871087108710871087108710871087
         10871087108710871087108FFFD9}
     end
+    object Label1: TLabel
+      Left = 16
+      Top = 504
+      Width = 163
+      Height = 20
+      AutoSize = False
+      Caption = 'Zabranjene vi'#353'estruke instance:'
+    end
     object username: TEdit
       Left = 128
       Top = 245
@@ -747,7 +761,7 @@ object loginWindow: TloginWindow
     end
     object loginButton: TButton
       Left = 152
-      Top = 351
+      Top = 375
       Width = 75
       Height = 25
       Caption = 'Prijava'
@@ -774,9 +788,8 @@ object loginWindow: TloginWindow
     object ListView1: TListView
       Left = 284
       Top = 26
-      Width = 577
+      Width = 581
       Height = 415
-      Anchors = [akLeft, akTop, akRight]
       Columns = <
         item
           Caption = 'Username'
@@ -807,7 +820,6 @@ object loginWindow: TloginWindow
         end>
       TabOrder = 5
       ViewStyle = vsReport
-      ExplicitWidth = 693
     end
     object xmlLoad: TButton
       Left = 284
@@ -820,18 +832,53 @@ object loginWindow: TloginWindow
     end
     object rememberUsername: TCheckBox
       Left = 128
-      Top = 328
-      Width = 113
+      Top = 352
+      Width = 121
       Height = 17
       Caption = 'Zapamti korisnika'
       TabOrder = 2
     end
+    object switchInstance: TToggleSwitch
+      Left = 177
+      Top = 504
+      Width = 72
+      Height = 20
+      Cursor = crHandPoint
+      Hint = 'Nakon mijenjanja ove postavke potrebno je restartati aplikaciju'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Arial'
+      Font.Style = []
+      FrameColor = clHotLight
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 7
+      ThumbColor = clGreen
+    end
+    object offlineCheck: TCheckBox
+      Left = 128
+      Top = 329
+      Width = 150
+      Height = 17
+      Caption = 'Bezmre'#382'ni na'#269'in kori'#353'tenja'
+      TabOrder = 8
+    end
   end
   object XMLDocument1: TXMLDocument
     FileName = 
-      'D:\Projekti C++ Builder\Radi\vLonac-NTP---Projekt-ini_i_tabRedos' +
-      'lijed\data.xml'
+      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\data.' +
+      'xml'
     Left = 312
     Top = 368
+  end
+  object loginClient: TIdTCPClient
+    ConnectTimeout = 0
+    IPVersion = Id_IPv4
+    Port = 12344
+    ReadTimeout = -1
+    Left = 56
+    Top = 376
   end
 end

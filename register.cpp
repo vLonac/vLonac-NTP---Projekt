@@ -9,6 +9,45 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
+
+class Korisnik {
+private:
+	String email, surname, name, password, username, date;
+public:
+	Korisnik(String _name, String _surname, String _date, String _username, String _password, String _email) {
+		name = _name;
+		surname = _surname;
+		date = _date;
+		username = _username;
+		password = _password;
+		email = _email;
+	}
+
+    String getUsername() {
+		return username;
+	}
+
+	String getPassword() {
+		return password;
+	}
+
+	String getName() {
+		return name;
+	}
+
+	String getSurname() {
+		return surname;
+	}
+
+	String getDate() {
+		return date;
+	}
+
+	String getEmail() {
+		return email;
+	}
+};
+
 TregisterWindow *registerWindow;
 //---------------------------------------------------------------------------
 __fastcall TregisterWindow::TregisterWindow(TComponent* Owner)
@@ -37,12 +76,14 @@ void __fastcall TregisterWindow::registerUserClick(TObject *Sender)
 		_di_IXMLusersType users = Getusers(XMLDocument1);
 		_di_IXMLuserType user = users->Add();
 
-		user->name = newName->Text;
-		user->surname = newSurname->Text;
-		user->username = newUsername->Text;
-		user->password = newPassword->Text;
-		user->email = newEMail->Text;
-		user->birthDate = newBirthdate->Date;
+		Korisnik novi(newName->Text, newSurname->Text, newBirthdate->Date, newUsername->Text, newPassword->Text, newEMail->Text);
+
+		user->name = novi.getName();
+		user->surname = novi.getSurname();
+		user->username = novi.getUsername();
+		user->password = novi.getPassword();
+		user->email = novi.getEmail();
+		user->birthDate = novi.getDate();
 		user->administrator = false;
 		XMLDocument1->SaveToFile(XMLDocument1->FileName);
 		Application->MessageBox(L"Registracija uspešno obavljena", L"Uspješno je dodan novi korisnik!", MB_ICONINFORMATION);

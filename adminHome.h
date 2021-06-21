@@ -20,9 +20,15 @@ __published:	// IDE-managed Components
 	TButton *loadVehiclesButton;
 	TXMLDocument *XMLDocument2;
 	TButton *deleteVehicleButton;
+	TButton *showDatabase;
+	TButton *Button1;
+	TGroupBox *GroupBox1;
+	TGroupBox *GroupBox2;
 	void __fastcall newVehicleButtonClick(TObject *Sender);
 	void __fastcall loadVehiclesButtonClick(TObject *Sender);
 	void __fastcall deleteVehicleButtonClick(TObject *Sender);
+	void __fastcall showDatabaseClick(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TadminHomeWindow(TComponent* Owner);
