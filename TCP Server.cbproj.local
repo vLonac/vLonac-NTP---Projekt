@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.155,D:\Projekti C++ Builder\TCP.cpp=D:\Projekti C++ Builder\Server\TCP.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.966,D:\Projekti C++ Builder\TCP ServerPCH1.h=D:\Projekti C++ Builder\Server\TCP ServerPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.471,=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,D:\Projekti C++ Builder\TCP.h=D:\Projekti C++ Builder\Server\TCP.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.047,D:\Projekti C++ Builder\Unit1.dfm=D:\Projekti C++ Builder\TCP.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.975,D:\Projekti C++ Builder\Project1.cbproj=D:\Projekti C++ Builder\TCP Server.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.047,D:\Projekti C++ Builder\Unit1.cpp=D:\Projekti C++ Builder\TCP.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.948,D:\Projekti C++ Builder\TCP Server.cbproj=D:\Projekti C++ Builder\Server\TCP Server.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,D:\Projekti C++ Builder\TCP.dfm=D:\Projekti C++ Builder\Server\TCP.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.970,D:\Projekti C++ Builder\Project1PCH1.h=D:\Projekti C++ Builder\TCP ServerPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.047,D:\Projekti C++ Builder\Unit1.h=D:\Projekti C++ Builder\TCP.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.903,=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
