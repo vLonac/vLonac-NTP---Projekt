@@ -41,11 +41,13 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TIdTCPClient *loginClient;
 	TCheckBox *offlineCheck;
+	TButton *aboutUs;
 	void __fastcall newUserButtonClick(TObject *Sender);
 	void __fastcall loginButtonClick(TObject *Sender);
 	void __fastcall xmlLoadClick(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall aboutUsClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TloginWindow(TComponent* Owner);

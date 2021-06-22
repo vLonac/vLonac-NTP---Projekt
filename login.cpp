@@ -4,6 +4,7 @@
 #pragma hdrstop
 
 #include "login.h"
+#include "CountryInfoService.h"
 #include "register.h"
 #include "home.h"
 #include "adminHome.h"
@@ -158,4 +159,12 @@ void __fastcall TloginWindow::FormCreate(TObject *Sender)
 
 
 
+
+
+void __fastcall TloginWindow::aboutUsClick(TObject *Sender)
+{
+_di_CountryInfoServiceSoapType ourCountry = GetCountryInfoServiceSoapType();
+ShowMessage(L"Osnovano u gradu: " + ourCountry->CapitalCity("HR"));
+}
+//---------------------------------------------------------------------------
 
