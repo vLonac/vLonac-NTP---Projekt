@@ -818,7 +818,7 @@ object loginWindow: TloginWindow
       ViewStyle = vsReport
     end
     object xmlLoad: TButton
-      Left = 372
+      Left = 284
       Top = 455
       Width = 75
       Height = 25

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021.06.22 15:21:00.763,=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>2021.06.22 15:21:01.195,=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
+    <Transaction>2021.06.22 15:21:17.067,D:\Projekti C++ Builder\UDP ServerPCH1.h=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>2021.06.22 15:21:17.072,D:\Projekti C++ Builder\UDP Server.cbproj=D:\Projekti C++ Builder\Project1.cbproj</Transaction>
+    <Transaction>2021.06.22 15:21:35.298,D:\Projekti C++ Builder\vehicleLog.cpp=D:\Projekti C++ Builder\Unit1.cpp</Transaction>
+    <Transaction>2021.06.22 15:21:35.298,D:\Projekti C++ Builder\vehicleLog.h=D:\Projekti C++ Builder\Unit1.h</Transaction>
+    <Transaction>2021.06.22 15:21:35.298,D:\Projekti C++ Builder\vehicleLog.dfm=D:\Projekti C++ Builder\Unit1.dfm</Transaction>
+    <Transaction>2021.06.22 16:20:53.414,D:\Projekti C++ Builder\UDP Vehicle Log Server\vehicleLog.dfm=D:\Projekti C++ Builder\vehicleLog.dfm</Transaction>
+    <Transaction>2021.06.22 16:20:53.414,D:\Projekti C++ Builder\UDP Vehicle Log Server\vehicleLog.h=D:\Projekti C++ Builder\vehicleLog.h</Transaction>
+    <Transaction>2021.06.22 16:20:53.414,D:\Projekti C++ Builder\UDP Vehicle Log Server\vehicleLog.cpp=D:\Projekti C++ Builder\vehicleLog.cpp</Transaction>
+    <Transaction>2021.06.22 16:20:55.169,D:\Projekti C++ Builder\UDP Vehicle Log Server\UDP ServerPCH1.h=D:\Projekti C++ Builder\UDP ServerPCH1.h</Transaction>
+    <Transaction>2021.06.22 16:20:57.487,D:\Projekti C++ Builder\UDP Vehicle Log Server\UDP Server.cbproj=D:\Projekti C++ Builder\UDP Server.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

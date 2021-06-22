@@ -15,6 +15,7 @@
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TadminHomeWindow *adminHomeWindow;
+
 //---------------------------------------------------------------------------
 __fastcall TadminHomeWindow::TadminHomeWindow(TComponent* Owner)
 	: TForm(Owner)
@@ -65,6 +66,9 @@ void __fastcall TadminHomeWindow::deleteVehicleButtonClick(TObject *Sender)
 {
 	if(listCars->ItemIndex != -1){
 		_di_IXMLvehiclesType vozila = Getvehicles(XMLDocument2);
+		int i = listCars->ItemIndex;
+		UDPClient->Port = 15555;
+		UDPClient->SendBuffer("127.0.0.1", 15555, ToBytes(String(DateTimeToStr(Now())) + ": " + "Obrisano je vozilo " + vozila->vehicle[i]->Get_manufacturer() + " " + vozila->vehicle[i]->Get_model()));
 		vozila->Delete(listCars->ItemIndex);
 		XMLDocument2->SaveToFile(XMLDocument2->FileName);
 		Application->MessageBox(L"Brisanje odabranog vozila uspešno obavljeno", L"Uspješno je obrisano odabrano vozilo!", MB_ICONINFORMATION);
@@ -88,4 +92,12 @@ void __fastcall TadminHomeWindow::Button1Click(TObject *Sender)
 		HTTPWindow->ShowModal();
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TadminHomeWindow::Button2Click(TObject *Sender)
+{
+	UDPClient->Port = 15555;
+	UDPClient->Broadcast("vanja", 15555);
+}
+//---------------------------------------------------------------------------
+
 

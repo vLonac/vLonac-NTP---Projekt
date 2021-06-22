@@ -103,6 +103,8 @@ if(noviManufacturer->Text == "") {
 			vozilo->ENC = novo.getENC;
 			vozilo->cruiseControl = novo.getCruiseControl();
 			XMLDocument2->SaveToFile(XMLDocument2->FileName);
+            UDPClient->Port = 15555;
+		UDPClient->SendBuffer("127.0.0.1", 15555, ToBytes(String(DateTimeToStr(Now())) + ": " + "Dodano je vozilo " + novo.getManufacturer() + " " + novo.getModel()));
 			Application->MessageBox(L"Dodavanje novog vozila uspešno obavljeno", L"Uspješno je dodano novo vozilo!", MB_ICONINFORMATION);
 			addVehicleWindow->Close();
 	}

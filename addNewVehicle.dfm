@@ -182,4 +182,10 @@ object addVehicleWindow: TaddVehicleWindow
     Left = 224
     Top = 424
   end
+  object UDPClient: TIdUDPClient
+    BroadcastEnabled = True
+    Port = 15555
+    Left = 31
+    Top = 424
+  end
 end
