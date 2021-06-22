@@ -22,18 +22,18 @@ object adminHomeWindow: TadminHomeWindow
     TabOrder = 0
     object showDatabase: TButton
       Left = 16
-      Top = 40
+      Top = 32
       Width = 105
-      Height = 25
+      Height = 33
       Caption = 'Baze podataka'
       TabOrder = 0
       OnClick = showDatabaseClick
     end
     object Button1: TButton
-      Left = 144
-      Top = 39
+      Left = 188
+      Top = 32
       Width = 105
-      Height = 25
+      Height = 33
       Caption = 'HTTP Klijent'
       TabOrder = 1
       OnClick = Button1Click
@@ -126,7 +126,13 @@ object adminHomeWindow: TadminHomeWindow
   end
   object XMLDocument2: TXMLDocument
     FileName = 'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'
-    Left = 584
-    Top = 283
+    Left = 696
+    Top = 235
+  end
+  object UDPClient: TIdUDPClient
+    BroadcastEnabled = True
+    Port = 15555
+    Left = 544
+    Top = 296
   end
 end
