@@ -33,7 +33,6 @@ object loginWindow: TloginWindow
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
     ParentFont = False
-    ExplicitTop = 544
     ExplicitWidth = 427
   end
   object loginGroup: TGroupBox
@@ -48,9 +47,6 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
-    ExplicitLeft = 8
-    ExplicitTop = 5
-    ExplicitWidth = 1000
     object loginUsernameLabel: TLabel
       Left = 152
       Top = 226
@@ -867,9 +863,7 @@ object loginWindow: TloginWindow
     end
   end
   object XMLDocument1: TXMLDocument
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\data.' +
-      'xml'
+    FileName = 'D:\GitHub\vLonac-NTP---Projekt\data.xml'
     Left = 312
     Top = 368
   end

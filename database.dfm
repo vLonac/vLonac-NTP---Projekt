@@ -207,7 +207,7 @@
       Left = 16
       Top = 207
       Width = 121
-      Height = 26
+      Height = 21
       TabOrder = 4
     end
     object buttonSearch: TButton
@@ -426,18 +426,11 @@
   object ADOConnection1: TADOConnection
     Connected = True
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=D:\Pr' +
-      'ojekti C++ Builder\vLonac-NTP---Projekt-custom-format\database.m' +
-      'db;Mode=Share Deny None;Persist Security Info=False;Jet OLEDB:Sy' +
-      'stem database="";Jet OLEDB:Registry Path="";Jet OLEDB:Database P' +
-      'assword="";Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mo' +
-      'de=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk T' +
-      'ransactions=1;Jet OLEDB:New Database Password="";Jet OLEDB:Creat' +
-      'e System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLE' +
-      'DB:Don'#39't Copy Locale on Compact=False;Jet OLEDB:Compact Without ' +
-      'Replica Repair=False;Jet OLEDB:SFP=False'
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\GitHub\vLonac-NT' +
+      'P---Projekt\database.mdb;Mode=ReadWrite;Persist Security Info=Fa' +
+      'lse'
     LoginPrompt = False
-    Mode = cmShareDenyNone
+    Mode = cmReadWrite
     Provider = 'Microsoft.Jet.OLEDB.4.0'
     Left = 16
     Top = 8

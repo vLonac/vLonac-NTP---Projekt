@@ -36,6 +36,7 @@ __published:	// IDE-managed Components
 	TButton *buttonSpeed1;
 	TButton *buttonSpeed2;
 	TGroupBox *GroupBox2;
+	TLabel *statusLabel;
 	void __fastcall buttonDownloadClick(TObject *Sender);
 	void __fastcall komponentaHTTPWorkBegin(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCountMax);
 	void __fastcall komponentaHTTPWork(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCount);

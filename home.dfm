@@ -52,7 +52,7 @@ object homeWindow: ThomeWindow
       Top = 294
       Width = 129
       Height = 25
-      Date = 44354.000000000000000000
+      Date = 44348.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -66,7 +66,7 @@ object homeWindow: ThomeWindow
       Top = 294
       Width = 129
       Height = 25
-      Date = 44354.000000000000000000
+      Date = 44378.000000000000000000
       DateFormat = 'dd/MM/yyyy'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -133,16 +133,12 @@ object homeWindow: ThomeWindow
     ViewStyle = vsReport
   end
   object XMLDocument2: TXMLDocument
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\vehic' +
-      'les.xml'
+    FileName = 'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'
     Left = 672
     Top = 275
   end
   object XMLDocument1: TXMLDocument
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\data.' +
-      'xml'
+    FileName = 'D:\GitHub\vLonac-NTP---Projekt\data.xml'
     Left = 584
     Top = 279
   end

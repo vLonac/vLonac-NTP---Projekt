@@ -178,9 +178,7 @@ object addVehicleWindow: TaddVehicleWindow
     end
   end
   object XMLDocument2: TXMLDocument
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\vehic' +
-      'les.xml'
+    FileName = 'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'
     Left = 224
     Top = 424
   end

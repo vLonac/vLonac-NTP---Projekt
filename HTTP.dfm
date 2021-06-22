@@ -24,10 +24,23 @@ object HTTPWindow: THTTPWindow
     Anchors = [akLeft, akTop, akRight, akBottom]
     Caption = 'Preuzimanje najnovijeg XML-a s korisnicima:'
     TabOrder = 0
+    object statusLabel: TLabel
+      Left = 342
+      Top = 56
+      Width = 19
+      Height = 16
+      Caption = '0%'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
     object progressBar: TProgressBar
       Left = 24
       Top = 48
-      Width = 337
+      Width = 297
       Height = 33
       TabOrder = 0
     end

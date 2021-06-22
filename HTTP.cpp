@@ -25,28 +25,28 @@ void __fastcall THTTPWindow::komponentaHTTPWorkBegin(TObject *ASender, TWorkMode
           __int64 AWorkCountMax)
 {
 	progressBar->Position = 0;
-    progressBar->Max = AWorkCountMax;
+	progressBar->Max = AWorkCountMax;
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::komponentaHTTPWork(TObject *ASender, TWorkMode AWorkMode,
-          __int64 AWorkCount)
+		  __int64 AWorkCount)
 {
 	progressBar->Position = AWorkCount;
+	statusLabel->Caption = String(AWorkCount/progressBar->Max*100) + "%";
 	Application->ProcessMessages();
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::komponentaHTTPWorkEnd(TObject *ASender, TWorkMode AWorkMode)
 
 {
-		Application->MessageBox(L"Preuzimanje uspešno obavljeno", L"Preuzimanje završeno!", MB_ICONINFORMATION);
-		progressBar->Position = 0;
+	Application->MessageBox(L"Datoteka s korisnicima nalazi se na D:\\data.xml", L"Preuzimanje završeno!", MB_ICONINFORMATION);
+	progressBar->Position = 0;
+	statusLabel->Caption = "0%";
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonCancelClick(TObject *Sender)
 {
 	komponentaHTTP->Disconnect();
-	Application->MessageBox(L"Preuzimanje uspešno prekinuto", L"Preuzimanje zaustavljeno!", MB_ICONERROR);
-	progressBar->Position = 0;
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonSpeed1Click(TObject *Sender)

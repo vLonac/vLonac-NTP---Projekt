@@ -125,9 +125,7 @@ object adminHomeWindow: TadminHomeWindow
     end
   end
   object XMLDocument2: TXMLDocument
-    FileName = 
-      'D:\Projekti C++ Builder\vLonac-NTP---Projekt-custom-format\vehic' +
-      'les.xml'
+    FileName = 'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'
     Left = 584
     Top = 283
   end
