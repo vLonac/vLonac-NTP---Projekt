@@ -5,7 +5,7 @@
 //  >Import : http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL>0
 // Encoding : UTF-8
 // Version  : 1.0
-// (23/06/2021 17:23:07 - - $Rev: 96726 $)
+// (23/06/2021 17:54:22 - - $Rev: 96726 $)
 // ************************************************************************ //
 
 #include <System.hpp>
@@ -180,4 +180,5 @@ static void RegTypes()
 #pragma startup RegTypes 32
 
 };     // NS_CountryInfoService
+
 

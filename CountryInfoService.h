@@ -5,7 +5,7 @@
 //  >Import : http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL>0
 // Encoding : UTF-8
 // Version  : 1.0
-// (23/06/2021 17:23:07 - - $Rev: 96726 $)
+// (23/06/2021 17:54:22 - - $Rev: 96726 $)
 // ************************************************************************ //
 
 #ifndef   CountryInfoServiceH
@@ -39,7 +39,7 @@ namespace NS_CountryInfoService {
 // The following types, referred to in the WSDL document are not being represented
 // in this file. They are either aliases[@] of other types represented or were referred
 // to but never[!] declared in the document. The types from the latter category
-// typically map to predefined/known XML or Embarcadero types; however, they could also 
+// typically map to predefined/known XML or Embarcadero types; however, they could also
 // indicate incorrect WSDL documents that failed to declare or import a schema type.
 // ************************************************************************ //
 // !:string          - "http://www.w3.org/2001/XMLSchema"[Gbl]
@@ -185,27 +185,27 @@ typedef DynamicArray<tContinent*> ArrayOftContinent; /* "http://www.oorsprong.or
 __interface INTERFACE_UUID("{5BC955F9-CE45-1DCA-E084-54EDABCE4BD7}") CountryInfoServiceSoapType : public IInvokable
 {
 public:
-  virtual ArrayOftContinent ListOfContinentsByName() = 0; 
-  virtual ArrayOftContinent ListOfContinentsByCode() = 0; 
-  virtual ArrayOftCurrency ListOfCurrenciesByName() = 0; 
-  virtual ArrayOftCurrency ListOfCurrenciesByCode() = 0; 
-  virtual UnicodeString   CurrencyName(const UnicodeString sCurrencyISOCode) = 0; 
-  virtual ArrayOftCountryCodeAndName ListOfCountryNamesByCode() = 0; 
-  virtual ArrayOftCountryCodeAndName ListOfCountryNamesByName() = 0; 
-  virtual ArrayOftCountryCodeAndNameGroupedByContinent ListOfCountryNamesGroupedByContinent() = 0; 
-  virtual UnicodeString   CountryName(const UnicodeString sCountryISOCode) = 0; 
-  virtual UnicodeString   CountryISOCode(const UnicodeString sCountryName) = 0; 
-  virtual UnicodeString   CapitalCity(const UnicodeString sCountryISOCode) = 0; 
-  virtual tCurrency*      CountryCurrency(const UnicodeString sCountryISOCode) = 0; 
-  virtual UnicodeString   CountryFlag(const UnicodeString sCountryISOCode) = 0; 
-  virtual UnicodeString   CountryIntPhoneCode(const UnicodeString sCountryISOCode) = 0; 
-  virtual tCountryInfo*   FullCountryInfo(const UnicodeString sCountryISOCode) = 0; 
-  virtual ArrayOftCountryInfo FullCountryInfoAllCountries() = 0; 
-  virtual ArrayOftCountryCodeAndName CountriesUsingCurrency(const UnicodeString sISOCurrencyCode) = 0; 
-  virtual ArrayOftLanguage ListOfLanguagesByName() = 0; 
-  virtual ArrayOftLanguage ListOfLanguagesByCode() = 0; 
-  virtual UnicodeString   LanguageName(const UnicodeString sISOCode) = 0; 
-  virtual UnicodeString   LanguageISOCode(const UnicodeString sLanguageName) = 0; 
+  virtual ArrayOftContinent ListOfContinentsByName() = 0;
+  virtual ArrayOftContinent ListOfContinentsByCode() = 0;
+  virtual ArrayOftCurrency ListOfCurrenciesByName() = 0;
+  virtual ArrayOftCurrency ListOfCurrenciesByCode() = 0;
+  virtual UnicodeString   CurrencyName(const UnicodeString sCurrencyISOCode) = 0;
+  virtual ArrayOftCountryCodeAndName ListOfCountryNamesByCode() = 0;
+  virtual ArrayOftCountryCodeAndName ListOfCountryNamesByName() = 0;
+  virtual ArrayOftCountryCodeAndNameGroupedByContinent ListOfCountryNamesGroupedByContinent() = 0;
+  virtual UnicodeString   CountryName(const UnicodeString sCountryISOCode) = 0;
+  virtual UnicodeString   CountryISOCode(const UnicodeString sCountryName) = 0;
+  virtual UnicodeString   CapitalCity(const UnicodeString sCountryISOCode) = 0;
+  virtual tCurrency*      CountryCurrency(const UnicodeString sCountryISOCode) = 0;
+  virtual UnicodeString   CountryFlag(const UnicodeString sCountryISOCode) = 0;
+  virtual UnicodeString   CountryIntPhoneCode(const UnicodeString sCountryISOCode) = 0;
+  virtual tCountryInfo*   FullCountryInfo(const UnicodeString sCountryISOCode) = 0;
+  virtual ArrayOftCountryInfo FullCountryInfoAllCountries() = 0;
+  virtual ArrayOftCountryCodeAndName CountriesUsingCurrency(const UnicodeString sISOCurrencyCode) = 0;
+  virtual ArrayOftLanguage ListOfLanguagesByName() = 0;
+  virtual ArrayOftLanguage ListOfLanguagesByCode() = 0;
+  virtual UnicodeString   LanguageName(const UnicodeString sISOCode) = 0;
+  virtual UnicodeString   LanguageISOCode(const UnicodeString sLanguageName) = 0;
 };
 typedef DelphiInterface<CountryInfoServiceSoapType> _di_CountryInfoServiceSoapType;
 
@@ -221,3 +221,4 @@ using  namespace NS_CountryInfoService;
 
 
 #endif // CountryInfoServiceH
+
