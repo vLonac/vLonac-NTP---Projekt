@@ -4,6 +4,7 @@
 #pragma hdrstop
 
 #include "login.h"
+#include "CountryInfoService.h"
 #include "register.h"
 #include "data.h"
 //---------------------------------------------------------------------------
@@ -95,4 +96,21 @@ void __fastcall TregisterWindow::registerUserClick(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
+
+
+void __fastcall TregisterWindow::checkCountryAvailabilityClick(TObject *Sender)
+{
+_di_CountryInfoServiceSoapType countryRegistered = GetCountryInfoServiceSoapType();
+if(countryRegistered->CountryName(countryOfRegistration->Text)=="Croatia"){
+	ShowMessage("Odabrana drzava je dostupna.");
+}
+else if(countryRegistered->CountryName(countryOfRegistration->Text)=="Country not found in the database"){
+	ShowMessage("Država ne postoji ili nije ispravno napisan kod države.");
+}
+else{
+	ShowMessage("Odabrana drzava " + countryRegistered->CountryName(countryOfRegistration->Text) + " nije dostupna.");
+}
+}
+//---------------------------------------------------------------------------
+
 
