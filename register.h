@@ -31,7 +31,11 @@ __published:	// IDE-managed Components
 	TLabel *newBirthdateLabel;
 	TCheckBox *TOSBox;
 	TXMLDocument *XMLDocument1;
+	TLabel *Label1;
+	TButton *checkCountryAvailability;
+	TEdit *countryOfRegistration;
 	void __fastcall registerUserClick(TObject *Sender);
+	void __fastcall checkCountryAvailabilityClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TregisterWindow(TComponent* Owner);

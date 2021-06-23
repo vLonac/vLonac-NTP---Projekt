@@ -21,6 +21,8 @@ object registerWindow: TregisterWindow
     Align = alClient
     Caption = '-'
     TabOrder = 0
+    ExplicitTop = 8
+    ExplicitHeight = 377
     object newUsernameLabel: TLabel
       Left = 16
       Top = 195
@@ -29,49 +31,56 @@ object registerWindow: TregisterWindow
       Caption = 'Korisni'#269'ko ime:'
     end
     object newPasswordLabel: TLabel
-      Left = 47
-      Top = 235
+      Left = 52
+      Top = 247
       Width = 39
       Height = 13
       Caption = 'Lozinka:'
     end
     object newEMailLabel: TLabel
       Left = 58
-      Top = 274
+      Top = 294
       Width = 28
       Height = 13
       Caption = 'Email:'
     end
     object newSurnameLabel: TLabel
       Left = 45
-      Top = 91
+      Top = 123
       Width = 41
       Height = 13
       Caption = 'Prezime:'
     end
     object newNameLabel: TLabel
       Left = 64
-      Top = 51
+      Top = 83
       Width = 22
       Height = 13
       Caption = 'Ime:'
     end
     object newBirthdateLabel: TLabel
       Left = 16
-      Top = 147
+      Top = 160
       Width = 75
       Height = 13
       Caption = 'Datum ro'#273'enja:'
     end
+    object Label1: TLabel
+      Left = 12
+      Top = 38
+      Width = 118
+      Height = 13
+      Caption = 'Dr'#382'ava (npr. HR, IT, ...)'
+    end
     object newUsername: TEdit
-      Left = 112
-      Top = 192
+      Left = 136
+      Top = 205
       Width = 121
       Height = 21
       TabOrder = 3
     end
     object registerUser: TButton
-      Left = 144
+      Left = 160
       Top = 344
       Width = 75
       Height = 25
@@ -80,29 +89,29 @@ object registerWindow: TregisterWindow
       OnClick = registerUserClick
     end
     object newPassword: TEdit
-      Left = 112
-      Top = 232
+      Left = 136
+      Top = 244
       Width = 121
       Height = 21
       TabOrder = 4
     end
     object newSurname: TEdit
-      Left = 112
-      Top = 88
+      Left = 136
+      Top = 120
       Width = 121
       Height = 21
       TabOrder = 1
     end
     object newName: TEdit
-      Left = 112
-      Top = 48
+      Left = 136
+      Top = 80
       Width = 121
       Height = 21
       TabOrder = 0
     end
     object newBirthdate: TDateTimePicker
-      Left = 112
-      Top = 144
+      Left = 136
+      Top = 165
       Width = 121
       Height = 21
       Date = 36526.000000000000000000
@@ -112,19 +121,35 @@ object registerWindow: TregisterWindow
       TabOrder = 2
     end
     object newEMail: TEdit
-      Left = 112
-      Top = 271
+      Left = 136
+      Top = 286
       Width = 121
       Height = 21
       TabOrder = 5
     end
     object TOSBox: TCheckBox
-      Left = 64
-      Top = 313
+      Left = 112
+      Top = 321
       Width = 169
       Height = 17
       Caption = 'Prihva'#263'am uvjete poslovanja'
       TabOrder = 6
+    end
+    object checkCountryAvailability: TButton
+      Left = 183
+      Top = 35
+      Width = 106
+      Height = 21
+      Caption = 'Provjeri dostupnost'
+      TabOrder = 8
+      OnClick = checkCountryAvailabilityClick
+    end
+    object countryOfRegistration: TEdit
+      Left = 136
+      Top = 35
+      Width = 33
+      Height = 21
+      TabOrder = 9
     end
   end
   object XMLDocument1: TXMLDocument

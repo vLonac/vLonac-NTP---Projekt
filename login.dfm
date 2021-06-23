@@ -868,7 +868,6 @@ object loginWindow: TloginWindow
       Height = 25
       Caption = 'O nama'
       TabOrder = 9
-      OnClick = aboutUsClick
     end
   end
   object XMLDocument1: TXMLDocument
