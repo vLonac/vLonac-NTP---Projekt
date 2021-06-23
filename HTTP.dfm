@@ -2,7 +2,7 @@ object HTTPWindow: THTTPWindow
   Left = 0
   Top = 0
   Caption = 'HTTP Client'
-  ClientHeight = 291
+  ClientHeight = 553
   ClientWidth = 410
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,17 +13,18 @@ object HTTPWindow: THTTPWindow
   OldCreateOrder = False
   DesignSize = (
     410
-    291)
+    553)
   PixelsPerInch = 96
   TextHeight = 13
   object GroupBox1: TGroupBox
     Left = 8
     Top = 8
     Width = 394
-    Height = 275
+    Height = 537
     Anchors = [akLeft, akTop, akRight, akBottom]
-    Caption = 'Preuzimanje najnovijeg XML-a s korisnicima:'
+    Caption = 'Preuzimanje promotivne slike:'
     TabOrder = 0
+    ExplicitHeight = 275
     object statusLabel: TLabel
       Left = 342
       Top = 56
@@ -36,6 +37,12 @@ object HTTPWindow: THTTPWindow
       Font.Name = 'Tahoma'
       Font.Style = []
       ParentFont = False
+    end
+    object Image1: TImage
+      Left = 24
+      Top = 320
+      Width = 337
+      Height = 193
     end
     object progressBar: TProgressBar
       Left = 24
@@ -74,7 +81,7 @@ object HTTPWindow: THTTPWindow
       Font.Style = []
       ParentFont = False
       TabOrder = 3
-      Text = 'http://vanja-loncaric.from.hr/data.xml'
+      Text = 'http://vanja-loncaric.from.hr/car.jpg'
     end
     object GroupBox2: TGroupBox
       Left = 108
@@ -88,7 +95,7 @@ object HTTPWindow: THTTPWindow
         Top = 23
         Width = 75
         Height = 25
-        Caption = '0,25 kB/s'
+        Caption = '0,5 MB/s'
         TabOrder = 0
         OnClick = buttonSpeed1Click
       end
@@ -97,7 +104,7 @@ object HTTPWindow: THTTPWindow
         Top = 23
         Width = 75
         Height = 25
-        Caption = '0,5 kB/s'
+        Caption = '1 MB/s'
         TabOrder = 1
         OnClick = buttonSpeed2Click
       end
@@ -106,7 +113,7 @@ object HTTPWindow: THTTPWindow
         Top = 61
         Width = 75
         Height = 25
-        Caption = '1 kB/s'
+        Caption = '2 MB/s'
         TabOrder = 2
         OnClick = buttonSpeed3Click
       end
@@ -118,6 +125,15 @@ object HTTPWindow: THTTPWindow
         Caption = 'Unlimited'
         TabOrder = 3
       end
+    end
+    object Button1: TButton
+      Left = 152
+      Top = 280
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 5
+      OnClick = Button1Click
     end
   end
   object komponentaHTTP: TIdHTTP

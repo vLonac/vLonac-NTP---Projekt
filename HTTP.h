@@ -20,6 +20,8 @@
 #include <Vcl.ComCtrls.hpp>
 #include <IdIntercept.hpp>
 #include <IdInterceptThrottler.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.jpeg.hpp>
 //---------------------------------------------------------------------------
 class THTTPWindow : public TForm
 {
@@ -37,6 +39,8 @@ __published:	// IDE-managed Components
 	TButton *buttonSpeed2;
 	TGroupBox *GroupBox2;
 	TLabel *statusLabel;
+	TImage *Image1;
+	TButton *Button1;
 	void __fastcall buttonDownloadClick(TObject *Sender);
 	void __fastcall komponentaHTTPWorkBegin(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCountMax);
 	void __fastcall komponentaHTTPWork(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCount);
@@ -45,6 +49,7 @@ __published:	// IDE-managed Components
 	void __fastcall buttonSpeed1Click(TObject *Sender);
 	void __fastcall buttonSpeed2Click(TObject *Sender);
 	void __fastcall buttonSpeed3Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
 
 
 private:	// User declarations

@@ -16,7 +16,7 @@ __fastcall THTTPWindow::THTTPWindow(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonDownloadClick(TObject *Sender)
 {
-	TFileStream* fs = new TFileStream("D:\\data.xml", fmCreate);
+	TFileStream* fs = new TFileStream("D:\\car.jpg", fmCreate);
 	komponentaHTTP->Get(linkEdit->Text, fs);
 	delete fs;
 }
@@ -32,35 +32,49 @@ void __fastcall THTTPWindow::komponentaHTTPWork(TObject *ASender, TWorkMode AWor
 		  __int64 AWorkCount)
 {
 	progressBar->Position = AWorkCount;
-	statusLabel->Caption = String(AWorkCount/progressBar->Max*100) + "%";
+
+	float a = AWorkCount;
+
+	statusLabel->Caption = String(FormatFloat("0.00",float(AWorkCount)/float(progressBar->Max)*100)) + "%";
+
 	Application->ProcessMessages();
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::komponentaHTTPWorkEnd(TObject *ASender, TWorkMode AWorkMode)
 
 {
-	Application->MessageBox(L"Datoteka s korisnicima nalazi se na D:\\data.xml", L"Preuzimanje završeno!", MB_ICONINFORMATION);
+	if(progressBar->Position == progressBar->Max) {
+
+	Application->MessageBox(L"Preuzeta slika nalazi se na D:\\car.jpg", L"Preuzimanje završeno!", MB_ICONINFORMATION);
+	}
 	progressBar->Position = 0;
 	statusLabel->Caption = "0%";
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonCancelClick(TObject *Sender)
 {
+	Application->MessageBox(L"Preuzimanje prekinuto", L"Greška, slika nije preuzeta!", MB_ICONSTOP);
 	komponentaHTTP->Disconnect();
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonSpeed1Click(TObject *Sender)
 {
-	downloadSpeedLimiter->BitsPerSec = 2000;
+	downloadSpeedLimiter->BitsPerSec = 4000000;
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonSpeed2Click(TObject *Sender)
 {
-    downloadSpeedLimiter->BitsPerSec = 4000;
+	downloadSpeedLimiter->BitsPerSec = 8000000;
 }
 //---------------------------------------------------------------------------
 void __fastcall THTTPWindow::buttonSpeed3Click(TObject *Sender)
 {
-    downloadSpeedLimiter->BitsPerSec = 8000;
+	downloadSpeedLimiter->BitsPerSec = 16000000;
 }
 //---------------------------------------------------------------------------
+void __fastcall THTTPWindow::Button1Click(TObject *Sender)
+{
+    Image1->Picture->LoadFromFile("D:\\car.jpg");
+}
+//---------------------------------------------------------------------------
+
