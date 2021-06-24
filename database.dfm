@@ -370,9 +370,9 @@
       TabOrder = 0
     end
     object DBEdit9: TDBEdit
-      Left = 88
+      Left = 72
       Top = 66
-      Width = 161
+      Width = 73
       Height = 21
       DataField = 'Ime'
       DataSource = DZaposlenici
@@ -421,6 +421,15 @@
       Height = 41
       DataSource = DZaposlenici
       TabOrder = 6
+    end
+    object buttonSort: TButton
+      Left = 151
+      Top = 64
+      Width = 98
+      Height = 25
+      Caption = 'Sortiraj po imenu'
+      TabOrder = 7
+      OnClick = buttonSortClick
     end
   end
   object ADOConnection1: TADOConnection

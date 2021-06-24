@@ -65,3 +65,16 @@ void __fastcall TdatabaseWindow::buttonExportClick(TObject *Sender)
 //---------------------------------------------------------------------------
 
 
+void __fastcall TdatabaseWindow::buttonSortClick(TObject *Sender)
+{
+
+	if (TZaposlenici->IndexFieldNames == "Ime ASC") {
+	   TZaposlenici->IndexFieldNames = "Ime DESC";
+	}
+
+	else {
+        TZaposlenici->IndexFieldNames = "Ime ASC";
+	}
+}
+//---------------------------------------------------------------------------
+

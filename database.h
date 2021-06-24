@@ -87,10 +87,12 @@ __published:	// IDE-managed Components
 	TDBEdit *DBEdit11;
 	TDBNavigator *DBNavigator3;
 	TfrxReport *frxReport1;
+	TButton *buttonSort;
 	void __fastcall buttonAddPeroClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall buttonSearchClick(TObject *Sender);
 	void __fastcall buttonExportClick(TObject *Sender);
+	void __fastcall buttonSortClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TdatabaseWindow(TComponent* Owner);
