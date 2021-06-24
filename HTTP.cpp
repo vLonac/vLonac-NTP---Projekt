@@ -72,7 +72,7 @@ void __fastcall THTTPWindow::buttonSpeed3Click(TObject *Sender)
 	downloadSpeedLimiter->BitsPerSec = 16000000;
 }
 //---------------------------------------------------------------------------
-void __fastcall THTTPWindow::Button1Click(TObject *Sender)
+void __fastcall THTTPWindow::buttonImageClick(TObject *Sender)
 {
     Image1->Picture->LoadFromFile("D:\\car.jpg");
 }

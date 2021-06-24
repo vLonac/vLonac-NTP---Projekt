@@ -21,53 +21,51 @@ object registerWindow: TregisterWindow
     Align = alClient
     Caption = '-'
     TabOrder = 0
-    ExplicitTop = 8
-    ExplicitHeight = 377
     object newUsernameLabel: TLabel
-      Left = 16
-      Top = 195
+      Left = 38
+      Top = 207
       Width = 70
       Height = 13
       Caption = 'Korisni'#269'ko ime:'
     end
     object newPasswordLabel: TLabel
-      Left = 52
-      Top = 247
+      Left = 69
+      Top = 246
       Width = 39
       Height = 13
       Caption = 'Lozinka:'
     end
     object newEMailLabel: TLabel
-      Left = 58
-      Top = 294
+      Left = 80
+      Top = 289
       Width = 28
       Height = 13
       Caption = 'Email:'
     end
     object newSurnameLabel: TLabel
-      Left = 45
+      Left = 67
       Top = 123
       Width = 41
       Height = 13
       Caption = 'Prezime:'
     end
     object newNameLabel: TLabel
-      Left = 64
+      Left = 86
       Top = 83
       Width = 22
       Height = 13
       Caption = 'Ime:'
     end
     object newBirthdateLabel: TLabel
-      Left = 16
-      Top = 160
+      Left = 33
+      Top = 166
       Width = 75
       Height = 13
       Caption = 'Datum ro'#273'enja:'
     end
     object Label1: TLabel
       Left = 12
-      Top = 38
+      Top = 39
       Width = 118
       Height = 13
       Caption = 'Dr'#382'ava (npr. HR, IT, ...)'
@@ -136,10 +134,10 @@ object registerWindow: TregisterWindow
       TabOrder = 6
     end
     object checkCountryAvailability: TButton
-      Left = 183
-      Top = 35
+      Left = 191
+      Top = 36
       Width = 106
-      Height = 21
+      Height = 20
       Caption = 'Provjeri dostupnost'
       TabOrder = 8
       OnClick = checkCountryAvailabilityClick
@@ -147,7 +145,7 @@ object registerWindow: TregisterWindow
     object countryOfRegistration: TEdit
       Left = 136
       Top = 35
-      Width = 33
+      Width = 49
       Height = 21
       TabOrder = 9
     end

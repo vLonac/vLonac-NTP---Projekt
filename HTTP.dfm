@@ -24,7 +24,6 @@ object HTTPWindow: THTTPWindow
     Anchors = [akLeft, akTop, akRight, akBottom]
     Caption = 'Preuzimanje promotivne slike:'
     TabOrder = 0
-    ExplicitHeight = 275
     object statusLabel: TLabel
       Left = 342
       Top = 56
@@ -43,6 +42,7 @@ object HTTPWindow: THTTPWindow
       Top = 320
       Width = 337
       Height = 193
+      Stretch = True
     end
     object progressBar: TProgressBar
       Left = 24
@@ -126,14 +126,14 @@ object HTTPWindow: THTTPWindow
         TabOrder = 3
       end
     end
-    object Button1: TButton
+    object buttonImage: TButton
       Left = 152
       Top = 280
       Width = 75
       Height = 25
-      Caption = 'Button1'
+      Caption = 'Prika'#382'i sliku'
       TabOrder = 5
-      OnClick = Button1Click
+      OnClick = buttonImageClick
     end
   end
   object komponentaHTTP: TIdHTTP

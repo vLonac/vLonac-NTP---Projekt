@@ -73,6 +73,10 @@ void __fastcall TregisterWindow::registerUserClick(TObject *Sender)
 		}
 	}
 
+	else if(countryOfRegistration->Text!="HR") {
+		Application->MessageBox(L"Molimo provjerite da li ste dobro upisali državu!", L"Greška, unesena država nije podržana!", MB_ICONSTOP);
+	}
+
 	else {
 		_di_IXMLusersType users = Getusers(XMLDocument1);
 		_di_IXMLuserType user = users->Add();

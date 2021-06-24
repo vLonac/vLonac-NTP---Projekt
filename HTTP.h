@@ -40,7 +40,7 @@ __published:	// IDE-managed Components
 	TGroupBox *GroupBox2;
 	TLabel *statusLabel;
 	TImage *Image1;
-	TButton *Button1;
+	TButton *buttonImage;
 	void __fastcall buttonDownloadClick(TObject *Sender);
 	void __fastcall komponentaHTTPWorkBegin(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCountMax);
 	void __fastcall komponentaHTTPWork(TObject *ASender, TWorkMode AWorkMode, __int64 AWorkCount);
@@ -49,7 +49,7 @@ __published:	// IDE-managed Components
 	void __fastcall buttonSpeed1Click(TObject *Sender);
 	void __fastcall buttonSpeed2Click(TObject *Sender);
 	void __fastcall buttonSpeed3Click(TObject *Sender);
-	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall buttonImageClick(TObject *Sender);
 
 
 private:	// User declarations
