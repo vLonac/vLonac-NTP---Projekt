@@ -12,6 +12,15 @@
 #include <Xml.xmldom.hpp>
 #include <Xml.XMLIntf.hpp>
 #include <Vcl.WinXPickers.hpp>
+#include <Data.Bind.Components.hpp>
+#include <Data.Bind.EngExt.hpp>
+#include <Data.Bind.ObjectScope.hpp>
+#include <REST.Client.hpp>
+#include <REST.Types.hpp>
+#include <System.Bindings.Outputs.hpp>
+#include <System.Rtti.hpp>
+#include <Vcl.Bind.DBEngExt.hpp>
+#include <Vcl.Bind.Editors.hpp>
 //---------------------------------------------------------------------------
 class ThomeWindow : public TForm
 {
@@ -26,9 +35,17 @@ __published:	// IDE-managed Components
 	TButton *showReservations;
 	TLabel *Label1;
 	TLabel *Label2;
+	TRESTClient *RESTClient1;
+	TRESTRequest *RESTRequest1;
+	TRESTResponse *RESTResponse1;
+	TMemo *Memo1;
+	TBindingsList *BindingsList1;
+	TLinkControlToField *LinkControlToField1;
+	TButton *getIP;
 	void __fastcall FormShow(TObject *Sender);
 	void __fastcall newReservationButtonClick(TObject *Sender);
 	void __fastcall showReservationsClick(TObject *Sender);
+	void __fastcall getIPClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall ThomeWindow(TComponent* Owner);

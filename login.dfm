@@ -861,14 +861,6 @@ object loginWindow: TloginWindow
       Caption = 'Bezmre'#382'ni na'#269'in kori'#353'tenja'
       TabOrder = 8
     end
-    object aboutUs: TButton
-      Left = 392
-      Top = 455
-      Width = 75
-      Height = 25
-      Caption = 'O nama'
-      TabOrder = 9
-    end
   end
   object XMLDocument1: TXMLDocument
     FileName = 'D:\GitHub\vLonac-NTP---Projekt\data.xml'

@@ -1,5 +1,10 @@
+bindcomp260.bpl
+bindengine260.bpl
 IndySystem260.bpl
 adortl260.bpl
+CustomIPTransport260.bpl
+RESTComponents260.bpl
+bindcompvcl260.bpl
 inet260.bpl
 soaprtl260.bpl
 IndyProtocols260.bpl

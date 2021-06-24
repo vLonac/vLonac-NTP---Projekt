@@ -141,3 +141,9 @@ ShowMessage(rezervacija);
 }
 //---------------------------------------------------------------------------
 
+void __fastcall ThomeWindow::getIPClick(TObject *Sender)
+{
+RESTRequest1->Execute();
+}
+//---------------------------------------------------------------------------
+
