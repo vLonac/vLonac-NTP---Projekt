@@ -33,18 +33,16 @@ __published:	// IDE-managed Components
 	TLabel *newUserLabel;
 	TButton *newUserButton;
 	TImage *Image1;
-	TListView *ListView1;
 	TXMLDocument *XMLDocument1;
-	TButton *xmlLoad;
 	TCheckBox *rememberUsername;
 	TToggleSwitch *switchInstance;
 	TLabel *Label1;
 	TIdTCPClient *loginClient;
 	TCheckBox *offlineCheck;
 	TButton *aboutUs;
+	TButton *issueButton;
 	void __fastcall newUserButtonClick(TObject *Sender);
 	void __fastcall loginButtonClick(TObject *Sender);
-	void __fastcall xmlLoadClick(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 	void __fastcall FormCreate(TObject *Sender);
 private:	// User declarations

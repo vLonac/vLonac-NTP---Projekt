@@ -97,25 +97,6 @@ void __fastcall TloginWindow::loginButtonClick(TObject *Sender)
 
 
 
-void __fastcall TloginWindow::xmlLoadClick(TObject *Sender)
-{
-	_di_IXMLusersType userData = Getusers(XMLDocument1);
-		ListView1->Items->Clear();
-		for(int i = 0; i < userData->Count; i++) {
-			ListView1->Items->Add();
-			ListView1->Items->Item[i]->Caption = userData->user[i]->Get_username();
-			ListView1->Items->Item[i]->SubItems->Add(userData->user[i]->password);
-			ListView1->Items->Item[i]->SubItems->Add(userData->user[i]->name);
-			ListView1->Items->Item[i]->SubItems->Add(userData->user[i]->surname);
-			ListView1->Items->Item[i]->SubItems->Add(userData->user[i]->email);
-			ListView1->Items->Item[i]->SubItems->Add(userData->user[i]->birthDate);
-			if (userData->user[i]->administrator)
-				ListView1->Items->Item[i]->SubItems->Add("Is an administrator");
-			else
-                ListView1->Items->Item[i]->SubItems->Add("Is a customer");
-		}
-}
-//---------------------------------------------------------------------------
 
 void __fastcall TloginWindow::FormClose(TObject *Sender, TCloseAction &Action)
 {
@@ -134,7 +115,7 @@ void __fastcall TloginWindow::FormClose(TObject *Sender, TCloseAction &Action)
 		ini->WriteString("LoginWindow", "Date", "");
 		ini->WriteString("LoginWindow", "Double instances", switchInstance->State);
 		delete ini;
-    }
+	}
 }
 //---------------------------------------------------------------------------
 
