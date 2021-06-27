@@ -5,13 +5,14 @@
 #include <tchar.h>
 #include <registry.hpp>
 //---------------------------------------------------------------------------
-USEFORM("login.cpp", loginWindow);
 USEFORM("register.cpp", registerWindow);
+USEFORM("login.cpp", loginWindow);
 USEFORM("HTTP.cpp", HTTPWindow);
-USEFORM("addNewVehicle.cpp", addVehicleWindow);
 USEFORM("adminHome.cpp", adminHomeWindow);
-USEFORM("database.cpp", databaseWindow);
+USEFORM("addNewVehicle.cpp", addVehicleWindow);
 USEFORM("home.cpp", homeWindow);
+USEFORM("database.cpp", databaseWindow);
+USEFORM("ticket.cpp", ticketWindow);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
@@ -42,6 +43,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 		Application->CreateForm(__classid(TaddVehicleWindow), &addVehicleWindow);
 		Application->CreateForm(__classid(TdatabaseWindow), &databaseWindow);
 		Application->CreateForm(__classid(THTTPWindow), &HTTPWindow);
+		Application->CreateForm(__classid(TticketWindow), &ticketWindow);
 		Application->Run();
 	}
 	catch (Exception &exception)

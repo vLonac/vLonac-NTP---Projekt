@@ -19,9 +19,9 @@ object loginWindow: TloginWindow
   TextHeight = 13
   object credits: TLabel
     Left = 0
-    Top = 545
+    Top = 547
     Width = 494
-    Height = 15
+    Height = 13
     Align = alBottom
     Alignment = taCenter
     Caption = 
@@ -33,13 +33,14 @@ object loginWindow: TloginWindow
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
     ParentFont = False
-    ExplicitWidth = 507
+    ExplicitTop = 545
+    ExplicitWidth = 427
   end
   object loginGroup: TGroupBox
     Left = 0
     Top = 0
     Width = 494
-    Height = 545
+    Height = 547
     Align = alClient
     Anchors = []
     Caption = '-'
@@ -47,9 +48,6 @@ object loginWindow: TloginWindow
     ParentBackground = False
     ParentColor = False
     TabOrder = 0
-    ExplicitTop = 5
-    ExplicitWidth = 507
-    ExplicitHeight = 547
     object loginUsernameLabel: TLabel
       Left = 200
       Top = 226
@@ -834,6 +832,7 @@ object loginWindow: TloginWindow
       Height = 25
       Caption = 'Prijavi problem'
       TabOrder = 8
+      OnClick = issueButtonClick
     end
   end
   object XMLDocument1: TXMLDocument

@@ -9,6 +9,7 @@
 #include "adminHome.h"
 #include "data.h"
 #include "string.h"
+#include "ticket.h"
 #include <registry.hpp>
 
 //---------------------------------------------------------------------------
@@ -141,4 +142,10 @@ void __fastcall TloginWindow::FormCreate(TObject *Sender)
 
 
 
+
+void __fastcall TloginWindow::issueButtonClick(TObject *Sender)
+{
+    ticketWindow->ShowModal();
+}
+//---------------------------------------------------------------------------
 

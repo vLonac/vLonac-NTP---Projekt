@@ -1,0 +1,13 @@
+class Ticket {
+public:
+	String contact, message;
+	Ticket(String _contact, String _message) {
+		contact = _contact;
+		message = _message;
+	}
+};
+
+
+void showTicket(Ticket ticket) {
+    ShowMessage(ticket.contact + ": " + ticket.message);
+}
