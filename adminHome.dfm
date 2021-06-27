@@ -38,6 +38,22 @@ object adminHomeWindow: TadminHomeWindow
       TabOrder = 1
       OnClick = Button1Click
     end
+    object getIP: TButton
+      Left = 360
+      Top = 32
+      Width = 105
+      Height = 33
+      Caption = 'Dohvati IP'
+      TabOrder = 2
+      OnClick = getIPClick
+    end
+    object showIP: TMemo
+      Left = 471
+      Top = 40
+      Width = 106
+      Height = 17
+      TabOrder = 3
+    end
   end
   object GroupBox1: TGroupBox
     Left = 8
@@ -134,5 +150,40 @@ object adminHomeWindow: TadminHomeWindow
     Port = 15555
     Left = 544
     Top = 296
+  end
+  object RESTClient1: TRESTClient
+    BaseURL = 'https://api.ipify.org/?format=xml'
+    Params = <>
+    Left = 712
+    Top = 392
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        Name = 'format'
+        Value = 'xml'
+      end>
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 600
+    Top = 392
+  end
+  object RESTResponse1: TRESTResponse
+    Left = 656
+    Top = 392
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = RESTResponse1
+      FieldName = 'Content'
+      Control = showIP
+      Track = False
+    end
   end
 end

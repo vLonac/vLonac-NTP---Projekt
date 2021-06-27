@@ -101,3 +101,9 @@ void __fastcall TadminHomeWindow::Button2Click(TObject *Sender)
 //---------------------------------------------------------------------------
 
 
+void __fastcall TadminHomeWindow::getIPClick(TObject *Sender)
+{
+	RESTRequest1->Execute();
+}
+//---------------------------------------------------------------------------
+

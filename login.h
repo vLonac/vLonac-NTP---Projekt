@@ -39,7 +39,6 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TIdTCPClient *loginClient;
 	TCheckBox *offlineCheck;
-	TButton *aboutUs;
 	TButton *issueButton;
 	void __fastcall newUserButtonClick(TObject *Sender);
 	void __fastcall loginButtonClick(TObject *Sender);

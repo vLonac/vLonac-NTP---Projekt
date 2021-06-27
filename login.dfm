@@ -33,7 +33,6 @@ object loginWindow: TloginWindow
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
     ParentFont = False
-    ExplicitTop = 545
     ExplicitWidth = 427
   end
   object loginGroup: TGroupBox
@@ -817,21 +816,13 @@ object loginWindow: TloginWindow
       Caption = 'Bezmre'#382'ni na'#269'in kori'#353'tenja'
       TabOrder = 6
     end
-    object aboutUs: TButton
-      Left = 408
-      Top = 506
-      Width = 75
-      Height = 25
-      Caption = 'O nama'
-      TabOrder = 7
-    end
     object issueButton: TButton
       Left = 304
       Top = 506
       Width = 88
       Height = 25
       Caption = 'Prijavi problem'
-      TabOrder = 8
+      TabOrder = 7
       OnClick = issueButtonClick
     end
   end

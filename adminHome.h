@@ -15,6 +15,15 @@
 #include <IdComponent.hpp>
 #include <IdUDPBase.hpp>
 #include <IdUDPClient.hpp>
+#include <Data.Bind.Components.hpp>
+#include <Data.Bind.EngExt.hpp>
+#include <Data.Bind.ObjectScope.hpp>
+#include <REST.Client.hpp>
+#include <REST.Types.hpp>
+#include <System.Bindings.Outputs.hpp>
+#include <System.Rtti.hpp>
+#include <Vcl.Bind.DBEngExt.hpp>
+#include <Vcl.Bind.Editors.hpp>
 //---------------------------------------------------------------------------
 class TadminHomeWindow : public TForm
 {
@@ -29,12 +38,20 @@ __published:	// IDE-managed Components
 	TGroupBox *GroupBox1;
 	TGroupBox *GroupBox2;
 	TIdUDPClient *UDPClient;
+	TButton *getIP;
+	TRESTClient *RESTClient1;
+	TRESTRequest *RESTRequest1;
+	TRESTResponse *RESTResponse1;
+	TMemo *showIP;
+	TBindingsList *BindingsList1;
+	TLinkControlToField *LinkControlToField1;
 	void __fastcall newVehicleButtonClick(TObject *Sender);
 	void __fastcall loadVehiclesButtonClick(TObject *Sender);
 	void __fastcall deleteVehicleButtonClick(TObject *Sender);
 	void __fastcall showDatabaseClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall getIPClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TadminHomeWindow(TComponent* Owner);
