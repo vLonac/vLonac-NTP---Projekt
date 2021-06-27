@@ -16,6 +16,14 @@
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 
+/*
+    #if defined(_WIN32) && !defined(_WIN64)
+
+    #pragma link "Data.Bind.ObjectScope.obj"
+
+	#endif
+*/
+
 class Racun {
 private:
 	String username;

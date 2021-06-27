@@ -817,7 +817,7 @@ object loginWindow: TloginWindow
       TabOrder = 6
     end
     object issueButton: TButton
-      Left = 304
+      Left = 352
       Top = 506
       Width = 88
       Height = 25
