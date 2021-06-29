@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/06/29 16:01:07.947,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:08.337,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:08.457,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/29 16:01:17.607,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\myWS.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:42.237,D:\GitHub\vLonac-NTP---Projekt\WS\myWS.cpp=C:\Users\renat\Documents\Embarcadero\Studio\Projects\myWS.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:42.237,D:\GitHub\vLonac-NTP---Projekt\WS\myWS.h=C:\Users\renat\Documents\Embarcadero\Studio\Projects\myWS.h</Transaction>
+    <Transaction>2021/06/29 16:01:43.783,D:\GitHub\vLonac-NTP---Projekt\WS\FormUnit1.h=C:\Users\renat\Documents\Embarcadero\Studio\Projects\FormUnit1.h</Transaction>
+    <Transaction>2021/06/29 16:01:43.783,D:\GitHub\vLonac-NTP---Projekt\WS\FormUnit1.dfm=C:\Users\renat\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2021/06/29 16:01:43.783,D:\GitHub\vLonac-NTP---Projekt\WS\FormUnit1.cpp=C:\Users\renat\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:45.299,D:\GitHub\vLonac-NTP---Projekt\WS\WebModuleUnit1.dfm=C:\Users\renat\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2021/06/29 16:01:45.299,D:\GitHub\vLonac-NTP---Projekt\WS\WebModuleUnit1.h=C:\Users\renat\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.h</Transaction>
+    <Transaction>2021/06/29 16:01:45.299,D:\GitHub\vLonac-NTP---Projekt\WS\WebModuleUnit1.cpp=C:\Users\renat\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2021/06/29 16:01:46.718,D:\GitHub\vLonac-NTP---Projekt\WS\Project1PCH1.h=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/29 16:01:48.095,D:\GitHub\vLonac-NTP---Projekt\WS\Project1.cbproj=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/06/29 16:08:17.079,=D:\GitHub\vLonac-NTP---Projekt\WS\data.cpp</Transaction>
+    <Transaction>2021/06/29 16:52:50.638,D:\GitHub\vLonac-NTP---Projekt\WS\SoapPCH1.h=D:\GitHub\vLonac-NTP---Projekt\WS\Project1PCH1.h</Transaction>
+    <Transaction>2021/06/29 16:52:50.648,D:\GitHub\vLonac-NTP---Projekt\WS\Soap.cbproj=D:\GitHub\vLonac-NTP---Projekt\WS\Project1.cbproj</Transaction>
+    <Transaction>2021/06/29 16:52:59.967,D:\GitHub\vLonac-NTP---Projekt\WS\sdPCH1.h=D:\GitHub\vLonac-NTP---Projekt\WS\SoapPCH1.h</Transaction>
+    <Transaction>2021/06/29 16:52:59.978,D:\GitHub\vLonac-NTP---Projekt\WS\sd.cbproj=D:\GitHub\vLonac-NTP---Projekt\WS\Soap.cbproj</Transaction>
+    <Transaction>2021/06/29 16:53:03.152,D:\GitHub\vLonac-NTP---Projekt\WS\SOAPPCH1.h=D:\GitHub\vLonac-NTP---Projekt\WS\sdPCH1.h</Transaction>
+    <Transaction>2021/06/29 16:53:03.162,D:\GitHub\vLonac-NTP---Projekt\WS\SOAP.cbproj=D:\GitHub\vLonac-NTP---Projekt\WS\sd.cbproj</Transaction>
+    <Transaction>2021/06/29 16:53:20.626,D:\GitHub\vLonac-NTP---Projekt\WS\SOAP Lokalni Web ServisPCH1.h=D:\GitHub\vLonac-NTP---Projekt\WS\SOAPPCH1.h</Transaction>
+    <Transaction>2021/06/29 16:53:20.636,D:\GitHub\vLonac-NTP---Projekt\WS\SOAP Lokalni Web Servis.cbproj=D:\GitHub\vLonac-NTP---Projekt\WS\SOAP.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

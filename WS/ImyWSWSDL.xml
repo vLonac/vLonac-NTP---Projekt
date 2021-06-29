@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="ImyWSservice" targetNamespace="http://tempuri.org/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ns1="urn:myWS" xmlns:ns2="urn:@:myWS">
+  <types>
+    <xs:schema targetNamespace="urn:myWS" xmlns="urn:myWS">
+      <xs:simpleType name="SampleEnum">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="etNone"/>
+          <xs:enumeration value="etAFew"/>
+          <xs:enumeration value="etSome"/>
+          <xs:enumeration value="etALot"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:complexType name="TDoubleDynArray">
+        <xs:complexContent>
+          <xs:restriction base="soapenc:Array">
+            <sequence xmlns="http://www.w3.org/2001/XMLSchema"/>
+            <xs:attribute ref="soapenc:arrayType" n1:arrayType="xs:double[]" xmlns:n1="http://schemas.xmlsoap.org/wsdl/"/>
+          </xs:restriction>
+        </xs:complexContent>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema targetNamespace="urn:@:myWS" xmlns="urn:@:myWS">
+      <xs:complexType name="TSampleStruct">
+        <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+          <xs:element name="LastName" type="xs:string"/>
+          <xs:element name="FirstName" type="xs:string"/>
+          <xs:element name="Salary" type="xs:double"/>
+        </sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="echoEnum0Request">
+    <part name="eValue" type="ns1:SampleEnum"/>
+  </message>
+  <message name="echoEnum0Response">
+    <part name="return" type="ns1:SampleEnum"/>
+  </message>
+  <message name="echoDoubleArray1Request">
+    <part name="daValue" type="ns1:TDoubleDynArray"/>
+  </message>
+  <message name="echoDoubleArray1Response">
+    <part name="return" type="ns1:TDoubleDynArray"/>
+  </message>
+  <message name="echoStruct2Request">
+    <part name="pEmployee" type="ns2:TSampleStruct"/>
+  </message>
+  <message name="echoStruct2Response">
+    <part name="return" type="ns2:TSampleStruct"/>
+  </message>
+  <message name="echoDouble3Request">
+    <part name="dValue" type="xs:double"/>
+  </message>
+  <message name="echoDouble3Response">
+    <part name="return" type="xs:double"/>
+  </message>
+  <message name="getUserStatus4Request"/>
+  <message name="getUserStatus4Response"/>
+  <portType name="ImyWS">
+    <operation name="echoEnum">
+      <input message="tns:echoEnum0Request"/>
+      <output message="tns:echoEnum0Response"/>
+    </operation>
+    <operation name="echoDoubleArray">
+      <input message="tns:echoDoubleArray1Request"/>
+      <output message="tns:echoDoubleArray1Response"/>
+    </operation>
+    <operation name="echoStruct">
+      <input message="tns:echoStruct2Request"/>
+      <output message="tns:echoStruct2Response"/>
+    </operation>
+    <operation name="echoDouble">
+      <input message="tns:echoDouble3Request"/>
+      <output message="tns:echoDouble3Response"/>
+    </operation>
+    <operation name="getUserStatus">
+      <input message="tns:getUserStatus4Request"/>
+      <output message="tns:getUserStatus4Response"/>
+    </operation>
+  </portType>
+  <binding name="ImyWSbinding" type="tns:ImyWS">
+    <binding xmlns="http://schemas.xmlsoap.org/wsdl/soap/" style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="echoEnum">
+      <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:myWS-ImyWS#echoEnum" style="rpc"/>
+      <input>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </input>
+      <output>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </output>
+    </operation>
+    <operation name="echoDoubleArray">
+      <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:myWS-ImyWS#echoDoubleArray" style="rpc"/>
+      <input>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </input>
+      <output>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </output>
+    </operation>
+    <operation name="echoStruct">
+      <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:myWS-ImyWS#echoStruct" style="rpc"/>
+      <input>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </input>
+      <output>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </output>
+    </operation>
+    <operation name="echoDouble">
+      <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:myWS-ImyWS#echoDouble" style="rpc"/>
+      <input>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </input>
+      <output>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </output>
+    </operation>
+    <operation name="getUserStatus">
+      <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:myWS-ImyWS#getUserStatus" style="rpc"/>
+      <input>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </input>
+      <output>
+        <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:myWS-ImyWS"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="ImyWSservice">
+    <port name="ImyWSPort" binding="tns:ImyWSbinding">
+      <address xmlns="http://schemas.xmlsoap.org/wsdl/soap/" location="http://localhost:8080/soap/ImyWS"/>
+    </port>
+  </service>
+</definitions>
+

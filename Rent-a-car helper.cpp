@@ -8,12 +8,12 @@
 USEFORM("register.cpp", registerWindow);
 USEFORM("login.cpp", loginWindow);
 USEFORM("ticket.cpp", ticketWindow);
-USEFORM("adminHome.cpp", adminHomeWindow);
-USEFORM("addNewVehicle.cpp", addVehicleWindow);
 USEFORM("HTTP.cpp", HTTPWindow);
+USEFORM("adminHome.cpp", adminHomeWindow);
+USEFORM("adminChange.cpp", changeAdmin);
+USEFORM("addNewVehicle.cpp", addVehicleWindow);
 USEFORM("home.cpp", homeWindow);
 USEFORM("database.cpp", databaseWindow);
-USEFORM("adminChange.cpp", changeAdmin);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

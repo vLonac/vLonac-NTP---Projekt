@@ -46,6 +46,7 @@ __published:	// IDE-managed Components
 	TBindingsList *BindingsList1;
 	TLinkControlToField *LinkControlToField1;
 	TButton *editPermissions;
+	TButton *getUsers;
 	void __fastcall newVehicleButtonClick(TObject *Sender);
 	void __fastcall loadVehiclesButtonClick(TObject *Sender);
 	void __fastcall deleteVehicleButtonClick(TObject *Sender);
@@ -53,6 +54,7 @@ __published:	// IDE-managed Components
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall editPermissionsClick(TObject *Sender);
 	void __fastcall getIPClick(TObject *Sender);
+	void __fastcall getUsersClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TadminHomeWindow(TComponent* Owner);

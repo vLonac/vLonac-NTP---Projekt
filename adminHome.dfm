@@ -30,7 +30,7 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = showDatabaseClick
     end
     object Button1: TButton
-      Left = 188
+      Left = 140
       Top = 32
       Width = 105
       Height = 33
@@ -39,30 +39,39 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = Button1Click
     end
     object getIP: TButton
-      Left = 528
+      Left = 587
       Top = 32
-      Width = 105
+      Width = 162
       Height = 33
       Caption = 'Dohvati IP'
       TabOrder = 2
       OnClick = getIPClick
     end
     object showIP: TMemo
-      Left = 639
-      Top = 40
-      Width = 106
+      Left = 587
+      Top = 69
+      Width = 162
       Height = 17
       ReadOnly = True
       TabOrder = 3
     end
     object editPermissions: TButton
-      Left = 327
+      Left = 251
       Top = 32
       Width = 162
       Height = 33
       Caption = 'Upravljanje administatorima'
       TabOrder = 4
       OnClick = editPermissionsClick
+    end
+    object getUsers: TButton
+      Left = 419
+      Top = 32
+      Width = 162
+      Height = 33
+      Caption = 'Broj administratora i korisnika'
+      TabOrder = 5
+      OnClick = getUsersClick
     end
   end
   object GroupBox1: TGroupBox

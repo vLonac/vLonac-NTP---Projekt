@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+  <xs:element name="users" type="usersType"/>
+  <xs:complexType name="usersType"><xs:annotation>
+      <xs:appinfo xdb:docElement="users"/>
+    </xs:annotation>
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="user" type="userType" maxOccurs="unbounded"/>
+    </sequence>
+  </xs:complexType>
+  <xs:complexType name="userType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="username" type="xs:string"/>
+      <xs:element name="password" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="surname" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="birthDate" type="xs:string"/>
+      <xs:element name="administrator" type="xs:string"><xs:annotation>
+          <xs:appinfo xdb:dataType="bool"/>
+        </xs:annotation>
+      </xs:element>
+    </sequence>
+  </xs:complexType>
+</xs:schema>

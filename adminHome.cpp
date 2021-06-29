@@ -1,5 +1,6 @@
 //---------------------------------------------------------------------------
 
+#include "ImyWSWSDL.h"
 #include <vcl.h>
 #pragma hdrstop
 
@@ -104,6 +105,13 @@ void __fastcall TadminHomeWindow::editPermissionsClick(TObject *Sender)
 void __fastcall TadminHomeWindow::getIPClick(TObject *Sender)
 {
 	RESTRequest1->Execute();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TadminHomeWindow::getUsersClick(TObject *Sender)
+{
+_di_ImyWS myWS = GetImyWS();
+myWS->getUserStatus();
 }
 //---------------------------------------------------------------------------
 

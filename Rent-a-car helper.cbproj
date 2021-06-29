@@ -169,6 +169,10 @@
             <DependentOn>HTTP.h</DependentOn>
             <BuildOrder>10</BuildOrder>
         </CppCompile>
+        <CppCompile Include="ImyWSWSDL.cpp">
+            <DependentOn>ImyWSWSDL.h</DependentOn>
+            <BuildOrder>15</BuildOrder>
+        </CppCompile>
         <CppCompile Include="login.cpp">
             <Form>loginWindow</Form>
             <FormType>dfm</FormType>
@@ -289,7 +293,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\Rent-a-car helper.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Rent-a-car_helper.exe</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -301,7 +305,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\Rent-a-car helper.tds" Configuration="Debug" Class="DebugSymbols">
+                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.tds" Configuration="Debug" Class="DebugSymbols">
                     <Platform Name="Win32">
                         <RemoteName>Rent-a-car_helper.tds</RemoteName>
                         <Overwrite>true</Overwrite>
