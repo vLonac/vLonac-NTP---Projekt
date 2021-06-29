@@ -141,3 +141,12 @@ ShowMessage(rezervacija);
 }
 //---------------------------------------------------------------------------
 
+void __fastcall ThomeWindow::Button1Click(TObject *Sender)
+{
+    _di_IXMLvehiclesType vozila = Getvehicles(XMLDocument2);
+	int i = listCars->ItemIndex;
+	vozila->vehicle[i]->Set_shift("Hibrid");
+	XMLDocument2->SaveToFile(XMLDocument2->FileName);
+}
+//---------------------------------------------------------------------------
+

@@ -9,6 +9,7 @@
 #include "database.h"
 #include "home.cpp"
 #include "HTTP.h"
+#include "adminChange.h"
 #include <memory>
 
 //---------------------------------------------------------------------------
@@ -93,10 +94,9 @@ void __fastcall TadminHomeWindow::Button1Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TadminHomeWindow::Button2Click(TObject *Sender)
+void __fastcall TadminHomeWindow::editPermissionsClick(TObject *Sender)
 {
-	UDPClient->Port = 15555;
-	UDPClient->Broadcast("vanja", 15555);
+	changeAdmin->ShowModal();
 }
 //---------------------------------------------------------------------------
 

@@ -5,6 +5,7 @@
 
 #include "addNewVehicle.h"
 #include "vehicles.h"
+#include "adminHome.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -104,8 +105,34 @@ if(noviManufacturer->Text == "") {
 			vozilo->cruiseControl = novo.getCruiseControl();
 			XMLDocument2->SaveToFile(XMLDocument2->FileName);
             UDPClient->Port = 15555;
-		UDPClient->SendBuffer("127.0.0.1", 15555, ToBytes(String(DateTimeToStr(Now())) + ": " + "Dodano je vozilo " + novo.getManufacturer() + " " + novo.getModel()));
+			UDPClient->SendBuffer("127.0.0.1", 15555, ToBytes(String(DateTimeToStr(Now())) + ": " + "Dodano je vozilo " + novo.getManufacturer() + " " + novo.getModel()));
 			Application->MessageBox(L"Dodavanje novog vozila uspešno obavljeno", L"Uspješno je dodano novo vozilo!", MB_ICONINFORMATION);
+			adminHomeWindow->listCars->Items->Clear();
+			for(int i = 0; i < vozila->Count; i++) {
+				adminHomeWindow->listCars->Items->Add();
+				adminHomeWindow->listCars->Items->Item[i]->Caption = vozila->vehicle[i]->Get_manufacturer();
+				adminHomeWindow->listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_model());
+				adminHomeWindow->listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_fuel());
+				adminHomeWindow->listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_doors());
+				adminHomeWindow->listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_shift());
+				adminHomeWindow->listCars->Items->Item[i]->SubItems->Add(vozila->vehicle[i]->Get_drive());
+				if(vozila->vehicle[i]->Get_AC())
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Ima");
+				else
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Nema");
+				if(vozila->vehicle[i]->Get_bluetooth())
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Ima");
+				else
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Nema");
+				if(vozila->vehicle[i]->Get_ENC())
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Ima");
+				else
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Nema");
+				if(vozila->vehicle[i]->Get_cruiseControl())
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Ima");
+				else
+					adminHomeWindow->listCars->Items->Item[i]->SubItems->Add("Nema");
+			}
 			addVehicleWindow->Close();
 	}
 }

@@ -57,7 +57,7 @@
         <ILINK_TranslatedLibraryPath>$(BDSLIB)\$(PLATFORM)\release\$(LANGDIR);$(ILINK_TranslatedLibraryPath)</ILINK_TranslatedLibraryPath>
         <ProjectType>CppVCLApplication</ProjectType>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
-        <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;xmlrtl.lib;vclwinx.lib;dbrtl.lib;vcldb.lib;adortl.lib;frx26.lib;fs26.lib;vclx.lib;frxDB26.lib;fsDB26.lib;frxe26.lib;IndySystem.lib;IndyCore.lib;IndyProtocols.lib;soaprtl.lib;inet.lib</AllPackageLibs>
+        <AllPackageLibs>rtl.lib;vcl.lib;vclimg.lib;xmlrtl.lib;vclwinx.lib;dbrtl.lib;vcldb.lib;adortl.lib;frx26.lib;fs26.lib;vclx.lib;frxDB26.lib;fsDB26.lib;frxe26.lib;IndySystem.lib;IndyCore.lib;IndyProtocols.lib;soaprtl.lib;inet.lib;bindengine.lib;bindcomp.lib;bindcompvcl.lib;RESTComponents.lib;CustomIPTransport.lib</AllPackageLibs>
         <_TCHARMapping>wchar_t</_TCHARMapping>
         <Multithreaded>true</Multithreaded>
         <Icon_MainIcon>$(BDS)\bin\cbuilder_PROJECTICON.ico</Icon_MainIcon>
@@ -108,8 +108,12 @@
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <BCC_UseClassicCompiler>false</BCC_UseClassicCompiler>
-        <LinkPackageImports>rtl.bpi;vcl.bpi;vclimg.bpi;xmlrtl.bpi;vclwinx.bpi;dbrtl.bpi;vcldb.bpi;adortl.bpi;vclx.bpi;IndySystem.bpi;IndyCore.bpi;IndyProtocols.bpi;soaprtl.bpi;inet.bpi</LinkPackageImports>
-        <LinkPackageStatics>frx26.lib;fs26.lib;frxDB26.lib;fsDB26.lib;frxe26.lib</LinkPackageStatics>
+        <LinkPackageStatics>rtl.lib;vcl.lib;vclimg.lib;xmlrtl.lib;vclwinx.lib;dbrtl.lib;vcldb.lib;adortl.lib;frx26.lib;fs26.lib;vclx.lib;frxDB26.lib;fsDB26.lib;frxe26.lib;IndySystem.lib;IndyCore.lib;IndyProtocols.lib;soaprtl.lib;inet.lib;bindengine.lib;bindcomp.lib;bindcompvcl.lib;RESTComponents.lib;CustomIPTransport.lib</LinkPackageStatics>
+        <DynamicRTL>false</DynamicRTL>
+        <UsePackages>false</UsePackages>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <FinalOutputDir>D:\GitHub\vLonac-NTP---Projekt\Win32\Debug\</FinalOutputDir>
+        <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <Defines>NDEBUG;$(Defines)</Defines>
@@ -126,6 +130,12 @@
             <FormType>dfm</FormType>
             <DependentOn>addNewVehicle.h</DependentOn>
             <BuildOrder>9</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="adminChange.cpp">
+            <Form>changeAdmin</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>adminChange.h</DependentOn>
+            <BuildOrder>14</BuildOrder>
         </CppCompile>
         <CppCompile Include="adminHome.cpp">
             <Form>adminHomeWindow</Form>
@@ -194,12 +204,13 @@
         </CppCompile>
         <FormResources Include="register.dfm"/>
         <FormResources Include="login.dfm"/>
+        <FormResources Include="ticket.dfm"/>
         <FormResources Include="HTTP.dfm"/>
         <FormResources Include="adminHome.dfm"/>
+        <FormResources Include="adminChange.dfm"/>
         <FormResources Include="addNewVehicle.dfm"/>
         <FormResources Include="home.dfm"/>
         <FormResources Include="database.dfm"/>
-        <FormResources Include="ticket.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -226,6 +237,11 @@
                 <Source>
                     <Source Name="MainSource">Rent-a-car helper.cpp</Source>
                 </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k260.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp260.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Program Files (x86)\FastReports\LibD26\dclfrxtee26.bpl">FastReport 6.0 Tee Components</Excluded_Packages>
+                </Excluded_Packages>
             </CPlusPlusBuilder.Personality>
             <Deployment Version="3">
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32c260.dll" Class="DependencyModule">

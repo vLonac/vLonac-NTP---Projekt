@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.460,D:\GitHub\vLonac-NTP---Projekt\DLL\MyDLL.cpp=D:\Projekti C++ Builder\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.783,=D:\Projekti C++ Builder\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.738,=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.752,D:\GitHub\vLonac-NTP---Projekt\DLL\MyDLL.h=D:\Projekti C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.047,D:\GitHub\vLonac-NTP---Projekt\DLL\MyDLL.cbproj=D:\Projekti C++ Builder\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

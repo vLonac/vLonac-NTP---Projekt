@@ -134,12 +134,12 @@ object homeWindow: ThomeWindow
   end
   object XMLDocument2: TXMLDocument
     FileName = 'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'
-    Left = 672
-    Top = 275
+    Left = 664
+    Top = 199
   end
   object XMLDocument1: TXMLDocument
     FileName = 'D:\GitHub\vLonac-NTP---Projekt\data.xml'
-    Left = 584
-    Top = 279
+    Left = 576
+    Top = 199
   end
 end

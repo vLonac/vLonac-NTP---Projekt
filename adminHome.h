@@ -45,12 +45,13 @@ __published:	// IDE-managed Components
 	TMemo *showIP;
 	TBindingsList *BindingsList1;
 	TLinkControlToField *LinkControlToField1;
+	TButton *editPermissions;
 	void __fastcall newVehicleButtonClick(TObject *Sender);
 	void __fastcall loadVehiclesButtonClick(TObject *Sender);
 	void __fastcall deleteVehicleButtonClick(TObject *Sender);
 	void __fastcall showDatabaseClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
-	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall editPermissionsClick(TObject *Sender);
 	void __fastcall getIPClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations

@@ -39,7 +39,7 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = Button1Click
     end
     object getIP: TButton
-      Left = 360
+      Left = 528
       Top = 32
       Width = 105
       Height = 33
@@ -48,11 +48,21 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = getIPClick
     end
     object showIP: TMemo
-      Left = 471
+      Left = 639
       Top = 40
       Width = 106
       Height = 17
+      ReadOnly = True
       TabOrder = 3
+    end
+    object editPermissions: TButton
+      Left = 327
+      Top = 32
+      Width = 162
+      Height = 33
+      Caption = 'Upravljanje administatorima'
+      TabOrder = 4
+      OnClick = editPermissionsClick
     end
   end
   object GroupBox1: TGroupBox
@@ -148,14 +158,14 @@ object adminHomeWindow: TadminHomeWindow
   object UDPClient: TIdUDPClient
     BroadcastEnabled = True
     Port = 15555
-    Left = 544
-    Top = 296
+    Left = 696
+    Top = 176
   end
   object RESTClient1: TRESTClient
     BaseURL = 'https://api.ipify.org/?format=xml'
     Params = <>
-    Left = 712
-    Top = 392
+    Left = 696
+    Top = 96
   end
   object RESTRequest1: TRESTRequest
     Client = RESTClient1
@@ -166,12 +176,12 @@ object adminHomeWindow: TadminHomeWindow
       end>
     Response = RESTResponse1
     SynchronizedEvents = False
-    Left = 600
-    Top = 392
+    Left = 584
+    Top = 96
   end
   object RESTResponse1: TRESTResponse
-    Left = 656
-    Top = 392
+    Left = 640
+    Top = 96
   end
   object BindingsList1: TBindingsList
     Methods = <>

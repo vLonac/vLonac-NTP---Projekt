@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021.06.27 10:02:59.927,D:\Projekti C++ Builder\staticLibrary.cbproj=D:\Projekti C++ Builder\Project1.cbproj</Transaction>
-    <Transaction>2021.06.27 10:03:14.140,=D:\Projekti C++ Builder\File1.cpp</Transaction>
-    <Transaction>2021.06.27 10:04:23.221,D:\GitHub\vLonac-NTP---Projekt\Static Library\File1.cpp=D:\Projekti C++ Builder\File1.cpp</Transaction>
-    <Transaction>2021.06.27 10:04:25.797,D:\GitHub\vLonac-NTP---Projekt\Static Library\staticLibrary.cbproj=D:\Projekti C++ Builder\staticLibrary.cbproj</Transaction>
-    <Transaction>2021.06.27 10:04:42.553,D:\GitHub\vLonac-NTP---Projekt\Static Library\MyLib.cpp=D:\GitHub\vLonac-NTP---Projekt\Static Library\File1.cpp</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.797,D:\Projekti C++ Builder\staticLibrary.cbproj=D:\GitHub\vLonac-NTP---Projekt\Static Library\staticLibrary.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.221,D:\Projekti C++ Builder\File1.cpp=D:\GitHub\vLonac-NTP---Projekt\Static Library\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.140,=D:\Projekti C++ Builder\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,D:\Projekti C++ Builder\Project1.cbproj=D:\Projekti C++ Builder\staticLibrary.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,D:\GitHub\vLonac-NTP---Projekt\Static Library\File1.cpp=D:\GitHub\vLonac-NTP---Projekt\Static Library\MyLib.cpp</Transaction>
   </Transactions>
 </BorlandProject>
