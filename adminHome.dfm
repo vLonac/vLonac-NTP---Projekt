@@ -2,7 +2,7 @@ object adminHomeWindow: TadminHomeWindow
   Left = 0
   Top = 0
   Caption = 'adminHomeWindow'
-  ClientHeight = 463
+  ClientHeight = 518
   ClientWidth = 778
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object adminHomeWindow: TadminHomeWindow
     Left = 8
     Top = 360
     Width = 762
-    Height = 89
+    Height = 145
     Caption = 'Administracija:'
     TabOrder = 0
     object showDatabase: TButton
@@ -30,7 +30,7 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = showDatabaseClick
     end
     object Button1: TButton
-      Left = 140
+      Left = 188
       Top = 32
       Width = 105
       Height = 33
@@ -39,24 +39,24 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = Button1Click
     end
     object getIP: TButton
-      Left = 587
-      Top = 32
-      Width = 162
+      Left = 188
+      Top = 91
+      Width = 105
       Height = 33
       Caption = 'Dohvati IP'
       TabOrder = 2
       OnClick = getIPClick
     end
     object showIP: TMemo
-      Left = 587
-      Top = 69
+      Left = 299
+      Top = 100
       Width = 162
       Height = 17
       ReadOnly = True
       TabOrder = 3
     end
     object editPermissions: TButton
-      Left = 251
+      Left = 360
       Top = 32
       Width = 162
       Height = 33
@@ -65,13 +65,22 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = editPermissionsClick
     end
     object getUsers: TButton
-      Left = 419
+      Left = 571
       Top = 32
       Width = 162
       Height = 33
       Caption = 'Broj administratora i korisnika'
       TabOrder = 5
       OnClick = getUsersClick
+    end
+    object Button2: TButton
+      Left = 16
+      Top = 88
+      Width = 105
+      Height = 33
+      Caption = 'Button2'
+      TabOrder = 6
+      OnClick = Button2Click
     end
   end
   object GroupBox1: TGroupBox

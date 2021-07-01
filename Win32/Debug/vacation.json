@@ -1,0 +1,19 @@
+{
+  "vacation": [
+    {
+      "name": "Vanja",
+      "surname": "Loncaric",
+      "daysOff": 14
+    },
+    {
+      "name": "Renato",
+      "surname": "Macesan",
+      "daysOff": 7
+    },
+    {
+      "name": "Vanja",
+      "surname": "Loncaric",
+      "daysOff": 4
+    }
+  ]
+}

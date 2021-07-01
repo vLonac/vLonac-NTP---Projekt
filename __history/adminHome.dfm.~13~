@@ -30,13 +30,48 @@ object adminHomeWindow: TadminHomeWindow
       OnClick = showDatabaseClick
     end
     object Button1: TButton
-      Left = 188
+      Left = 140
       Top = 32
       Width = 105
       Height = 33
       Caption = 'HTTP Klijent'
       TabOrder = 1
       OnClick = Button1Click
+    end
+    object getIP: TButton
+      Left = 587
+      Top = 32
+      Width = 162
+      Height = 33
+      Caption = 'Dohvati IP'
+      TabOrder = 2
+      OnClick = getIPClick
+    end
+    object showIP: TMemo
+      Left = 587
+      Top = 69
+      Width = 162
+      Height = 17
+      ReadOnly = True
+      TabOrder = 3
+    end
+    object editPermissions: TButton
+      Left = 251
+      Top = 32
+      Width = 162
+      Height = 33
+      Caption = 'Upravljanje administatorima'
+      TabOrder = 4
+      OnClick = editPermissionsClick
+    end
+    object getUsers: TButton
+      Left = 419
+      Top = 32
+      Width = 162
+      Height = 33
+      Caption = 'Broj administratora i korisnika'
+      TabOrder = 5
+      OnClick = getUsersClick
     end
   end
   object GroupBox1: TGroupBox
@@ -130,8 +165,44 @@ object adminHomeWindow: TadminHomeWindow
     Top = 235
   end
   object UDPClient: TIdUDPClient
-    Port = 0
-    Left = 544
-    Top = 296
+    BroadcastEnabled = True
+    Port = 15555
+    Left = 696
+    Top = 176
+  end
+  object RESTClient1: TRESTClient
+    BaseURL = 'https://api.ipify.org/?format=xml'
+    Params = <>
+    Left = 696
+    Top = 96
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        Name = 'format'
+        Value = 'xml'
+      end>
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 584
+    Top = 96
+  end
+  object RESTResponse1: TRESTResponse
+    Left = 640
+    Top = 96
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = RESTResponse1
+      FieldName = 'Content'
+      Control = showIP
+      Track = False
+    end
   end
 end

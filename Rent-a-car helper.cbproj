@@ -202,6 +202,12 @@
             <DependentOn>ticket.h</DependentOn>
             <BuildOrder>13</BuildOrder>
         </CppCompile>
+        <CppCompile Include="vacation.cpp">
+            <Form>vacationWindow</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>vacation.h</DependentOn>
+            <BuildOrder>16</BuildOrder>
+        </CppCompile>
         <CppCompile Include="vehicles.cpp">
             <DependentOn>vehicles.h</DependentOn>
             <BuildOrder>9</BuildOrder>
@@ -209,12 +215,13 @@
         <FormResources Include="register.dfm"/>
         <FormResources Include="login.dfm"/>
         <FormResources Include="ticket.dfm"/>
-        <FormResources Include="HTTP.dfm"/>
         <FormResources Include="adminHome.dfm"/>
         <FormResources Include="adminChange.dfm"/>
         <FormResources Include="addNewVehicle.dfm"/>
+        <FormResources Include="HTTP.dfm"/>
         <FormResources Include="home.dfm"/>
         <FormResources Include="database.dfm"/>
+        <FormResources Include="vacation.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -293,9 +300,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.tds" Configuration="Debug" Class="DebugSymbols">
                     <Platform Name="Win32">
-                        <RemoteName>Rent-a-car_helper.exe</RemoteName>
+                        <RemoteName>Rent-a-car_helper.tds</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -305,9 +312,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.tds" Configuration="Debug" Class="DebugSymbols">
+                <DeployFile LocalName="Win32\Debug\Rent-a-car helper.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>Rent-a-car_helper.tds</RemoteName>
+                        <RemoteName>Rent-a-car_helper.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

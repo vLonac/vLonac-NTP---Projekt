@@ -8,12 +8,13 @@
 USEFORM("register.cpp", registerWindow);
 USEFORM("login.cpp", loginWindow);
 USEFORM("ticket.cpp", ticketWindow);
-USEFORM("HTTP.cpp", HTTPWindow);
 USEFORM("adminHome.cpp", adminHomeWindow);
 USEFORM("adminChange.cpp", changeAdmin);
 USEFORM("addNewVehicle.cpp", addVehicleWindow);
+USEFORM("HTTP.cpp", HTTPWindow);
 USEFORM("home.cpp", homeWindow);
 USEFORM("database.cpp", databaseWindow);
+USEFORM("vacation.cpp", vacationWindow);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
@@ -46,6 +47,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 		Application->CreateForm(__classid(THTTPWindow), &HTTPWindow);
 		Application->CreateForm(__classid(TticketWindow), &ticketWindow);
 		Application->CreateForm(__classid(TchangeAdmin), &changeAdmin);
+		Application->CreateForm(__classid(TvacationWindow), &vacationWindow);
 		Application->Run();
 	}
 	catch (Exception &exception)

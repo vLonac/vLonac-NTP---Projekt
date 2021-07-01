@@ -3,6 +3,7 @@
 #include "ImyWSWSDL.h"
 #include <vcl.h>
 #pragma hdrstop
+#include <memory>
 
 #include "adminHome.h"
 #include "addNewVehicle.h"
@@ -11,7 +12,8 @@
 #include "home.cpp"
 #include "HTTP.h"
 #include "adminChange.h"
-#include <memory>
+#include "vacation.h"
+
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -112,6 +114,12 @@ void __fastcall TadminHomeWindow::getUsersClick(TObject *Sender)
 {
 _di_ImyWS myWS = GetImyWS();
 myWS->getUserStatus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TadminHomeWindow::Button2Click(TObject *Sender)
+{
+	vacationWindow->ShowModal();
 }
 //---------------------------------------------------------------------------
 
