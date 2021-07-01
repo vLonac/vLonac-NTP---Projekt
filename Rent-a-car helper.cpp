@@ -7,6 +7,7 @@
 //---------------------------------------------------------------------------
 USEFORM("register.cpp", registerWindow);
 USEFORM("login.cpp", loginWindow);
+USEFORM("vacation.cpp", vacationWindow);
 USEFORM("ticket.cpp", ticketWindow);
 USEFORM("adminHome.cpp", adminHomeWindow);
 USEFORM("adminChange.cpp", changeAdmin);
@@ -14,7 +15,6 @@ USEFORM("addNewVehicle.cpp", addVehicleWindow);
 USEFORM("HTTP.cpp", HTTPWindow);
 USEFORM("home.cpp", homeWindow);
 USEFORM("database.cpp", databaseWindow);
-USEFORM("vacation.cpp", vacationWindow);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

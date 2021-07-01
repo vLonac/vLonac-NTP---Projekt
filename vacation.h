@@ -35,9 +35,9 @@ __published:	// IDE-managed Components
 	void __fastcall deleteButtonClick(TObject *Sender);
 	void __fastcall editCurrentButtonClick(TObject *Sender);
 	void __fastcall saveToJSONClick(TObject *Sender);
-	void __fastcall buttonNameLenghtClick(TObject *Sender);
 	void __fastcall buttonSurnameLenghtClick(TObject *Sender);
 	void __fastcall buttonDaysLenghtClick(TObject *Sender);
+	void __fastcall buttonNameLenghtClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TvacationWindow(TComponent* Owner);

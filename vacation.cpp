@@ -5,6 +5,9 @@
 #include <System.JSON.hpp>
 #include <memory>
 #include "vacation.h"
+#include "Unit2.h"
+#include "Unit3.h"
+#include "Unit4.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -86,57 +89,24 @@ void __fastcall TvacationWindow::saveToJSONClick(TObject *Sender)
 	datoteka->SaveToFile("vacation.json");
 }
 //---------------------------------------------------------------------------
-void __fastcall TvacationWindow::buttonNameLenghtClick(TObject *Sender)
-{
-	std::unique_ptr<TStringStream> jsonStream(new TStringStream);
-	jsonStream->LoadFromFile("vacation.json");
-	TJSONObject* jsonFile = (TJSONObject*)TJSONObject::ParseJSONValue(jsonStream->DataString);
-	TJSONArray* vacationsArray = (TJSONArray*)TJSONObject::ParseJSONValue(jsonFile->GetValue("vacation")->ToString());
-
-	int countNames = vacationsArray->Count;
-	int addLenght = 0;
-	for(int i = 0; i < vacationsArray->Count; i++) {
-		String name = vacationsArray->Items[i]->GetValue<UnicodeString>("name");
-		addLenght += name.Length();
-		Sleep(1000);
-	}
-	ShowMessage("Prosjecna duljina imena radnika upisanih u godisnji odmor je: " + String(float(addLenght)/float(countNames)));
-}
-//---------------------------------------------------------------------------
 
 void __fastcall TvacationWindow::buttonSurnameLenghtClick(TObject *Sender)
 {
-    std::unique_ptr<TStringStream> jsonStream(new TStringStream);
-	jsonStream->LoadFromFile("vacation.json");
-	TJSONObject* jsonFile = (TJSONObject*)TJSONObject::ParseJSONValue(jsonStream->DataString);
-	TJSONArray* vacationsArray = (TJSONArray*)TJSONObject::ParseJSONValue(jsonFile->GetValue("vacation")->ToString());
-
-	int countSurnames = vacationsArray->Count;
-	int addSurnameLenght = 0;
-	for(int i = 0; i < vacationsArray->Count; i++) {
-		String surname = vacationsArray->Items[i]->GetValue<UnicodeString>("surname");
-		addSurnameLenght += surname.Length();
-		Sleep(1000);
-	}
-	ShowMessage("Prosjecna duljina prezimena radnika upisanih u godisnji odmor je: " + String(float(addSurnameLenght)/float(countSurnames)));
+	CountSurnames *thread = new CountSurnames(false);
 }
 //---------------------------------------------------------------------------
 
 void __fastcall TvacationWindow::buttonDaysLenghtClick(TObject *Sender)
 {
-    std::unique_ptr<TStringStream> jsonStream(new TStringStream);
-	jsonStream->LoadFromFile("vacation.json");
-	TJSONObject* jsonFile = (TJSONObject*)TJSONObject::ParseJSONValue(jsonStream->DataString);
-	TJSONArray* vacationsArray = (TJSONArray*)TJSONObject::ParseJSONValue(jsonFile->GetValue("vacation")->ToString());
-
-	int countDays = vacationsArray->Count;
-	int addLenght = 0;
-	for(int i = 0; i < vacationsArray->Count; i++) {
-		int daysOff = vacationsArray->Items[i]->GetValue<int>("daysOff");
-		addLenght += daysOff;
-		Sleep(1000);
-	}
-	ShowMessage("Prosjecna duljina trajanja odmora je: " + String(float(addLenght)/float(countDays)));
+	Count *thread = new Count(false);
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TvacationWindow::buttonNameLenghtClick(TObject *Sender)
+{
+	CountNames *thread = new CountNames(false);
+}
+//---------------------------------------------------------------------------
+
+
 

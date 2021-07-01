@@ -2,7 +2,7 @@ object vacationWindow: TvacationWindow
   Left = 0
   Top = 0
   Caption = 'Godi'#353'nji odmori:'
-  ClientHeight = 368
+  ClientHeight = 358
   ClientWidth = 525
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,14 +13,14 @@ object vacationWindow: TvacationWindow
   OldCreateOrder = False
   DesignSize = (
     525
-    368)
+    358)
   PixelsPerInch = 96
   TextHeight = 13
   object listVacations: TListView
     Left = 8
     Top = 101
     Width = 287
-    Height = 108
+    Height = 117
     Anchors = []
     Columns = <
       item
@@ -51,7 +51,7 @@ object vacationWindow: TvacationWindow
     Left = 301
     Top = 8
     Width = 212
-    Height = 201
+    Height = 210
     Caption = 'Novi godisnji:'
     TabOrder = 2
     object Label1: TLabel
@@ -99,7 +99,7 @@ object vacationWindow: TvacationWindow
     end
     object buttonAdd: TButton
       Left = 24
-      Top = 123
+      Top = 131
       Width = 161
       Height = 25
       Caption = 'Dodaj godi'#353'nji u tablicu'
@@ -108,7 +108,7 @@ object vacationWindow: TvacationWindow
     end
     object editCurrentButton: TButton
       Left = 24
-      Top = 160
+      Top = 168
       Width = 161
       Height = 25
       Caption = 'Uredi odabrani u tablici'
@@ -146,31 +146,31 @@ object vacationWindow: TvacationWindow
     Left = 8
     Top = 224
     Width = 505
-    Height = 136
-    Caption = 'GroupBox2'
+    Height = 129
+    Caption = 'Kori'#353'tenje dretvi:'
     TabOrder = 6
     object buttonNameLenght: TButton
-      Left = 40
+      Left = 16
       Top = 24
-      Width = 193
+      Width = 470
       Height = 25
       Caption = 'Prosje'#269'na duljina imena'
       TabOrder = 0
       OnClick = buttonNameLenghtClick
     end
     object buttonSurnameLenght: TButton
-      Left = 264
-      Top = 24
-      Width = 193
+      Left = 16
+      Top = 55
+      Width = 470
       Height = 25
       Caption = 'Prosje'#269'na duljina prezimena'
       TabOrder = 1
       OnClick = buttonSurnameLenghtClick
     end
     object buttonDaysLenght: TButton
-      Left = 40
-      Top = 80
-      Width = 193
+      Left = 16
+      Top = 86
+      Width = 470
       Height = 25
       Caption = 'Prosje'#269'no trajanje odmora u danima'
       TabOrder = 2

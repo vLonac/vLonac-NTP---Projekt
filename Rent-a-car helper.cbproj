@@ -202,6 +202,18 @@
             <DependentOn>ticket.h</DependentOn>
             <BuildOrder>13</BuildOrder>
         </CppCompile>
+        <CppCompile Include="Unit2.cpp">
+            <DependentOn>Unit2.h</DependentOn>
+            <BuildOrder>17</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit3.cpp">
+            <DependentOn>Unit3.h</DependentOn>
+            <BuildOrder>18</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Unit4.cpp">
+            <DependentOn>Unit4.h</DependentOn>
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
         <CppCompile Include="vacation.cpp">
             <Form>vacationWindow</Form>
             <FormType>dfm</FormType>
@@ -214,6 +226,7 @@
         </CppCompile>
         <FormResources Include="register.dfm"/>
         <FormResources Include="login.dfm"/>
+        <FormResources Include="vacation.dfm"/>
         <FormResources Include="ticket.dfm"/>
         <FormResources Include="adminHome.dfm"/>
         <FormResources Include="adminChange.dfm"/>
@@ -221,7 +234,6 @@
         <FormResources Include="HTTP.dfm"/>
         <FormResources Include="home.dfm"/>
         <FormResources Include="database.dfm"/>
-        <FormResources Include="vacation.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
