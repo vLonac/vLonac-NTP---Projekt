@@ -78,7 +78,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 88
       Width = 105
       Height = 33
-      Caption = 'Button2'
+      Caption = 'Godi'#353'nji odmori'
       TabOrder = 6
       OnClick = Button2Click
     end

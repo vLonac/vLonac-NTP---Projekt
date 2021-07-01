@@ -2,7 +2,7 @@ object loginWindow: TloginWindow
   Left = 49
   Top = 0
   Anchors = [akLeft, akTop, akRight, akBottom]
-  Caption = 'PLACEHOLDER[Rent-a-car helper]'
+  Caption = 'Rent-a-car helper'
   ClientHeight = 560
   ClientWidth = 494
   Color = clBtnFace

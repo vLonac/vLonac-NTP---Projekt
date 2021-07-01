@@ -26,11 +26,18 @@ __published:	// IDE-managed Components
 	TButton *deleteButton;
 	TButton *editCurrentButton;
 	TButton *saveToJSON;
+	TGroupBox *GroupBox2;
+	TButton *buttonNameLenght;
+	TButton *buttonSurnameLenght;
+	TButton *buttonDaysLenght;
 	void __fastcall buttonLoadClick(TObject *Sender);
 	void __fastcall buttonAddClick(TObject *Sender);
 	void __fastcall deleteButtonClick(TObject *Sender);
 	void __fastcall editCurrentButtonClick(TObject *Sender);
 	void __fastcall saveToJSONClick(TObject *Sender);
+	void __fastcall buttonNameLenghtClick(TObject *Sender);
+	void __fastcall buttonSurnameLenghtClick(TObject *Sender);
+	void __fastcall buttonDaysLenghtClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TvacationWindow(TComponent* Owner);

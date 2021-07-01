@@ -2,7 +2,7 @@ object vacationWindow: TvacationWindow
   Left = 0
   Top = 0
   Caption = 'Godi'#353'nji odmori:'
-  ClientHeight = 298
+  ClientHeight = 368
   ClientWidth = 525
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,14 +13,14 @@ object vacationWindow: TvacationWindow
   OldCreateOrder = False
   DesignSize = (
     525
-    298)
+    368)
   PixelsPerInch = 96
   TextHeight = 13
   object listVacations: TListView
     Left = 8
-    Top = 99
+    Top = 101
     Width = 287
-    Height = 191
+    Height = 108
     Anchors = []
     Columns = <
       item
@@ -141,5 +141,40 @@ object vacationWindow: TvacationWindow
     Caption = 'Spremi iz tablice u JSON'
     TabOrder = 5
     OnClick = saveToJSONClick
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Top = 224
+    Width = 505
+    Height = 136
+    Caption = 'GroupBox2'
+    TabOrder = 6
+    object buttonNameLenght: TButton
+      Left = 40
+      Top = 24
+      Width = 193
+      Height = 25
+      Caption = 'Prosje'#269'na duljina imena'
+      TabOrder = 0
+      OnClick = buttonNameLenghtClick
+    end
+    object buttonSurnameLenght: TButton
+      Left = 264
+      Top = 24
+      Width = 193
+      Height = 25
+      Caption = 'Prosje'#269'na duljina prezimena'
+      TabOrder = 1
+      OnClick = buttonSurnameLenghtClick
+    end
+    object buttonDaysLenght: TButton
+      Left = 40
+      Top = 80
+      Width = 193
+      Height = 25
+      Caption = 'Prosje'#269'no trajanje odmora u danima'
+      TabOrder = 2
+      OnClick = buttonDaysLenghtClick
+    end
   end
 end
