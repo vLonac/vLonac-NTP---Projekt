@@ -44,6 +44,8 @@ public:
 };
 
 TloginWindow *loginWindow;
+
+
 //---------------------------------------------------------------------------
 __fastcall TloginWindow::TloginWindow(TComponent* Owner)
 	: TForm(Owner)

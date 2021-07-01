@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="D:\GitHub\vLonac-NTP---Projekt\register.dfm" source-language="hr-HR" target-language="hr-HR" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\register.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">44378.5521296296</prop>
+        <prop prop-type="OrigDateTime">44378.4997916667</prop>
+        <prop prop-type="XlatDateTime">44378.4997916667</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">118</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:registerWindow.Left" resname="O:registerWindow.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Top" resname="O:registerWindow.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Caption" resname="O:registerWindow.Caption">
+        <source>'Registracija'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.ClientHeight" resname="O:registerWindow.ClientHeight">
+        <source>385</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.ClientWidth" resname="O:registerWindow.ClientWidth">
+        <source>356</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Color" resname="O:registerWindow.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521455903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Font.Charset" resname="O:registerWindow.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Font.Color" resname="O:registerWindow.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Font.Height" resname="O:registerWindow.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Font.Name" resname="O:registerWindow.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.Font.Style" resname="O:registerWindow.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.OldCreateOrder" resname="O:registerWindow.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.PixelsPerInch" resname="O:registerWindow.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.TextHeight" resname="O:registerWindow.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Left" resname="O:registerWindow.O:registerGroup.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Top" resname="O:registerWindow.O:registerGroup.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Width" resname="O:registerWindow.O:registerGroup.Width">
+        <source>356</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Height" resname="O:registerWindow.O:registerGroup.Height">
+        <source>385</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Align" resname="O:registerWindow.O:registerGroup.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.Caption" resname="O:registerWindow.O:registerGroup.Caption">
+        <source>'-'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.TabOrder" resname="O:registerWindow.O:registerGroup.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Left" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Left">
+        <source>38</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Top" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Top">
+        <source>207</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Width" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Width">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Height" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Caption">
+        <source>'Korisničko ime:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Left" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Left">
+        <source>69</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Top" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Top">
+        <source>246</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Width" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Width">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Height" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Caption">
+        <source>'Lozinka:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Left" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Top" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Top">
+        <source>289</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Width" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Width">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Height" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Caption">
+        <source>'Email:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Left" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Left">
+        <source>67</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Top" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Top">
+        <source>123</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Width" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Width">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Height" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Caption">
+        <source>'Prezime:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Left" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Left">
+        <source>86</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Top" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Top">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Width" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Width">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Height" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Caption">
+        <source>'Ime:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Left" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Left">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Top" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Top">
+        <source>166</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Width" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Height" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Caption">
+        <source>'Datum rođenja:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Left" resname="O:registerWindow.O:registerGroup.O:Label1.Left">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Top" resname="O:registerWindow.O:registerGroup.O:Label1.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Width" resname="O:registerWindow.O:registerGroup.O:Label1.Width">
+        <source>118</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Height" resname="O:registerWindow.O:registerGroup.O:Label1.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Caption" resname="O:registerWindow.O:registerGroup.O:Label1.Caption">
+        <source>'Država (npr. HR, IT, ...)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.Left" resname="O:registerWindow.O:registerGroup.O:newUsername.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.Top" resname="O:registerWindow.O:registerGroup.O:newUsername.Top">
+        <source>205</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.Width" resname="O:registerWindow.O:registerGroup.O:newUsername.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.Height" resname="O:registerWindow.O:registerGroup.O:newUsername.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.TabOrder" resname="O:registerWindow.O:registerGroup.O:newUsername.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Left" resname="O:registerWindow.O:registerGroup.O:registerUser.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Top" resname="O:registerWindow.O:registerGroup.O:registerUser.Top">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Width" resname="O:registerWindow.O:registerGroup.O:registerUser.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Height" resname="O:registerWindow.O:registerGroup.O:registerUser.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Caption" resname="O:registerWindow.O:registerGroup.O:registerUser.Caption">
+        <source>'Registriraj me'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.TabOrder" resname="O:registerWindow.O:registerGroup.O:registerUser.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.OnClick" resname="O:registerWindow.O:registerGroup.O:registerUser.OnClick">
+        <source>registerUserClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPassword.Left" resname="O:registerWindow.O:registerGroup.O:newPassword.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPassword.Top" resname="O:registerWindow.O:registerGroup.O:newPassword.Top">
+        <source>244</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPassword.Width" resname="O:registerWindow.O:registerGroup.O:newPassword.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPassword.Height" resname="O:registerWindow.O:registerGroup.O:newPassword.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newPassword.TabOrder" resname="O:registerWindow.O:registerGroup.O:newPassword.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurname.Left" resname="O:registerWindow.O:registerGroup.O:newSurname.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurname.Top" resname="O:registerWindow.O:registerGroup.O:newSurname.Top">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurname.Width" resname="O:registerWindow.O:registerGroup.O:newSurname.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurname.Height" resname="O:registerWindow.O:registerGroup.O:newSurname.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newSurname.TabOrder" resname="O:registerWindow.O:registerGroup.O:newSurname.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newName.Left" resname="O:registerWindow.O:registerGroup.O:newName.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newName.Top" resname="O:registerWindow.O:registerGroup.O:newName.Top">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newName.Width" resname="O:registerWindow.O:registerGroup.O:newName.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newName.Height" resname="O:registerWindow.O:registerGroup.O:newName.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newName.TabOrder" resname="O:registerWindow.O:registerGroup.O:newName.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Left" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Top" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Top">
+        <source>165</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Width" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Height" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Date" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Date">
+        <source>36526</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.Time" resname="O:registerWindow.O:registerGroup.O:newBirthdate.Time">
+        <source>36526</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.DateMode" resname="O:registerWindow.O:registerGroup.O:newBirthdate.DateMode">
+        <source>dmUpDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.MaxDate" resname="O:registerWindow.O:registerGroup.O:newBirthdate.MaxDate">
+        <source>38139.9999884259</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdate.TabOrder" resname="O:registerWindow.O:registerGroup.O:newBirthdate.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TDateTimePicker</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMail.Left" resname="O:registerWindow.O:registerGroup.O:newEMail.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMail.Top" resname="O:registerWindow.O:registerGroup.O:newEMail.Top">
+        <source>286</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMail.Width" resname="O:registerWindow.O:registerGroup.O:newEMail.Width">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMail.Height" resname="O:registerWindow.O:registerGroup.O:newEMail.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:newEMail.TabOrder" resname="O:registerWindow.O:registerGroup.O:newEMail.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Left" resname="O:registerWindow.O:registerGroup.O:TOSBox.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Top" resname="O:registerWindow.O:registerGroup.O:TOSBox.Top">
+        <source>321</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Width" resname="O:registerWindow.O:registerGroup.O:TOSBox.Width">
+        <source>169</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Height" resname="O:registerWindow.O:registerGroup.O:TOSBox.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Caption" resname="O:registerWindow.O:registerGroup.O:TOSBox.Caption">
+        <source>'Prihvaćam uvjete poslovanja'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.TabOrder" resname="O:registerWindow.O:registerGroup.O:TOSBox.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Left" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Left">
+        <source>191</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Top" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Top">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Width" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Width">
+        <source>106</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.5521456134</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Height" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Caption" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Caption">
+        <source>'Provjeri dostupnost'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.TabOrder" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.TabOrder">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.OnClick" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.OnClick">
+        <source>checkCountryAvailabilityClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:countryOfRegistration.Left" resname="O:registerWindow.O:registerGroup.O:countryOfRegistration.Left">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:countryOfRegistration.Top" resname="O:registerWindow.O:registerGroup.O:countryOfRegistration.Top">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:countryOfRegistration.Width" resname="O:registerWindow.O:registerGroup.O:countryOfRegistration.Width">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:countryOfRegistration.Height" resname="O:registerWindow.O:registerGroup.O:countryOfRegistration.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:registerGroup.O:countryOfRegistration.TabOrder" resname="O:registerWindow.O:registerGroup.O:countryOfRegistration.TabOrder">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:XMLDocument1.FileName" resname="O:registerWindow.O:XMLDocument1.FileName">
+        <source>'D:\GitHub\vLonac-NTP---Projekt\data.xml'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TXMLDocument</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:XMLDocument1.Left" resname="O:registerWindow.O:XMLDocument1.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TXMLDocument</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:registerWindow.O:XMLDocument1.Top" resname="O:registerWindow.O:XMLDocument1.Top">
+        <source>253</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">44378.552145625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TXMLDocument</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

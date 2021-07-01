@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{003BFAF6-F44B-4023-804E-CB9D28CB504D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Rent-a-car helper.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HRV\Rent-a-car helper_HRV.bdsproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ENG\Rent-a-car helper_ENG.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Rent-a-car helper">
+        <MSBuild Projects="Rent-a-car helper.cbproj"/>
+    </Target>
+    <Target Name="Rent-a-car helper:Clean">
+        <MSBuild Projects="Rent-a-car helper.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rent-a-car helper:Make">
+        <MSBuild Projects="Rent-a-car helper.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rent-a-car helper_HRV">
+        <MSBuild Projects="HRV\Rent-a-car helper_HRV.bdsproj"/>
+    </Target>
+    <Target Name="Rent-a-car helper_HRV:Clean">
+        <MSBuild Projects="HRV\Rent-a-car helper_HRV.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rent-a-car helper_HRV:Make">
+        <MSBuild Projects="HRV\Rent-a-car helper_HRV.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rent-a-car helper_ENG">
+        <MSBuild Projects="ENG\Rent-a-car helper_ENG.bdsproj"/>
+    </Target>
+    <Target Name="Rent-a-car helper_ENG:Clean">
+        <MSBuild Projects="ENG\Rent-a-car helper_ENG.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rent-a-car helper_ENG:Make">
+        <MSBuild Projects="ENG\Rent-a-car helper_ENG.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Rent-a-car helper;Rent-a-car helper_HRV;Rent-a-car helper_ENG"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Rent-a-car helper:Clean;Rent-a-car helper_HRV:Clean;Rent-a-car helper_ENG:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Rent-a-car helper:Make;Rent-a-car helper_HRV:Make;Rent-a-car helper_ENG:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

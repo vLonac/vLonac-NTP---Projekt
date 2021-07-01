@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">W32ResourceDLL.Personality</Option>
+      <Option Name="ProjectType">ResourceDLL</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{97EC9E8D-D03D-4639-BBF2-EE51488F190E}</Option>
+    </Option>
+  </PersonalityInfo>
+  <W32ResourceDLL.Personality>
+    <Source>
+      <Source Name="MainSource">Rent-a-car helper.dpr</Source>
+    </Source>
+    <Options>
+      <Options Name="BaseLang">1050</Options>
+      <Options Name="TargetName">..\Win32\Debug\Rent-a-car helper.HRV</Options>
+      <Options Name="BRCC_IncludePath">C:\Program Files (x86)\FastReports\LibD26\</Options>
+      <Options Name="Company"></Options>
+      <Options Name="Configuration"></Options>
+      <Options Name="Copyright"></Options>
+      <Options Name="Description"></Options>
+      <Options Name="Trademark"></Options>
+      <Options Name="Product"></Options>
+      <Options Name="ProductVersion"></Options>
+      <Options Name="Title"></Options>
+      <Options Name="FileVersion"></Options>
+      <Options Name="Evidence"></Options>
+      <Options Name="KeyFile"></Options>
+      <Options Name="KeyName"></Options>
+    </Options>
+    <FileList>
+      <File FileName="addNewVehicle.dfm" ContainerId="W32Form" ModuleName="addNewVehicle.dfm"/>
+      <File FileName="adminChange.dfm" ContainerId="W32Form" ModuleName="adminChange.dfm"/>
+      <File FileName="adminHome.dfm" ContainerId="W32Form" ModuleName="adminHome.dfm"/>
+      <File FileName="database.dfm" ContainerId="W32Form" ModuleName="database.dfm"/>
+      <File FileName="home.dfm" ContainerId="W32Form" ModuleName="home.dfm"/>
+      <File FileName="HTTP.dfm" ContainerId="W32Form" ModuleName="HTTP.dfm"/>
+      <File FileName="login.dfm" ContainerId="W32Form" ModuleName="login.dfm"/>
+      <File FileName="register.dfm" ContainerId="W32Form" ModuleName="register.dfm"/>
+      <File FileName="ticket.dfm" ContainerId="W32Form" ModuleName="ticket.dfm"/>
+      <File FileName="vacation.dfm" ContainerId="W32Form" ModuleName="vacation.dfm"/>
+      <File FileName="Win32\Debug\Rent-a-car helper_DRC.rc" ContainerId="W32RC" ModuleName="Rent-a-car helper_DRC.rc"/>
+    </FileList>
+  </W32ResourceDLL.Personality>
+</BorlandProject>
