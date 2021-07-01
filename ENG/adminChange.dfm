@@ -1,7 +1,7 @@
 object changeAdmin: TchangeAdmin
   Left = 0
   Top = 0
-  Caption = 'Upravljanje administatorima:'
+  Caption = 'Manage administrator:'
   ClientHeight = 248
   ClientWidth = 758
   Color = clBtnFace

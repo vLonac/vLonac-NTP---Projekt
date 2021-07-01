@@ -26,7 +26,7 @@ object addVehicleWindow: TaddVehicleWindow
       Top = 35
       Width = 56
       Height = 13
-      Caption = 'Proizvo'#273'a'#263':'
+      Caption = 'Manufacturer:'
     end
     object Label2: TLabel
       Left = 24
@@ -40,35 +40,35 @@ object addVehicleWindow: TaddVehicleWindow
       Top = 131
       Width = 62
       Height = 13
-      Caption = 'Vrsta goriva:'
+      Caption = 'Fuel type:'
     end
     object Label4: TLabel
       Left = 24
       Top = 179
       Width = 52
       Height = 13
-      Caption = 'Broj vrata:'
+      Caption = 'Number of doors:'
     end
     object Label5: TLabel
       Left = 24
       Top = 227
       Width = 75
       Height = 13
-      Caption = 'Vrsta mjenja'#269'a:'
+      Caption = 'Transmission type:'
     end
     object Label6: TLabel
       Left = 24
       Top = 278
       Width = 68
       Height = 13
-      Caption = 'Vrsta pogona:'
+      Caption = 'Drive type:'
     end
     object Label7: TLabel
       Left = 24
       Top = 320
       Width = 84
       Height = 13
-      Caption = 'Dodatna oprema:'
+      Caption = 'Equipment:'
     end
     object noviManufacturer: TEdit
       Left = 120
@@ -89,7 +89,7 @@ object addVehicleWindow: TaddVehicleWindow
       Top = 352
       Width = 97
       Height = 17
-      Caption = 'Klima'
+      Caption = 'Air conditioning'
       TabOrder = 6
     end
     object checkBluetooth: TCheckBox
@@ -113,7 +113,7 @@ object addVehicleWindow: TaddVehicleWindow
       Top = 375
       Width = 97
       Height = 17
-      Caption = 'Tempomat'
+      Caption = 'Cruise control'
       TabOrder = 9
     end
     object Button1: TButton
@@ -121,7 +121,7 @@ object addVehicleWindow: TaddVehicleWindow
       Top = 417
       Width = 75
       Height = 25
-      Caption = 'Dodaj'
+      Caption = 'Add'
       TabOrder = 10
       OnClick = Button1Click
     end
@@ -132,11 +132,11 @@ object addVehicleWindow: TaddVehicleWindow
       Height = 21
       ItemIndex = 0
       TabOrder = 2
-      Text = 'Dizel'
+      Text = 'Diesel'
       Items.Strings = (
-        'Dizel'
-        'Benzin'
-        'Elektri'#269'na energija')
+        'Diesel'
+        'Petrol'
+        'Electric')
     end
     object noviDoors: TComboBox
       Left = 120
@@ -158,10 +158,10 @@ object addVehicleWindow: TaddVehicleWindow
       Height = 21
       ItemIndex = 0
       TabOrder = 4
-      Text = 'Mehani'#269'ki'
+      Text = 'Manual'
       Items.Strings = (
-        'Mehani'#269'ki'
-        'Automatski')
+        'Manual'
+        'Automatic')
     end
     object noviDrive: TComboBox
       Left = 120
@@ -170,11 +170,11 @@ object addVehicleWindow: TaddVehicleWindow
       Height = 21
       ItemIndex = 0
       TabOrder = 5
-      Text = 'Prednji'
+      Text = 'Front-wheel'
       Items.Strings = (
-        'Prednji'
-        'Zadnji'
-        'Sva 4')
+        'Front-wheel'
+        'Rear-wheel'
+        '4 wheel drive')
     end
   end
   object XMLDocument2: TXMLDocument

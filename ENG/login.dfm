@@ -25,8 +25,8 @@ object loginWindow: TloginWindow
     Align = alBottom
     Alignment = taCenter
     Caption = 
-      'Izradili: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ Tehni'#269'ko Veleu'#269'ili'#353't' +
-      'e u Zagrebu '
+      'Developed by: Vanja Lon'#269'ari'#263' i Renato Mace'#353'an @ University of Ap' +
+      'plied Sciences Zagreb '
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -11
@@ -53,7 +53,7 @@ object loginWindow: TloginWindow
       Width = 70
       Height = 13
       Alignment = taCenter
-      Caption = 'Korisni'#269'ko ime:'
+      Caption = 'Username:'
     end
     object loginPasswordLabel: TLabel
       Left = 216
@@ -61,7 +61,7 @@ object loginWindow: TloginWindow
       Width = 39
       Height = 13
       Alignment = taCenter
-      Caption = 'Lozinka:'
+      Caption = 'Password:'
     end
     object newUserLabel: TLabel
       Left = 203
@@ -69,7 +69,7 @@ object loginWindow: TloginWindow
       Width = 67
       Height = 13
       AutoSize = False
-      Caption = 'Nema'#353' ra'#269'un?'
+      Caption = 'No account?'
     end
     object Image1: TImage
       Left = 152
@@ -746,7 +746,7 @@ object loginWindow: TloginWindow
       Width = 163
       Height = 20
       AutoSize = False
-      Caption = 'Zabranjene vi'#353'estruke instance:'
+      Caption = 'Forbid multiple instances:'
     end
     object username: TEdit
       Left = 176
@@ -760,7 +760,7 @@ object loginWindow: TloginWindow
       Top = 385
       Width = 75
       Height = 25
-      Caption = 'Prijava'
+      Caption = 'Login'
       TabOrder = 3
       OnClick = loginButtonClick
     end
@@ -777,7 +777,7 @@ object loginWindow: TloginWindow
       Top = 447
       Width = 121
       Height = 25
-      Caption = 'Novi korisnik'
+      Caption = 'New user'
       TabOrder = 4
       OnClick = newUserButtonClick
     end
@@ -786,7 +786,7 @@ object loginWindow: TloginWindow
       Top = 352
       Width = 121
       Height = 17
-      Caption = 'Zapamti korisnika'
+      Caption = 'Remember user'
       TabOrder = 2
     end
     object switchInstance: TToggleSwitch
@@ -795,7 +795,7 @@ object loginWindow: TloginWindow
       Width = 72
       Height = 20
       Cursor = crHandPoint
-      Hint = 'Nakon mijenjanja ove postavke potrebno je restartati aplikaciju'
+      Hint = 'After changing this setting you must restart the application'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
@@ -813,7 +813,7 @@ object loginWindow: TloginWindow
       Top = 329
       Width = 150
       Height = 17
-      Caption = 'Bezmre'#382'ni na'#269'in kori'#353'tenja'
+      Caption = 'Use offline'
       TabOrder = 6
     end
     object issueButton: TButton
@@ -821,7 +821,7 @@ object loginWindow: TloginWindow
       Top = 506
       Width = 88
       Height = 25
-      Caption = 'Prijavi problem'
+      Caption = 'Report an issue'
       TabOrder = 7
       OnClick = issueButtonClick
     end

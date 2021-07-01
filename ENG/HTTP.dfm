@@ -22,7 +22,7 @@ object HTTPWindow: THTTPWindow
     Width = 394
     Height = 537
     Anchors = [akLeft, akTop, akRight, akBottom]
-    Caption = 'Preuzimanje promotivne slike:'
+    Caption = 'Download promo picture:'
     TabOrder = 0
     object statusLabel: TLabel
       Left = 342
@@ -56,7 +56,7 @@ object HTTPWindow: THTTPWindow
       Top = 104
       Width = 64
       Height = 25
-      Caption = 'Odustani'
+      Caption = 'Cancel'
       TabOrder = 1
       OnClick = buttonCancelClick
     end
@@ -65,7 +65,7 @@ object HTTPWindow: THTTPWindow
       Top = 104
       Width = 58
       Height = 25
-      Caption = 'Preuzmi'
+      Caption = 'Download'
       TabOrder = 2
       OnClick = buttonDownloadClick
     end
@@ -88,7 +88,7 @@ object HTTPWindow: THTTPWindow
       Top = 160
       Width = 183
       Height = 97
-      Caption = 'Brzina preuzimanja:'
+      Caption = 'Download speed:'
       TabOrder = 4
       object buttonSpeed1: TButton
         Left = 13
@@ -131,7 +131,7 @@ object HTTPWindow: THTTPWindow
       Top = 280
       Width = 75
       Height = 25
-      Caption = 'Prika'#382'i sliku'
+      Caption = 'Show picture'
       TabOrder = 5
       OnClick = buttonImageClick
     end

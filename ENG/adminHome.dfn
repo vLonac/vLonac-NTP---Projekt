@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\adminHome.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\adminHome.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521527778</prop>
-        <prop prop-type="OrigDateTime">44378.4999305556</prop>
-        <prop prop-type="XlatDateTime">44378.4999305556</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">150</prop>
+        <prop prop-type="SelfDateTime">44378.5597916667</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">11</prop>
+        <prop prop-type="UnTranslated">139</prop>
       </prop-group>
     </header>
     <body>
@@ -106,7 +106,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.Caption" resname="O:adminHomeWindow.O:GroupBox2.Caption">
         <source>'Administracija:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711227</prop><prop prop-type="Status">1</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Administration:'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.TabOrder">
         <source>0</source>
@@ -136,7 +137,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:showDatabase.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:showDatabase.Caption">
         <source>'Baze podataka'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711227</prop><prop prop-type="Status">1</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Databases'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:showDatabase.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:showDatabase.TabOrder">
         <source>0</source>
@@ -171,7 +173,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:Button1.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:Button1.Caption">
         <source>'HTTP Klijent'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'HTTP Client'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:Button1.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:Button1.TabOrder">
         <source>1</source>
@@ -206,7 +209,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:getIP.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:getIP.Caption">
         <source>'Dohvati IP'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Get IP'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:getIP.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:getIP.TabOrder">
         <source>2</source>
@@ -271,7 +275,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:editPermissions.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:editPermissions.Caption">
         <source>'Upravljanje administatorima'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Manage administrators'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:editPermissions.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:editPermissions.TabOrder">
         <source>4</source>
@@ -306,7 +311,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:getUsers.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:getUsers.Caption">
         <source>'Broj administratora i korisnika'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Number of administrators and users'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:getUsers.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:getUsers.TabOrder">
         <source>5</source>
@@ -341,7 +347,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:Button2.Caption" resname="O:adminHomeWindow.O:GroupBox2.O:Button2.Caption">
         <source>'Godišnji odmori'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Vacation days'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox2.O:Button2.TabOrder" resname="O:adminHomeWindow.O:GroupBox2.O:Button2.TabOrder">
         <source>6</source>
@@ -376,7 +383,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.Caption" resname="O:adminHomeWindow.O:GroupBox1.Caption">
         <source>'Vozila:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711343</prop><prop prop-type="Status">1</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Vehicles:'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.TabOrder" resname="O:adminHomeWindow.O:GroupBox1.TabOrder">
         <source>1</source>
@@ -536,7 +544,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:loadVehiclesButton.Caption" resname="O:adminHomeWindow.O:GroupBox1.O:loadVehiclesButton.Caption">
         <source>'Učitaj vozila'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Load vehicles'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:loadVehiclesButton.TabOrder" resname="O:adminHomeWindow.O:GroupBox1.O:loadVehiclesButton.TabOrder">
         <source>1</source>
@@ -571,7 +580,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:newVehicleButton.Caption" resname="O:adminHomeWindow.O:GroupBox1.O:newVehicleButton.Caption">
         <source>'Dodaj novo vozilo'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">1</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Add new vehicle'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:newVehicleButton.TabOrder" resname="O:adminHomeWindow.O:GroupBox1.O:newVehicleButton.TabOrder">
         <source>2</source>
@@ -606,7 +616,8 @@
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:deleteVehicleButton.Caption" resname="O:adminHomeWindow.O:GroupBox1.O:deleteVehicleButton.Caption">
         <source>'Obriši odabrano vozilo'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521711458</prop><prop prop-type="Status">1</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Delete selected vehicle'</target>
       </trans-unit>
       <trans-unit id="O:adminHomeWindow.O:GroupBox1.O:deleteVehicleButton.TabOrder" resname="O:adminHomeWindow.O:GroupBox1.O:deleteVehicleButton.TabOrder">
         <source>3</source>

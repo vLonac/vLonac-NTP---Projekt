@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\adminChange.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\adminChange.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521527778</prop>
-        <prop prop-type="OrigDateTime">44378.4997916667</prop>
-        <prop prop-type="XlatDateTime">44378.4997916667</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">51</prop>
+        <prop prop-type="SelfDateTime">44378.5584259259</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">1</prop>
+        <prop prop-type="UnTranslated">50</prop>
       </prop-group>
     </header>
     <body>
@@ -26,7 +26,8 @@
       <trans-unit id="O:changeAdmin.Caption" resname="O:changeAdmin.Caption">
         <source>'Upravljanje administatorima:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521709606</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TchangeAdmin</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521709606</prop><prop prop-type="Status">1</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TchangeAdmin</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Manage administrator:'</target>
       </trans-unit>
       <trans-unit id="O:changeAdmin.ClientHeight" resname="O:changeAdmin.ClientHeight">
         <source>248</source>

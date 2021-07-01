@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\addNewVehicle.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\addNewVehicle.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521527778</prop>
-        <prop prop-type="OrigDateTime">44378.4997916667</prop>
-        <prop prop-type="XlatDateTime">44378.4997916667</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">143</prop>
+        <prop prop-type="SelfDateTime">44378.5575462963</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">20</prop>
+        <prop prop-type="UnTranslated">123</prop>
       </prop-group>
     </header>
     <body>
@@ -141,7 +141,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label1.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label1.Caption">
         <source>'Proizvođać:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Manufacturer:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label2.Left" resname="O:addVehicleWindow.O:GroupBox1.O:Label2.Left">
         <source>24</source>
@@ -191,7 +192,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label3.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label3.Caption">
         <source>'Vrsta goriva:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Fuel type:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label4.Left" resname="O:addVehicleWindow.O:GroupBox1.O:Label4.Left">
         <source>24</source>
@@ -216,7 +218,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label4.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label4.Caption">
         <source>'Broj vrata:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Number of doors:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label5.Left" resname="O:addVehicleWindow.O:GroupBox1.O:Label5.Left">
         <source>24</source>
@@ -241,7 +244,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label5.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label5.Caption">
         <source>'Vrsta mjenjača:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Transmission type:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label6.Left" resname="O:addVehicleWindow.O:GroupBox1.O:Label6.Left">
         <source>24</source>
@@ -266,7 +270,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label6.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label6.Caption">
         <source>'Vrsta pogona:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Drive type:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label7.Left" resname="O:addVehicleWindow.O:GroupBox1.O:Label7.Left">
         <source>24</source>
@@ -291,7 +296,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Label7.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Label7.Caption">
         <source>'Dodatna oprema:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521704977</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Equipment:'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviManufacturer.Left" resname="O:addVehicleWindow.O:GroupBox1.O:noviManufacturer.Left">
         <source>120</source>
@@ -366,7 +372,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:checkAC.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:checkAC.Caption">
         <source>'Klima'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Air conditioning'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:checkAC.TabOrder" resname="O:addVehicleWindow.O:GroupBox1.O:checkAC.TabOrder">
         <source>6</source>
@@ -456,7 +463,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:checkCruiseControl.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:checkCruiseControl.Caption">
         <source>'Tempomat'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Cruise control'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:checkCruiseControl.TabOrder" resname="O:addVehicleWindow.O:GroupBox1.O:checkCruiseControl.TabOrder">
         <source>9</source>
@@ -486,7 +494,8 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Button1.Caption" resname="O:addVehicleWindow.O:GroupBox1.O:Button1.Caption">
         <source>'Dodaj'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Add'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:Button1.TabOrder" resname="O:addVehicleWindow.O:GroupBox1.O:Button1.TabOrder">
         <source>10</source>
@@ -531,22 +540,26 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Text" resname="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Text">
         <source>'Dizel'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Diesel'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[0]" resname="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[0]">
         <source>'Dizel'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <target>'Diesel'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[1]" resname="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[1]">
         <source>'Benzin'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Petrol'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[2]" resname="O:addVehicleWindow.O:GroupBox1.O:noviFuel.Items.Strings[2]">
         <source>'Električna energija'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <prop prop-type="Created">44378.5521705093</prop><prop prop-type="Status">1</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <target>'Electric'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDoors.Left" resname="O:addVehicleWindow.O:GroupBox1.O:noviDoors.Left">
         <source>120</source>
@@ -631,17 +644,20 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviShift.Text" resname="O:addVehicleWindow.O:GroupBox1.O:noviShift.Text">
         <source>'Mehanički'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Manual'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviShift.Items.Strings[0]" resname="O:addVehicleWindow.O:GroupBox1.O:noviShift.Items.Strings[0]">
         <source>'Mehanički'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <target>'Manual'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviShift.Items.Strings[1]" resname="O:addVehicleWindow.O:GroupBox1.O:noviShift.Items.Strings[1]">
         <source>'Automatski'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <target>'Automatic'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Left" resname="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Left">
         <source>120</source>
@@ -676,22 +692,26 @@
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Text" resname="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Text">
         <source>'Prednji'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Front-wheel'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[0]" resname="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[0]">
         <source>'Prednji'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+        <target>'Front-wheel'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[1]" resname="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[1]">
         <source>'Zadnji'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Rear-wheel'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[2]" resname="O:addVehicleWindow.O:GroupBox1.O:noviDrive.Items.Strings[2]">
         <source>'Sva 4'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <prop prop-type="Created">44378.5521705208</prop><prop prop-type="Status">1</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+        <target>'4 wheel drive'</target>
       </trans-unit>
       <trans-unit id="O:addVehicleWindow.O:XMLDocument2.FileName" resname="O:addVehicleWindow.O:XMLDocument2.FileName">
         <source>'D:\GitHub\vLonac-NTP---Projekt\vehicles.xml'</source>

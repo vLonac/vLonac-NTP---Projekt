@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\login.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\login.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521990741</prop>
-        <prop prop-type="OrigDateTime">44378.4999305556</prop>
-        <prop prop-type="XlatDateTime">44378.4999305556</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">141</prop>
+        <prop prop-type="SelfDateTime">44378.5711342593</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">11</prop>
+        <prop prop-type="UnTranslated">130</prop>
       </prop-group>
     </header>
     <body>
@@ -136,7 +136,8 @@
       <trans-unit id="O:loginWindow.O:credits.Caption" resname="O:loginWindow.O:credits.Caption">
         <source>'Izradili: Vanja Lončarić i Renato Macešan @ Tehničko Veleučilište u Zagrebu '</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039236</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039236</prop><prop prop-type="Status">1</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Developed by: Vanja Lončarić i Renato Macešan @ University of Applied Sciences Zagreb '</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:credits.Font.Charset" resname="O:loginWindow.O:credits.Font.Charset">
         <source>DEFAULT_CHARSET</source>
@@ -256,7 +257,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:loginUsernameLabel.Caption" resname="O:loginWindow.O:loginGroup.O:loginUsernameLabel.Caption">
         <source>'Korisničko ime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">1</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Username:'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:loginPasswordLabel.Left" resname="O:loginWindow.O:loginGroup.O:loginPasswordLabel.Left">
         <source>216</source>
@@ -286,7 +288,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:loginPasswordLabel.Caption" resname="O:loginWindow.O:loginGroup.O:loginPasswordLabel.Caption">
         <source>'Lozinka:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">1</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Password:'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:newUserLabel.Left" resname="O:loginWindow.O:loginGroup.O:newUserLabel.Left">
         <source>203</source>
@@ -316,7 +319,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:newUserLabel.Caption" resname="O:loginWindow.O:loginGroup.O:newUserLabel.Caption">
         <source>'Nemaš račun?'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">1</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'No account?'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:Image1.Left" resname="O:loginWindow.O:loginGroup.O:Image1.Left">
         <source>152</source>
@@ -371,7 +375,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:Label1.Caption" resname="O:loginWindow.O:loginGroup.O:Label1.Caption">
         <source>'Zabranjene višestruke instance:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039352</prop><prop prop-type="Status">1</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Forbid multiple instances:'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:username.Left" resname="O:loginWindow.O:loginGroup.O:username.Left">
         <source>176</source>
@@ -421,7 +426,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:loginButton.Caption" resname="O:loginWindow.O:loginGroup.O:loginButton.Caption">
         <source>'Prijava'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">1</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Login'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:loginButton.TabOrder" resname="O:loginWindow.O:loginGroup.O:loginButton.TabOrder">
         <source>3</source>
@@ -486,7 +492,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:newUserButton.Caption" resname="O:loginWindow.O:loginGroup.O:newUserButton.Caption">
         <source>'Novi korisnik'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">1</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'New user'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:newUserButton.TabOrder" resname="O:loginWindow.O:loginGroup.O:newUserButton.TabOrder">
         <source>4</source>
@@ -521,7 +528,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:rememberUsername.Caption" resname="O:loginWindow.O:loginGroup.O:rememberUsername.Caption">
         <source>'Zapamti korisnika'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">1</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Remember user'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:rememberUsername.TabOrder" resname="O:loginWindow.O:loginGroup.O:rememberUsername.TabOrder">
         <source>2</source>
@@ -556,7 +564,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:switchInstance.Hint" resname="O:loginWindow.O:loginGroup.O:switchInstance.Hint">
         <source>'Nakon mijenjanja ove postavke potrebno je restartati aplikaciju'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TToggleSwitch</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">1</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TToggleSwitch</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'After changing this setting you must restart the application'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:switchInstance.Font.Charset" resname="O:loginWindow.O:loginGroup.O:switchInstance.Font.Charset">
         <source>DEFAULT_CHARSET</source>
@@ -636,7 +645,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:offlineCheck.Caption" resname="O:loginWindow.O:loginGroup.O:offlineCheck.Caption">
         <source>'Bezmrežni način korištenja'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039468</prop><prop prop-type="Status">1</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Use offline'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:offlineCheck.TabOrder" resname="O:loginWindow.O:loginGroup.O:offlineCheck.TabOrder">
         <source>6</source>
@@ -666,7 +676,8 @@
       <trans-unit id="O:loginWindow.O:loginGroup.O:issueButton.Caption" resname="O:loginWindow.O:loginGroup.O:issueButton.Caption">
         <source>'Prijavi problem'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522039583</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522039583</prop><prop prop-type="Status">1</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Report an issue'</target>
       </trans-unit>
       <trans-unit id="O:loginWindow.O:loginGroup.O:issueButton.TabOrder" resname="O:loginWindow.O:loginGroup.O:issueButton.TabOrder">
         <source>7</source>

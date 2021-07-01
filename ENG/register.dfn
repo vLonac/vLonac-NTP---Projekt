@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\register.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\register.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521990741</prop>
-        <prop prop-type="OrigDateTime">44378.4997916667</prop>
-        <prop prop-type="XlatDateTime">44378.4997916667</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">118</prop>
+        <prop prop-type="SelfDateTime">44378.5725</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">10</prop>
+        <prop prop-type="UnTranslated">108</prop>
       </prop-group>
     </header>
     <body>
@@ -26,7 +26,8 @@
       <trans-unit id="O:registerWindow.Caption" resname="O:registerWindow.Caption">
         <source>'Registracija'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">1</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TregisterWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Registration'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.ClientHeight" resname="O:registerWindow.ClientHeight">
         <source>385</source>
@@ -141,7 +142,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:newUsernameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newUsernameLabel.Caption">
         <source>'Korisničko ime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">1</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Username:'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Left" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Left">
         <source>69</source>
@@ -166,7 +168,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:newPasswordLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newPasswordLabel.Caption">
         <source>'Lozinka:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044097</prop><prop prop-type="Status">1</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Password:'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:newEMailLabel.Left" resname="O:registerWindow.O:registerGroup.O:newEMailLabel.Left">
         <source>80</source>
@@ -216,7 +219,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:newSurnameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newSurnameLabel.Caption">
         <source>'Prezime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Surname:'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Left" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Left">
         <source>86</source>
@@ -241,7 +245,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:newNameLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newNameLabel.Caption">
         <source>'Ime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">1</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Name:'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Left" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Left">
         <source>33</source>
@@ -266,7 +271,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Caption" resname="O:registerWindow.O:registerGroup.O:newBirthdateLabel.Caption">
         <source>'Datum rođenja:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">1</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Date of birth:'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Left" resname="O:registerWindow.O:registerGroup.O:Label1.Left">
         <source>12</source>
@@ -291,7 +297,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:Label1.Caption" resname="O:registerWindow.O:registerGroup.O:Label1.Caption">
         <source>'Država (npr. HR, IT, ...)'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">1</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Country (eg. HR, IT, ...)'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:newUsername.Left" resname="O:registerWindow.O:registerGroup.O:newUsername.Left">
         <source>136</source>
@@ -341,7 +348,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.Caption" resname="O:registerWindow.O:registerGroup.O:registerUser.Caption">
         <source>'Registriraj me'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044213</prop><prop prop-type="Status">1</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Register'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:registerUser.TabOrder" resname="O:registerWindow.O:registerGroup.O:registerUser.TabOrder">
         <source>7</source>
@@ -521,7 +529,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.Caption" resname="O:registerWindow.O:registerGroup.O:TOSBox.Caption">
         <source>'Prihvaćam uvjete poslovanja'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044329</prop><prop prop-type="Status">1</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'I accept terms of service'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:TOSBox.TabOrder" resname="O:registerWindow.O:registerGroup.O:TOSBox.TabOrder">
         <source>6</source>
@@ -551,7 +560,8 @@
       <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Caption" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.Caption">
         <source>'Provjeri dostupnost'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522044329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522044329</prop><prop prop-type="Status">1</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Check availability'</target>
       </trans-unit>
       <trans-unit id="O:registerWindow.O:registerGroup.O:checkCountryAvailability.TabOrder" resname="O:registerWindow.O:registerGroup.O:checkCountryAvailability.TabOrder">
         <source>8</source>

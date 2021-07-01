@@ -1,7 +1,7 @@
 object registerWindow: TregisterWindow
   Left = 0
   Top = 0
-  Caption = 'Registracija'
+  Caption = 'Registration'
   ClientHeight = 385
   ClientWidth = 356
   Color = clBtnFace
@@ -26,14 +26,14 @@ object registerWindow: TregisterWindow
       Top = 207
       Width = 70
       Height = 13
-      Caption = 'Korisni'#269'ko ime:'
+      Caption = 'Username:'
     end
     object newPasswordLabel: TLabel
       Left = 69
       Top = 246
       Width = 39
       Height = 13
-      Caption = 'Lozinka:'
+      Caption = 'Password:'
     end
     object newEMailLabel: TLabel
       Left = 80
@@ -47,28 +47,28 @@ object registerWindow: TregisterWindow
       Top = 123
       Width = 41
       Height = 13
-      Caption = 'Prezime:'
+      Caption = 'Surname:'
     end
     object newNameLabel: TLabel
       Left = 86
       Top = 83
       Width = 22
       Height = 13
-      Caption = 'Ime:'
+      Caption = 'Name:'
     end
     object newBirthdateLabel: TLabel
       Left = 33
       Top = 166
       Width = 75
       Height = 13
-      Caption = 'Datum ro'#273'enja:'
+      Caption = 'Date of birth:'
     end
     object Label1: TLabel
       Left = 12
       Top = 39
       Width = 118
       Height = 13
-      Caption = 'Dr'#382'ava (npr. HR, IT, ...)'
+      Caption = 'Country (eg. HR, IT, ...)'
     end
     object newUsername: TEdit
       Left = 136
@@ -82,7 +82,7 @@ object registerWindow: TregisterWindow
       Top = 344
       Width = 75
       Height = 25
-      Caption = 'Registriraj me'
+      Caption = 'Register'
       TabOrder = 7
       OnClick = registerUserClick
     end
@@ -130,7 +130,7 @@ object registerWindow: TregisterWindow
       Top = 321
       Width = 169
       Height = 17
-      Caption = 'Prihva'#263'am uvjete poslovanja'
+      Caption = 'I accept terms of service'
       TabOrder = 6
     end
     object checkCountryAvailability: TButton
@@ -138,7 +138,7 @@ object registerWindow: TregisterWindow
       Top = 36
       Width = 106
       Height = 20
-      Caption = 'Provjeri dostupnost'
+      Caption = 'Check availability'
       TabOrder = 8
       OnClick = checkCountryAvailabilityClick
     end

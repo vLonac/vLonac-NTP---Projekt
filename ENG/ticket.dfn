@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\ticket.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\ticket.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521990741</prop>
-        <prop prop-type="OrigDateTime">44378.4997916667</prop>
-        <prop prop-type="XlatDateTime">44378.4997916667</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">49</prop>
+        <prop prop-type="SelfDateTime">44378.5731712963</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">5</prop>
+        <prop prop-type="UnTranslated">44</prop>
       </prop-group>
     </header>
     <body>
@@ -26,7 +26,8 @@
       <trans-unit id="O:ticketWindow.Caption" resname="O:ticketWindow.Caption">
         <source>'Prijavite problem:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522047685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TticketWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522047685</prop><prop prop-type="Status">1</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TticketWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Report an issue:'</target>
       </trans-unit>
       <trans-unit id="O:ticketWindow.ClientHeight" resname="O:ticketWindow.ClientHeight">
         <source>332</source>
@@ -106,7 +107,8 @@
       <trans-unit id="O:ticketWindow.O:Label1.Caption" resname="O:ticketWindow.O:Label1.Caption">
         <source>'Ime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">1</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Name:'</target>
       </trans-unit>
       <trans-unit id="O:ticketWindow.O:Label2.Left" resname="O:ticketWindow.O:Label2.Left">
         <source>16</source>
@@ -131,7 +133,8 @@
       <trans-unit id="O:ticketWindow.O:Label2.Caption" resname="O:ticketWindow.O:Label2.Caption">
         <source>'Poruka:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Issue:'</target>
       </trans-unit>
       <trans-unit id="O:ticketWindow.O:editName.Left" resname="O:ticketWindow.O:editName.Left">
         <source>72</source>
@@ -211,7 +214,8 @@
       <trans-unit id="O:ticketWindow.O:buttonSend.Caption" resname="O:ticketWindow.O:buttonSend.Caption">
         <source>'Pošalji'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">1</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Send'</target>
       </trans-unit>
       <trans-unit id="O:ticketWindow.O:buttonSend.TabOrder" resname="O:ticketWindow.O:buttonSend.TabOrder">
         <source>2</source>
@@ -246,7 +250,8 @@
       <trans-unit id="O:ticketWindow.O:buttonSendInc.Caption" resname="O:ticketWindow.O:buttonSendInc.Caption">
         <source>'Pošalji anonimno'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522047801</prop><prop prop-type="Status">1</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Send anonymously'</target>
       </trans-unit>
       <trans-unit id="O:ticketWindow.O:buttonSendInc.TabOrder" resname="O:ticketWindow.O:buttonSendInc.TabOrder">
         <source>3</source>

@@ -29,21 +29,21 @@ object homeWindow: ThomeWindow
       Top = 275
       Width = 98
       Height = 13
-      Caption = 'Po'#269'etak rezervacije:'
+      Caption = 'Reservation start date:'
     end
     object Label2: TLabel
       Left = 143
       Top = 275
       Width = 108
       Height = 13
-      Caption = 'Zavr'#353'etak rezervacije:'
+      Caption = 'Reservation end date:'
     end
     object newReservationButton: TButton
       Left = 304
       Top = 272
       Width = 113
       Height = 49
-      Caption = 'Izradi rezervaciju'
+      Caption = 'Make a reservation'
       TabOrder = 0
       OnClick = newReservationButtonClick
     end
@@ -80,7 +80,7 @@ object homeWindow: ThomeWindow
       Top = 272
       Width = 125
       Height = 49
-      Caption = 'Pregledaj rezervacije'
+      Caption = 'Show reservations'
       TabOrder = 3
       OnClick = showReservationsClick
     end

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file original="D:\GitHub\vLonac-NTP---Projekt\vacation.dfm" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="D:\GitHub\vLonac-NTP---Projekt\vacation.dfm">
+  <file original="" source-language="hr-HR" target-language="en-GB" datatype="delphiform" tool="ETM v10.0" ts="">
     <header>
       <prop-group name="ITEHeaderProp">
         <prop prop-type="Version">9.0</prop>
-        <prop prop-type="SelfDateTime">44378.5521990741</prop>
-        <prop prop-type="OrigDateTime">44378.5248611111</prop>
-        <prop prop-type="XlatDateTime">44378.5248611111</prop>
-        <prop prop-type="Translated">0</prop>
-        <prop prop-type="UnTranslated">134</prop>
+        <prop prop-type="SelfDateTime">44378.5751157407</prop>
+        <prop prop-type="OrigDateTime">0</prop>
+        <prop prop-type="XlatDateTime">44378.5541898148</prop>
+        <prop prop-type="Translated">17</prop>
+        <prop prop-type="UnTranslated">117</prop>
       </prop-group>
     </header>
     <body>
@@ -26,7 +26,8 @@
       <trans-unit id="O:vacationWindow.Caption" resname="O:vacationWindow.Caption">
         <source>'Godišnji odmori:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TvacationWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TvacationWindow</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Vacation days:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.ClientHeight" resname="O:vacationWindow.ClientHeight">
         <source>358</source>
@@ -121,7 +122,8 @@
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[0].Caption" resname="O:vacationWindow.O:listVacations.Columns[0].Caption">
         <source>'Ime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">21</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+        <target>'Name:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[0].Width" resname="O:vacationWindow.O:listVacations.Columns[0].Width">
         <source>70</source>
@@ -131,7 +133,8 @@
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[1].Caption" resname="O:vacationWindow.O:listVacations.Columns[1].Caption">
         <source>'Prezime:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">23</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+        <target>'Surname:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[1].Width" resname="O:vacationWindow.O:listVacations.Columns[1].Width">
         <source>80</source>
@@ -141,7 +144,8 @@
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[2].Caption" resname="O:vacationWindow.O:listVacations.Columns[2].Caption">
         <source>'Broj dana na odmoru:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">25</prop><prop prop-type="Type">C:TListView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+        <target>'Vacation days:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:listVacations.Columns[2].Width" resname="O:vacationWindow.O:listVacations.Columns[2].Width">
         <source>120</source>
@@ -181,7 +185,8 @@
       <trans-unit id="O:vacationWindow.O:buttonLoad.Caption" resname="O:vacationWindow.O:buttonLoad.Caption">
         <source>'Učitaj JSON'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Load JSON'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:buttonLoad.TabOrder" resname="O:vacationWindow.O:buttonLoad.TabOrder">
         <source>1</source>
@@ -216,7 +221,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.Caption" resname="O:vacationWindow.O:GroupBox1.Caption">
         <source>'Novi godisnji:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049074</prop><prop prop-type="Status">1</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'New vacation days:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.TabOrder" resname="O:vacationWindow.O:GroupBox1.TabOrder">
         <source>2</source>
@@ -246,7 +252,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:Label1.Caption" resname="O:vacationWindow.O:GroupBox1.O:Label1.Caption">
         <source>'Ime radnika:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">1</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Employee name:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:Label2.Left" resname="O:vacationWindow.O:GroupBox1.O:Label2.Left">
         <source>11</source>
@@ -271,7 +278,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:Label2.Caption" resname="O:vacationWindow.O:GroupBox1.O:Label2.Caption">
         <source>'Prezime radnika:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">1</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Employee surname:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:Label3.Left" resname="O:vacationWindow.O:GroupBox1.O:Label3.Left">
         <source>40</source>
@@ -296,7 +304,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:Label3.Caption" resname="O:vacationWindow.O:GroupBox1.O:Label3.Caption">
         <source>'Broj dana:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">1</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Number of days:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:editName.Left" resname="O:vacationWindow.O:GroupBox1.O:editName.Left">
         <source>96</source>
@@ -401,7 +410,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:buttonAdd.Caption" resname="O:vacationWindow.O:GroupBox1.O:buttonAdd.Caption">
         <source>'Dodaj godišnji u tablicu'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">1</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Add vacation days to table'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:buttonAdd.TabOrder" resname="O:vacationWindow.O:GroupBox1.O:buttonAdd.TabOrder">
         <source>3</source>
@@ -436,7 +446,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:editCurrentButton.Caption" resname="O:vacationWindow.O:GroupBox1.O:editCurrentButton.Caption">
         <source>'Uredi odabrani u tablici'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.552204919</prop><prop prop-type="Status">1</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Change selected'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox1.O:editCurrentButton.TabOrder" resname="O:vacationWindow.O:GroupBox1.O:editCurrentButton.TabOrder">
         <source>4</source>
@@ -501,7 +512,8 @@
       <trans-unit id="O:vacationWindow.O:deleteButton.Caption" resname="O:vacationWindow.O:deleteButton.Caption">
         <source>'Obriši odabrani odmor'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Delete vacation days'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:deleteButton.TabOrder" resname="O:vacationWindow.O:deleteButton.TabOrder">
         <source>4</source>
@@ -536,7 +548,8 @@
       <trans-unit id="O:vacationWindow.O:saveToJSON.Caption" resname="O:vacationWindow.O:saveToJSON.Caption">
         <source>'Spremi iz tablice u JSON'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Save from table to JSON'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:saveToJSON.TabOrder" resname="O:vacationWindow.O:saveToJSON.TabOrder">
         <source>5</source>
@@ -571,7 +584,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox2.Caption" resname="O:vacationWindow.O:GroupBox2.Caption">
         <source>'Korištenje dretvi:'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Thread usage:'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox2.TabOrder" resname="O:vacationWindow.O:GroupBox2.TabOrder">
         <source>6</source>
@@ -601,7 +615,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonNameLenght.Caption" resname="O:vacationWindow.O:GroupBox2.O:buttonNameLenght.Caption">
         <source>'Prosječna duljina imena'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Average name length'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonNameLenght.TabOrder" resname="O:vacationWindow.O:GroupBox2.O:buttonNameLenght.TabOrder">
         <source>0</source>
@@ -636,7 +651,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonSurnameLenght.Caption" resname="O:vacationWindow.O:GroupBox2.O:buttonSurnameLenght.Caption">
         <source>'Prosječna duljina prezimena'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Average surname length'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonSurnameLenght.TabOrder" resname="O:vacationWindow.O:GroupBox2.O:buttonSurnameLenght.TabOrder">
         <source>1</source>
@@ -671,7 +687,8 @@
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonDaysLenght.Caption" resname="O:vacationWindow.O:GroupBox2.O:buttonDaysLenght.Caption">
         <source>'Prosječno trajanje odmora u danima'</source>
         <prop-group name="ITEFieldProp">
-        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <prop prop-type="Created">44378.5522049306</prop><prop prop-type="Status">1</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+        <target>'Average days from vacations'</target>
       </trans-unit>
       <trans-unit id="O:vacationWindow.O:GroupBox2.O:buttonDaysLenght.TabOrder" resname="O:vacationWindow.O:GroupBox2.O:buttonDaysLenght.TabOrder">
         <source>2</source>

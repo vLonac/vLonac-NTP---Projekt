@@ -18,14 +18,14 @@ object adminHomeWindow: TadminHomeWindow
     Top = 360
     Width = 762
     Height = 145
-    Caption = 'Administracija:'
+    Caption = 'Administration:'
     TabOrder = 0
     object showDatabase: TButton
       Left = 16
       Top = 32
       Width = 105
       Height = 33
-      Caption = 'Baze podataka'
+      Caption = 'Databases'
       TabOrder = 0
       OnClick = showDatabaseClick
     end
@@ -34,7 +34,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 32
       Width = 105
       Height = 33
-      Caption = 'HTTP Klijent'
+      Caption = 'HTTP Client'
       TabOrder = 1
       OnClick = Button1Click
     end
@@ -43,7 +43,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 91
       Width = 105
       Height = 33
-      Caption = 'Dohvati IP'
+      Caption = 'Get IP'
       TabOrder = 2
       OnClick = getIPClick
     end
@@ -60,7 +60,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 32
       Width = 162
       Height = 33
-      Caption = 'Upravljanje administatorima'
+      Caption = 'Manage administrators'
       TabOrder = 4
       OnClick = editPermissionsClick
     end
@@ -69,7 +69,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 32
       Width = 162
       Height = 33
-      Caption = 'Broj administratora i korisnika'
+      Caption = 'Number of administrators and users'
       TabOrder = 5
       OnClick = getUsersClick
     end
@@ -78,7 +78,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 88
       Width = 105
       Height = 33
-      Caption = 'Godi'#353'nji odmori'
+      Caption = 'Vacation days'
       TabOrder = 6
       OnClick = Button2Click
     end
@@ -88,7 +88,7 @@ object adminHomeWindow: TadminHomeWindow
     Top = 8
     Width = 761
     Height = 338
-    Caption = 'Vozila:'
+    Caption = 'Vehicles:'
     TabOrder = 1
     DesignSize = (
       761
@@ -145,7 +145,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 289
       Width = 105
       Height = 33
-      Caption = 'U'#269'itaj vozila'
+      Caption = 'Load vehicles'
       TabOrder = 1
       OnClick = loadVehiclesButtonClick
     end
@@ -154,7 +154,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 289
       Width = 105
       Height = 33
-      Caption = 'Dodaj novo vozilo'
+      Caption = 'Add new vehicle'
       TabOrder = 2
       OnClick = newVehicleButtonClick
     end
@@ -163,7 +163,7 @@ object adminHomeWindow: TadminHomeWindow
       Top = 289
       Width = 129
       Height = 33
-      Caption = 'Obri'#353'i odabrano vozilo'
+      Caption = 'Delete selected vehicle'
       TabOrder = 3
       OnClick = deleteVehicleButtonClick
     end

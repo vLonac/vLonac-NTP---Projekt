@@ -1,7 +1,7 @@
 object vacationWindow: TvacationWindow
   Left = 0
   Top = 0
-  Caption = 'Godi'#353'nji odmori:'
+  Caption = 'Vacation days:'
   ClientHeight = 358
   ClientWidth = 525
   Color = clBtnFace
@@ -24,15 +24,15 @@ object vacationWindow: TvacationWindow
     Anchors = []
     Columns = <
       item
-        Caption = 'Ime:'
+        Caption = 'Name:'
         Width = 70
       end
       item
-        Caption = 'Prezime:'
+        Caption = 'Surname:'
         Width = 80
       end
       item
-        Caption = 'Broj dana na odmoru:'
+        Caption = 'Vacation days:'
         Width = 120
       end>
     TabOrder = 0
@@ -43,7 +43,7 @@ object vacationWindow: TvacationWindow
     Top = 8
     Width = 287
     Height = 25
-    Caption = 'U'#269'itaj JSON'
+    Caption = 'Load JSON'
     TabOrder = 1
     OnClick = buttonLoadClick
   end
@@ -52,28 +52,28 @@ object vacationWindow: TvacationWindow
     Top = 8
     Width = 212
     Height = 210
-    Caption = 'Novi godisnji:'
+    Caption = 'New vacation days:'
     TabOrder = 2
     object Label1: TLabel
       Left = 30
       Top = 27
       Width = 60
       Height = 13
-      Caption = 'Ime radnika:'
+      Caption = 'Employee name:'
     end
     object Label2: TLabel
       Left = 11
       Top = 62
       Width = 79
       Height = 13
-      Caption = 'Prezime radnika:'
+      Caption = 'Employee surname:'
     end
     object Label3: TLabel
       Left = 40
       Top = 89
       Width = 50
       Height = 13
-      Caption = 'Broj dana:'
+      Caption = 'Number of days:'
     end
     object editName: TEdit
       Left = 96
@@ -102,7 +102,7 @@ object vacationWindow: TvacationWindow
       Top = 131
       Width = 161
       Height = 25
-      Caption = 'Dodaj godi'#353'nji u tablicu'
+      Caption = 'Add vacation days to table'
       TabOrder = 3
       OnClick = buttonAddClick
     end
@@ -111,7 +111,7 @@ object vacationWindow: TvacationWindow
       Top = 168
       Width = 161
       Height = 25
-      Caption = 'Uredi odabrani u tablici'
+      Caption = 'Change selected'
       TabOrder = 4
       OnClick = editCurrentButtonClick
     end
@@ -129,7 +129,7 @@ object vacationWindow: TvacationWindow
     Top = 39
     Width = 287
     Height = 25
-    Caption = 'Obri'#353'i odabrani odmor'
+    Caption = 'Delete vacation days'
     TabOrder = 4
     OnClick = deleteButtonClick
   end
@@ -138,7 +138,7 @@ object vacationWindow: TvacationWindow
     Top = 70
     Width = 287
     Height = 25
-    Caption = 'Spremi iz tablice u JSON'
+    Caption = 'Save from table to JSON'
     TabOrder = 5
     OnClick = saveToJSONClick
   end
@@ -147,14 +147,14 @@ object vacationWindow: TvacationWindow
     Top = 224
     Width = 505
     Height = 129
-    Caption = 'Kori'#353'tenje dretvi:'
+    Caption = 'Thread usage:'
     TabOrder = 6
     object buttonNameLenght: TButton
       Left = 16
       Top = 24
       Width = 470
       Height = 25
-      Caption = 'Prosje'#269'na duljina imena'
+      Caption = 'Average name length'
       TabOrder = 0
       OnClick = buttonNameLenghtClick
     end
@@ -163,7 +163,7 @@ object vacationWindow: TvacationWindow
       Top = 55
       Width = 470
       Height = 25
-      Caption = 'Prosje'#269'na duljina prezimena'
+      Caption = 'Average surname length'
       TabOrder = 1
       OnClick = buttonSurnameLenghtClick
     end
@@ -172,7 +172,7 @@ object vacationWindow: TvacationWindow
       Top = 86
       Width = 470
       Height = 25
-      Caption = 'Prosje'#269'no trajanje odmora u danima'
+      Caption = 'Average days from vacations'
       TabOrder = 2
       OnClick = buttonDaysLenghtClick
     end
